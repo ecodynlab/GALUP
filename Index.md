@@ -11,6 +11,14 @@
 
 ## GEE (software and implementing RS intro)
 ### Setting up GEE
+Setting up account
+
+[Sign up](https://earthengine.google.com/) -> “Sign Up” and list institution and intention for use: e.g. using remote sensing datasets for land use suitability modeling
+
+Extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) from Google
+
+Coding in JavaScript in the editor: code.earthengine.google.com
+
 ### Exploring interface using the theoretical concepts above
 ### Exercises in GEE to play with RS data  
 <br>
