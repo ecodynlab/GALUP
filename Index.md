@@ -5,10 +5,10 @@
 ### EM Spectrum 
 ![image](https://user-images.githubusercontent.com/87503837/128901122-90868c9a-4260-442f-8a1b-9f486ac0f916.png)
 
-•	Electromagnetic spectrum, the entire distribution of electromagnetic radiation according to frequency or wavelength.
-•	Observed energy or radiation is primarily sensitive to molecular resonances in the to molecular resonances in the surface layer surface layer of target
-•	Emitted, reflected, and Emitted, reflected, and backscattered radiation is sensitive to temperature distribution, geometric, and electric properties of surface or volume
-•	The human eye is only able to detect wavelengths in the visible light range. However, many insects see in the 300 to 650 nm wavelength and can detect ultraviolet light because they have special photoreceptors in their eyes. 
+•	Electromagnetic spectrum, the entire distribution of electromagnetic radiation according to frequency or wavelength.  
+•	Observed energy or radiation is primarily sensitive to molecular resonances in the to molecular resonances in the surface layer surface layer of target  
+•	Emitted, reflected, and Emitted, reflected, and backscattered radiation is sensitive to temperature distribution, geometric, and electric properties of surface or volume  
+•	The human eye is only able to detect wavelengths in the visible light range. However, many insects see in the 300 to 650 nm wavelength and can detect ultraviolet light because   they have special photoreceptors in their eyes.   
 
 ### Satellite Imagery 
 ### Bands
