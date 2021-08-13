@@ -93,5 +93,5 @@ Import MODIS classification and add layer on map (MCD12Q1.006 MODIS Land Cover T
 
 # Advanced concepts in remote sensing with application to LUCIS-OPEN 
 
-## Weights 
-## LUCIS-OPEN
+## Module 6 - Weights 
+## Module 7 - LUCIS-OPEN
