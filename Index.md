@@ -14,9 +14,13 @@
 •	Polar orbiting (100s km, low Earth orbit, high/fine spatial Polar orbiting (100s km, low Earth orbit, high/fine spatial resolution; repeat global resolution; repeat global coverage; e.g. coverage; e.g. Landsat Landsat, Landsat Landsat TM, NOAA AVHRR, SSM/I TM, NOAA AVHRR, SSM/I)  
 •	Neither Neither - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg 
 
-### Bands
-### Hyperspectral
+### Bands (move to EM spectrum)
+### Hyperspectral (move to EM spectrum)
+resolution
+
+graphics
 ### Environmental Data  
+(move after GEE)
 <br>
 
 ## Module 2 - GEE (software and implementing RS intro)
@@ -74,7 +78,7 @@ Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Gl
 Import MODIS classification and add layer on map (MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m)
 
 
-## Module 3 - Indices
+## Module 3 - Indices (Environmental Datasets and Variables)
 ### Formulation, use/purpose, and significance
 ### Exercises in GEE to play with indices  
 <br>
