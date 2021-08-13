@@ -1,7 +1,7 @@
 # Introduction to Remote Sensing Concepts
 <br>
 
-## Basic Remote Sensing 
+## Module 1 - Basic Remote Sensing 
 ### EM Spectrum 
 ![image](https://user-images.githubusercontent.com/87503837/128901122-90868c9a-4260-442f-8a1b-9f486ac0f916.png)
 
@@ -16,7 +16,7 @@
 ### Environmental Data  
 <br>
 
-## GEE (software and implementing RS intro)
+## Module 2 - GEE (software and implementing RS intro)
 ### Setting up GEE
 Setting up account
 
@@ -71,12 +71,18 @@ Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Gl
 Import MODIS classification and add layer on map (MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m)
 
 
-## Indices
+## Module 3 - Indices
 ### Formulation, use/purpose, and significance
 ### Exercises in GEE to play with indices  
 <br>
 
-## Classification
+## Module 4 - Classification
 ### Using indices – simple classification; accuracy & metrics
 ### Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
+
+## Module 5 - Statistics 
+### Spatial statistics
+### Trend analysis
+### Relationships
+### Linkages
