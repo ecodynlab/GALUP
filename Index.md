@@ -1,5 +1,4 @@
 # Introduction to Remote Sensing Concepts
-
 ## Module 1 - Basic Remote Sensing 
 ### EM Spectrum 
 ![image](https://user-images.githubusercontent.com/87503837/128901122-90868c9a-4260-442f-8a1b-9f486ac0f916.png)
