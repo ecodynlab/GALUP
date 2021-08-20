@@ -6,7 +6,6 @@ The **electromagnetic spectrum** is the entire distribution of electromagnetic r
 
 ![image](https://user-images.githubusercontent.com/87503837/130260080-783cb1a2-56a5-4ad9-a156-45c30992ca96.png)
 
-
 The human eye is only able to detect wavelengths in the visible light range. However, many insects see in the 300 to 650 nm wavelength and can detect ultraviolet light because   they have special photoreceptors in their eyes.   
 
 ![em_spectrum](https://user-images.githubusercontent.com/87503837/130196880-71fe5ce5-b7eb-4256-96b2-e2956d857180.png)
