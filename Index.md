@@ -46,13 +46,9 @@ Coding in JavaScript in the editor: code.earthengine.google.com
 The general interface functions for GEE can be seen below:
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/130262824-4a91fac4-631f-4393-a673-79a07018bb45.png)
 
-Create scripts under the “scripts” tab
+The "scripts" tab contains the code files for past saved projects. To begin a new file, click the "NEW" button and choose the intended format supply a descriptive name.  You can also create a folder or repository if desired to organize projects. For the purposes of this workshop, we will create a folder titled “RS Workshop.” All files created and used during the workshop should be placed in this folder. 
 
-Create NEW -> name file and organize into folders if desired
-
-We will create a “RS Workshop” Folder
-
-“Docs” tab explains various tools and algorithms available in GEE (JavaScript documentation)
+Under the “Docs” tab, there is a comprehensive list of the various functions and algorithms available in GEE, along with explanations of their inputs and outputs. GEE has further explanation and examples of how to use the "Docs" at this [link](https://developers.google.com/earth-engine/guides/getstarted#earth-engine-algorithms).
 
 “Assets” tab allows for user to load in their own images or tables (shapefiles, CSVs)
 
@@ -70,8 +66,6 @@ Can search datasets based on keywords Radiation, NDVI, etc
 
 Bands in datasets (e.g. Landsat) allow for calculation of these remote sensing variables:
 
-RS in GEE: NDVI = (nir - red)/(nir + red) 
-
 Can use parameters to visualize the data (use colors)
 
 Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection
@@ -84,7 +78,9 @@ Import MODIS classification and add layer on map (MCD12Q1.006 MODIS Land Cover T
 
 
 ## Module 3 - Indices (Environmental Datasets and Variables)
+Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes.
 ### Formulation, use/purpose, and significance
+A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/).
 ### Exercises in GEE to play with indices  
 <br>
 
