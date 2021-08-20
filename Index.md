@@ -44,7 +44,7 @@ Coding in JavaScript in the editor: code.earthengine.google.com
 ### Exploring interface using the theoretical concepts above
 
 The general interface functions for GEE can be seen below:
-![GEEtools](https://user-images.githubusercontent.com/84922404/127547280-1f8966eb-b87c-4a4b-8c28-e2169d7ed864.JPG)
+![GEEinterface](https://user-images.githubusercontent.com/84922404/130262824-4a91fac4-631f-4393-a673-79a07018bb45.png)
 
 Create scripts under the “scripts” tab
 
