@@ -4,6 +4,9 @@
 ### EM Spectrum 
 ![image](https://user-images.githubusercontent.com/87503837/128901122-90868c9a-4260-442f-8a1b-9f486ac0f916.png)
 
+
+![em_spectrum](https://user-images.githubusercontent.com/87503837/130196880-71fe5ce5-b7eb-4256-96b2-e2956d857180.png)
+
 ![image](https://user-images.githubusercontent.com/87503837/130195843-a8aea0e9-def9-40c4-80ce-b562fd56e918.png)
 
 •	Electromagnetic spectrum, the entire distribution of electromagnetic radiation according to frequency or wavelength.  
