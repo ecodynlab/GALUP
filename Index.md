@@ -27,12 +27,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 
 **2.2 Resolution:**
-	
-• Spatial Describes how far apart two targets have to be so that they are detected as separate signals
-If the detectable distance is small à fine or high spatial resolution (e.g. LandSat
-30m)
 
-• Temporal (or repeat frequency or repeat coverage or revisit time) Describes how often a sensor observes the same target.If the revisit time is small, i.e. the target is observed more frequently, the temporal resolution is considered high (e.g. SMAP at about 2-3 days). On the other hand if the revisit time is longer or infrequent, e.g. LandSat at about 16
+Spatial describes how far apart two targets have to be so that they are detected as separate signals. If the detectable distance is small, the resolution is called high or fine and if the detectable distance is large, the resolution is low or coarse. Temporal describes how often a sensor observes the same target.If the revisit time is small, i.e. the target is observed more frequently, the temporal resolution is considered high (e.g. SMAP at about 2-3 days). On the other hand if the revisit time is longer or infrequent, e.g. LandSat at about 16
 days, the temporal resolution is low/coarse. Typically, finer spatial resolution is associated with infrequent coverage because it covers less area during each overpass.
 
 • Radiometric
