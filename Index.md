@@ -13,9 +13,9 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 ![image](https://user-images.githubusercontent.com/87503837/130195843-a8aea0e9-def9-40c4-80ce-b562fd56e918.png)
 
-#1.1. Bands (move to EM spectrum)
+**1.1. Bands**
 
-#1.2 Hyperspectral (move to EM spectrum)
+**1.2 Hyperspectral**
 
 
 
