@@ -20,6 +20,12 @@ Hyperspectral (move to EM spectrum)
 
 
 ### Remote sensing systems and sensors
+Active and Passive Sensors:
+
+• **Activice sensors** consist of a transmitter and a receiver that may (monostatic system) or may not be (bistatic system) co-located. It transmits a known signal at a particular wavelength and receives some portion of the signal in the direction of a receiver. In case of a monostatic system, the received signal is called “backscatter”. Examples include camera w/ flash, LIght Detection and Ranging (LIDAR), Synthetic aperture radar (SAR) 
+• **Passive Sensors** consist of receiver that receives naturally occurring EM energy from a target at a particular wavelength and direction. Examples include camera without flash and radiometers
+
+
 •	Geo-stationary/ geo stationary/ geo-synchronous : continuous coverage of synchronous : continuous coverage of one region one region only (meteorological applications, high Earth (meteorological applications, high Earth orbit of ~36000 km; low/coarser spatial resolution; ~36000 km; low/coarser spatial resolution; e.g GOES, Japanese GOES, Japanese GMS, European GMS, European Metosat Metosat)   
 •	Polar orbiting (100s km, low Earth orbit, high/fine spatial Polar orbiting (100s km, low Earth orbit, high/fine spatial resolution; repeat global resolution; repeat global coverage; e.g. coverage; e.g. Landsat Landsat, Landsat Landsat TM, NOAA AVHRR, SSM/I TM, NOAA AVHRR, SSM/I)  
 •	Neither Neither - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg 
