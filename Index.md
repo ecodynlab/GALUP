@@ -37,8 +37,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 (move after GEE)
 <br>
 
-### Module 1 Questions 
-
+### Module 1 Exercises 
 
 ## Module 2 - GEE (software and implementing RS intro)
 ### Setting up GEE
