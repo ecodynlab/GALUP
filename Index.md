@@ -13,7 +13,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 
 
-**1.1. Bands**
+**1.1. Spectral Bands**
 
 1. Coastal Aerosol (0.43-0.45µm) 
 2. Blue (0.45-0.51µm) 
