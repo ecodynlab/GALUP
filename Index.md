@@ -93,21 +93,21 @@ Import MODIS classification and add layer on map (MCD12Q1.006 MODIS Land Cover T
 
 ## Module 3 - Indices (Environmental Datasets and Variables)
 Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes.
-### Formulation, use/purpose, and significance
+### 1 Formulation, use/purpose, and significance
 A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/).
-### Exercises in GEE to play with indices  
+### 2 Exercises in GEE to play with indices  
 <br>
 
 ## Module 4 - Classification
-### Using indices – simple classification; accuracy & metrics
-### Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
+### 1 Using indices – simple classification; accuracy & metrics
+### 2 Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
 
 ## Module 5 - Statistics 
-### Spatial statistics
-### Trend analysis
-### Relationships
-### Linkages
+### 1 Spatial statistics
+### 2 Trend analysis
+### 3 Relationships
+### 4 Linkages
 <br>
 
 # Advanced concepts in remote sensing with application to LUCIS-OPEN 
