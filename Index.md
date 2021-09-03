@@ -51,6 +51,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • **Radiometric resolution** describes the number of wavelengths observed. For example, multispectral sensors observe about 10s of bands (or wavelength regions) in the VI/NIR spectrum, providing discrete observations. In contrast, hyperspectral sensors or imaging spectrometers observe 100s of wavelengths in the VI/NIR spectrum and provide continuous observations.
 
+<br/>
 
 **2.3 Satellite Systems**
 
@@ -60,6 +61,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 •	**Neither** - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg
 
+<br/>
 
 **2.4 Graphics:**
 
