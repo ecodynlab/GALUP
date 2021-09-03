@@ -30,6 +30,15 @@ The human eye is only able to detect wavelengths in the visible light range. How
 •	Neither Neither - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg 
 
 **2.2 Resolution:**
+o Spatial Describes how far apart two targets have to be so that they are detected as separate signals
+If the detectable distance is small à fine or high spatial resolution (e.g. LandSat
+30m)
+
+o Temporal (or repeat frequency or repeat coverage or revisit time) Describes how often a sensor observes the same target.If the revisit time is small, i.e. the target is observed more frequently, the temporal resolution is considered high (e.g. SMAP at about 2-3 days). On the other hand if the revisit time is longer or infrequent, e.g. LandSat at about 16
+days, the temporal resolution is low/coarse. Typically, finer spatial resolution is associated with infrequent coverage because it covers less area during each overpass.
+
+o Radiometric
+It describes the number of wavelengths observed. For example, multispectral sensors observe about 10s of bands (or wavelength regions) in the VI/NIR spectrum, providing discrete observations. In contrast, hyperspectral sensors or imaging spectrometers observe 100s of wavelengths in the VI/NIR spectrum and provide continuous observations.
 
 **2.3 Graphics:**
 
