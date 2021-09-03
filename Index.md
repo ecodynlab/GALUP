@@ -15,6 +15,20 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 **1.1. Bands**
 
+1. Coastal Aerosol (0.43-0.45µm) 
+2. Blue (0.45-0.51µm) 
+3. Green (0.53-0.59µm)
+4. Red (0.64-0.67µm) 
+5. Yellow (0.585-0.625µm) 
+6. Red-Edge (0.705-0.745µm) 
+7. Near Infrared 1 – NIR-1 (0.76-0.90µm) 
+8. Near Infrared 2 – NIR-2 (0.86-1.04µm)
+9. Short-wave Infrared 1 – SWIR-1 (1.57-1.65µm)
+10. Short-wave Infrared 2 – SWIR-2 (2.08-2.35µm)
+11. Panchromatic (0.50-0.68µm)
+12. Cirrus (1.36 -1.38µm)
+13. Thermal Infrared – TIRS-1 (10.60–12.51µm) 
+
 **1.2 Hyperspectral**
 
 ![image](https://user-images.githubusercontent.com/87503837/130195843-a8aea0e9-def9-40c4-80ce-b562fd56e918.png)
