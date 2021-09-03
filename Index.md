@@ -20,6 +20,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 
 ### Remote sensing systems and sensors
+**Sensors**: 
+
 **Active sensors** consist of a transmitter and a receiver that may (monostatic system) or may not be (bistatic system) co-located. It transmits a known signal at a particular wavelength and receives some portion of the signal in the direction of a receiver. In case of a monostatic system, the received signal is called “backscatter”. Examples include camera w/ flash, LIght Detection and Ranging (LIDAR), Synthetic aperture radar (SAR) **Passive Sensors** consist of receiver that receives naturally occurring EM energy from a target at a particular wavelength and direction. Examples include camera without flash and radiometers. 
 
 
@@ -27,9 +29,10 @@ The human eye is only able to detect wavelengths in the visible light range. How
 •	Polar orbiting (100s km, low Earth orbit, high/fine spatial Polar orbiting (100s km, low Earth orbit, high/fine spatial resolution; repeat global resolution; repeat global coverage; e.g. coverage; e.g. Landsat Landsat, Landsat Landsat TM, NOAA AVHRR, SSM/I TM, NOAA AVHRR, SSM/I)  
 •	Neither Neither - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg 
 
-resolution
+**Resolution**
 
-graphics
+**Graphics**
+
 ### Environmental data  
 (move after GEE)
 <br>
