@@ -1,7 +1,7 @@
 # Introduction to Remote Sensing Concepts
 
 ## Module 1 - Basic remote sensing 
-### EM spectrum 
+### 1. EM spectrum 
 The **electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. **Observed energy** or **radiation** is primarily sensitive to molecular resonances in the to molecular resonances in the surface layer surface layer of target. **Emitted**, **reflected**, and **backscattered radiation** is sensitive to temperature distribution, geometric, and electric properties of surface or volume. 
 
 <p align="center">
@@ -13,9 +13,9 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 ![image](https://user-images.githubusercontent.com/87503837/130195843-a8aea0e9-def9-40c4-80ce-b562fd56e918.png)
 
-Bands (move to EM spectrum)
+#1.1. Bands (move to EM spectrum)
 
-Hyperspectral (move to EM spectrum)
+#1.2 Hyperspectral (move to EM spectrum)
 
 
 
