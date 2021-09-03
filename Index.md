@@ -33,10 +33,6 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 **2.3 Graphics:**
 
-### 3. Environmental data  
-(move after GEE)
-<br>
-
 ### Module 1 Exercises 
 
 1. Ghana example (TBA)
