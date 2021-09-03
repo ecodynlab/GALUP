@@ -115,7 +115,7 @@ A database of remote sensing indices and their respective sensors and areas of a
 ### 2. Exercises in GEE to play with indices  
 <br>
 
-## Module 4 - Classification
+## Module 4 - Land cover classification
 ### 1. Using indices – simple classification; accuracy & metrics
 ### 2. Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
