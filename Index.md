@@ -50,6 +50,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • **Radiometric resolution** describes the number of wavelengths observed. For example, multispectral sensors observe about 10s of bands (or wavelength regions) in the VI/NIR spectrum, providing discrete observations. In contrast, hyperspectral sensors or imaging spectrometers observe 100s of wavelengths in the VI/NIR spectrum and provide continuous observations.
 
+
 **2.3 Satellite Systems**
 
 •	**Geo-stationary/geo stationary/geo-synchronous** : continuous coverage of synchronous : continuous coverage of one region one region only (meteorological applications, high Earth (meteorological applications, high Earth orbit of ~36000 km; low/coarser spatial resolution; ~36000 km; low/coarser spatial resolution; e.g GOES, Japanese GOES, Japanese GMS, European GMS, European Metosat Metosat)
@@ -57,6 +58,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 •	**Polar orbiting** : 100s km, low Earth orbit, high/fine spatial resolution; repeat global resolution; repeat global coverage; e.g. coverage; e.g. Landsat Landsat, Landsat Landsat TM, NOAA AVHRR, SSM/I TM, NOAA AVHRR, SSM/I) 
 
 •	**Neither** - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg
+
 
 **2.4 Graphics:**
 
