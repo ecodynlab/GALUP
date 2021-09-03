@@ -53,12 +53,12 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 
 ## Module 2 - GEE (software and implementing RS intro)
-### Setting up GEE
+### 1. Setting up GEE
 First, you must request to set up an account with Google Earth Engine (GEE). Start [here](https://earthengine.google.com/), and then click “Sign Up” at the top right of the page. It will ask for the institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 
 
 
-### Exploring interface using the theoretical concepts above
+### 2. Exploring interface using the theoretical concepts above
 The GEE [code editor](code.earthengine.google.com) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript API.
 
 The general interface functions for GEE can be seen below:
@@ -84,7 +84,7 @@ Can use parameters to visualize the data (use colors)
 
 Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection
 
-### Exercises in GEE to play with RS data  
+### 3. Exercises in GEE to play with RS data  
 <br>
 Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Global 1km) to see NDVI and EVI values
 
@@ -93,21 +93,21 @@ Import MODIS classification and add layer on map (MCD12Q1.006 MODIS Land Cover T
 
 ## Module 3 - Indices (Environmental Datasets and Variables)
 Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes.
-### 1 Formulation, use/purpose, and significance
+### 1. Formulation, use/purpose, and significance
 A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/).
-### 2 Exercises in GEE to play with indices  
+### 2. Exercises in GEE to play with indices  
 <br>
 
 ## Module 4 - Classification
-### 1 Using indices – simple classification; accuracy & metrics
-### 2 Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
+### 1. Using indices – simple classification; accuracy & metrics
+### 2. Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
 
 ## Module 5 - Statistics 
-### 1 Spatial statistics
-### 2 Trend analysis
-### 3 Relationships
-### 4 Linkages
+### 1. Spatial statistics
+### 2. Trend analysis
+### 3. Relationships
+### 4. Linkages
 <br>
 
 # Advanced concepts in remote sensing with application to LUCIS-OPEN 
