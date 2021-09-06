@@ -38,7 +38,7 @@ First, you must request to set up an account with Google Earth Engine (GEE). Sta
 The GEE [code editor](code.earthengine.google.com) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript API.
 
 The general interface functions for GEE can be seen below:
-![GEEinterface](https://user-images.githubusercontent.com/84922404/130262824-4a91fac4-631f-4393-a673-79a07018bb45.png)
+![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
 The "scripts" tab contains the code files for past saved projects. To begin a new file, click the "NEW" button and choose the intended format supply a descriptive name.  You can also create a folder or repository if desired to organize projects. For the purposes of this workshop, we will create a folder titled “RS Workshop.” All files created and used during the workshop should be placed in this folder. 
 
