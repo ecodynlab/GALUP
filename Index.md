@@ -52,15 +52,15 @@ The “Console” (11.) contains anything that has been printed or any errors ex
 
 The search bar (4.) allows the user to find publicly available datasets to utilize for their own analysis. Use keywords such as satellite name or desired parameter to find a relevant dataset.
 
-Imports from the search bar or assets show up in an “imports” tab at the top of the code editor. You can change the automatically supplied name of the object (e.g. "imageCollection") to improve comprehensibility in your code (e.g. Landsat8Collection).
+Imports from the search bar or assets show up in an “imports” tab at the top of the code editor. You can change the automatically supplied name of the object (e.g. "imageCollection") to improve comprehensibility in your code (e.g. Landsat8Collection). Geometry tools (14.) allow the user to draw directly on the map to specify a region of interest to which analysis will be applied, which will also appear in the "imports" tab.
 
 Bands in datasets (e.g. Landsat) allow for calculation of these remote sensing variables:
 
 Parameters can be established, typically as color palettes, by the user to visualize the data on the map.
 
-Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection. Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters.
+Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection. Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters. The user can zoom in and out on the map using the "zoom" feature (15.).
 
-Once the 
+Once the script has been written and completed by the user, the "run" button (7.) is pressed to execute the code. To ensure that the code does not accidentally get deleted, there is a "save" (6.) option, which should be used when important changes have been made to the code. There is also a "get link" option (5.) in order to copy the code to send it to other users for collaboration.
 
 For any issues or questions that may need to be resolved within GEE, there is a Help button (8.) as well as a Feedback option (9.) to reach out directly to Google.
 
