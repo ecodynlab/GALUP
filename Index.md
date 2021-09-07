@@ -56,9 +56,13 @@ Imports from the search bar or assets show up in an “imports” tab at the top
 
 Bands in datasets (e.g. Landsat) allow for calculation of these remote sensing variables:
 
-Can use parameters to visualize the data (use colors)
+Parameters can be established, typically as color palettes, by the user to visualize the data on the map.
 
-Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection
+Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection. Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters.
+
+Once the 
+
+For any issues or questions that may need to be resolved within GEE, there is a Help button (8.) as well as a Feedback option (9.) to reach out directly to Google.
 
 ### Exercises in GEE to play with RS data  
 <br>
