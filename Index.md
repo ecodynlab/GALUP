@@ -66,15 +66,20 @@ Import a dataset (such as MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m) 
 Import a shapefile as an asset (e.g. Ghana)
 
 
-## Module 3 - Indices (Environmental Datasets and Variables)
+## Module 3 - Commonly Used Indices and Variables for Environmental Analysis
 Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR).
+
+Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
+
 ### Formulation, use/purpose, and significance
-A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). Some commonly used indices include albedo, enhanced vegetation index (EVI), normalized vegetation index (NDVI), and land surface temperature (LST). These provide vital information on environmental conditions and can be useful in monitoring land cover changes.
+A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). Some commonly used indices include albedo, enhanced vegetation index (EVI), and normalized difference vegetation index (NDVI). Additionally, environmental variables These provide vital information on environmental conditions and can be useful in monitoring land cover changes.
+
+Environmental variables are commonly utilized to predict weather events, monitor climte, and measure variability. Variables such as precipitation, solar radiation, and land surface temperature (LST) are frequently used in environmental analysis.
 ### Exercises in GEE to play with indices  
 Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Global 1km) to see NDVI and EVI values
 Use Landsat dataset to calculate Albedo or NDVI
 
-## Module 4 - Classification
+## Module 4 - Land Cover Classification
 ### Using indices – simple classification; accuracy & metrics
 ### Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
