@@ -83,7 +83,9 @@ The general interface functions for GEE can be seen below:
 
 (2.) Docs
 
-• Under the “Docs” tab, there is a comprehensive list of the various functions and algorithms available in GEE, along with explanations of their inputs and outputs. GEE has further explanation and examples of how to use the "Docs" at this [link](https://developers.google.com/earth-engine/guides/getstarted#earth-engine-algorithms).
+• Under the “Docs” tab, there is a comprehensive list of the various functions and algorithms available in GEE, along with explanations of their inputs and outputs. 
+  • Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection. 
+• GEE has further explanation and examples of how to use the "Docs" at this [link](https://developers.google.com/earth-engine/guides/getstarted#earth-engine-algorithms).
 
 (3.) Assets 
 
@@ -128,7 +130,7 @@ The general interface functions for GEE can be seen below:
 
 (13.) Layer Manager
 
-• Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters.
+• Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters. • Parameters can be established, typically as color palettes, by the user to visualize the data on the map. 
 
 (14.) Geometry Tools
 
@@ -137,12 +139,6 @@ The general interface functions for GEE can be seen below:
 (15.) Zoom
 
 • The user can zoom in and out on the map using the "zoom" feature.
-
-
-Parameters can be established, typically as color palettes, by the user to visualize the data on the map.
-
-Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection.  
-
 
 ### Exercises in GEE to play with RS data  
 <br>
