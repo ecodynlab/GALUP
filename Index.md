@@ -84,7 +84,9 @@ The general interface functions for GEE can be seen below:
 (2.) Docs
 
 • Under the “Docs” tab, there is a comprehensive list of the various functions and algorithms available in GEE, along with explanations of their inputs and outputs. 
+
   • Map.setCenter and Map.addLayer visualize the map in the GEE map tool of an ee.Image or ee.ImageCollection. 
+  
 • GEE has further explanation and examples of how to use the "Docs" at this [link](https://developers.google.com/earth-engine/guides/getstarted#earth-engine-algorithms).
 
 (3.) Assets 
@@ -94,6 +96,7 @@ The general interface functions for GEE can be seen below:
 (4.) Search Bar
 
 • The search bar allows the user to find publicly available datasets to utilize for their own analysis. Use keywords such as satellite name or desired parameter to find a relevant dataset.
+
 • Imports from the search bar or assets show up in an “imports” tab at the top of the code editor. You can change the automatically supplied name of the object (e.g. "imageCollection") to improve comprehensibility in your code (e.g. Landsat8Collection).
 
 (5.) Get Link
@@ -130,7 +133,9 @@ The general interface functions for GEE can be seen below:
 
 (13.) Layer Manager
 
-• Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters. • Parameters can be established, typically as color palettes, by the user to visualize the data on the map. 
+• Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters.
+
+• Parameters can be established, typically as color palettes, by the user to visualize the data on the map. 
 
 (14.) Geometry Tools
 
