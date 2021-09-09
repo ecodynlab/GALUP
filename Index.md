@@ -126,7 +126,6 @@ The general interface functions for GEE can be seen below:
 
 • The “Inspector” tab gives information about the map, such as coordinates or scale. Once images or image collections have been added to the map, these will also have details that show up under this tab.
 
-
 (13.) Layer Manager
 
 • Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters.
@@ -139,8 +138,6 @@ The general interface functions for GEE can be seen below:
 
 • The user can zoom in and out on the map using the "zoom" feature.
 
-
-Bands in datasets (e.g. Landsat) allow for calculation of these remote sensing variables:
 
 Parameters can be established, typically as color palettes, by the user to visualize the data on the map.
 
