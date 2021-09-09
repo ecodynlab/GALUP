@@ -3,7 +3,9 @@
 ## Module 1 - Basic Remote Sensing 
 ### EM Spectrum 
 • **electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. 
+
 •**Observed energy** or **radiation** is primarily sensitive to molecular resonances in the to molecular resonances in the surface layer surface layer of target. 
+
 •**Emitted**, **reflected**, and **backscattered radiation** is sensitive to temperature distribution, geometric, and electric properties of surface or volume. 
 
 ![image](https://user-images.githubusercontent.com/87503837/130260547-5c76cddd-c913-4adb-b183-c50604eee563.png)
