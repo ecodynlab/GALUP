@@ -1,6 +1,6 @@
-# Introduction to Remote Sensing Concepts
+# Satellite Remote Sensing for Land-Use Planning
 
-## Module 1 - Basic remote sensing 
+## Module 1 - Introduction to Remote Sensing 
 ### 1. EM spectrum 
 The **electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. **Observed energy** or **radiation** is primarily sensitive to molecular resonances in the to molecular resonances in the surface layer surface layer of target. **Emitted**, **reflected**, and **backscattered radiation** is sensitive to temperature distribution, geometric, and electric properties of surface or volume. 
 
@@ -65,7 +65,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 **2.4 Graphics:**
 
-## Module 2 - GEE (software and implementing RS intro)
+## Module 2 - Remote Sensing Applications using Google Earth Engine
 ### Setting up GEE
 First, you must request to set up an account with Google Earth Engine (GEE). Start [here](https://earthengine.google.com/), and then click “Sign Up” at the top right of the page. It will ask for the institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 
@@ -107,7 +107,7 @@ Import a dataset (such as MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m) 
 Import a shapefile as an asset (e.g. Ghana)
 
 
-## Module 3 - Commonly Used Indices and Variables for Environmental Analysis
+## Module 3 - Common RS Indices and Environmental Variables
 Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR).
 
 Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
@@ -125,7 +125,7 @@ Use Landsat dataset to calculate Albedo or NDVI
 ### Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
 
-## Module 5 - Statistics 
+## Module 5 - Statistical Analysis of Spatio-Temporal RS Data 
 ### Spatial statistics
 ### Trend analysis
 ### Relationships
