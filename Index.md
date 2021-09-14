@@ -156,8 +156,6 @@ Remote sensing indices serve the purpose of providing measurable indicators of e
 
 Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
 
-A list of remote sensing satellite data sources are shown in the table below:
-<img width="1100" alt="RSdataTable2" src="https://user-images.githubusercontent.com/84922404/133272924-f69064f8-dc00-43ad-82ba-18f1dfa05e65.png">
 
 ### Formulation, use/purpose, and significance
 A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). Some commonly used indices include albedo, enhanced vegetation index (EVI), and normalized difference vegetation index (NDVI). Additionally, environmental variables These provide vital information on environmental conditions and can be useful in monitoring land cover changes.
