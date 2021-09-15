@@ -65,7 +65,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 **2.4 Graphics:**
 
-**Data Sources **
+**Data Sources**
 
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 ### Setting up GEE
