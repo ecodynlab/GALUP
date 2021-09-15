@@ -65,6 +65,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 **2.4 Graphics:**
 
+**Data Sources **
+
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 ### Setting up GEE
 First, you must request to set up an account with Google Earth Engine (GEE). Start [here](https://earthengine.google.com/), and then click “Sign Up” at the top right of the page. It will ask for the institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
