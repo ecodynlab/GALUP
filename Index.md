@@ -10,8 +10,7 @@ The **electromagnetic spectrum** is the entire distribution of electromagnetic r
 
 The human eye is only able to detect wavelengths in the visible light range. However, many insects see in the 300 to 650 nm wavelength and can detect ultraviolet light because   they have special photoreceptors in their eyes.   
 
-
-
+Typically **near infrared (NIR)** is defined from 750 nm to 1400 nm and **shortwave infrared (SWIR)** from 1400 nm to 3000 nm.
 
 **1.1. Spectral Bands**
 
