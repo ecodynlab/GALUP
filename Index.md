@@ -102,6 +102,7 @@ Spectral sampling: Multispectral sensors
 
 Spectral sampling: Hyperspectral sensors
 ![image](https://user-images.githubusercontent.com/87503837/133636485-93336e1a-214b-4897-b1ca-c1206879b4e1.png)
+
 (Include example file for demonstration?)
 
 <br/>
