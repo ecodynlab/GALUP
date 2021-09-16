@@ -62,7 +62,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • has photocathode where incident light is partially absorbed and generates photoelectrons
 
-<img src="https://user-images.githubusercontent.com/87503837/133625438-5593a350-5cd9-414a-bd1e-24f23e051fc4.png" width="400" height="320">
+<img src="https://user-images.githubusercontent.com/87503837/133625438-5593a350-5cd9-414a-bd1e-24f23e051fc4.png" width="500" height="320">
 
 **Internal Photo-effect detectors**
 
