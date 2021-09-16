@@ -62,6 +62,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 ![image](https://user-images.githubusercontent.com/87503837/133616513-e862764c-d078-4752-a41c-a01ac21200bc.png)
 
+<img src="https://user-images.githubusercontent.com/87503837/133616513-e862764c-d078-4752-a41c-a01ac21200bc.png" width="676" height="508">
+
 **Internal Photo-effect detectors**
 
 • semiconductors in which the electons undergo internal energy level transitions when they absorb an electron
