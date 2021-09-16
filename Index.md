@@ -125,12 +125,12 @@ The human eye is only able to detect wavelengths in the visible light range. How
 | Albedo                                        | MODIS/MCD43B3                                                                                                                            | 2001, 2005 ,2009,   2013, 2016 |
 
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
-### Setting up GEE
+### 2.1 Setting up GEE
 First, you must request to set up an account with Google Earth Engine (GEE). Start [here](https://earthengine.google.com/), and then click “Sign Up” at the top right of the page. It will ask for the institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 
 
 
-### Exploring GEE interface using RS concepts from Module 1
+### 2.2 Exploring GEE interface using RS concepts from Module 1
 The GEE [code editor](code.earthengine.google.com) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript API.
 
 The general interface functions for GEE can be seen below:
@@ -204,7 +204,7 @@ The general interface functions for GEE can be seen below:
 
 • The user can zoom in and out on the map using the "zoom" feature.
 
-### Exercises in GEE to play with RS data  
+### 2.3 Exercises in GEE to play with RS data  
 <br>
 Import a dataset (such as MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m) and add layer on map 
 Import a shapefile as an asset (e.g. Ghana)
