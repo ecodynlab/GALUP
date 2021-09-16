@@ -136,11 +136,11 @@ The GEE [code editor](code.earthengine.google.com) uses the JavaScript language 
 The general interface functions for GEE can be seen below:
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
-(1.) Scripts
+**2.2.1 Scripts** 
 
 • The "scripts" tab contains the code files for past saved projects. To begin a new file, click the "NEW" button and choose the intended format supply a descriptive name.  You can also create a folder or repository if desired to organize projects. For the purposes of this workshop, we will create a folder titled “RS Workshop.” All files created and used during the workshop should be placed in this folder. 
 
-(2.) Docs
+**2.2.2 Docs**  
 
 • Under the “Docs” tab, there is a comprehensive list of the various functions and algorithms available in GEE, along with explanations of their inputs and outputs. 
 
@@ -148,59 +148,59 @@ The general interface functions for GEE can be seen below:
   
 • GEE has further explanation and examples of how to use the "Docs" at this [link](https://developers.google.com/earth-engine/guides/getstarted#earth-engine-algorithms).
 
-(3.) Assets 
+**2.2.3 Assets** 
 
 • The “Assets” tab allows for user to load in their own images (GeoTIFF or TFRecord) or tables (shapefiles or CSVs). These will show up under the "Tasks" (10.) tab when uploading to show progress. The “Tasks” tab is also where any exports from GEE will run.
 
-(4.) Search Bar
+**2.2.4 Search Bar** 
 
 • The search bar allows the user to find publicly available datasets to utilize for their own analysis. Use keywords such as satellite name or desired parameter to find a relevant dataset.
 
 • Imports from the search bar or assets show up in an “imports” tab at the top of the code editor. You can change the automatically supplied name of the object (e.g. "imageCollection") to improve comprehensibility in your code (e.g. Landsat8Collection).
 
-(5.) Get Link
+**2.2.5 Get Link**
 
 • GEE contains a "get link" option in order to copy the code to share it with other users for collaboration.
 
-(6.) Save
+**2.2.6 Save**
 
 • To ensure that the code does not accidentally get deleted, there is a "save" option, which should be used when important changes have been made to the code.
 
-(7.) Run
+**2.2.7 Run** 
 
 • Once the script has been written and completed by the user, the "run" button is pressed to execute the code.
 
-(8.) Help
+**2.2.8 Help** 
 
 • For any issues or questions that may need to be resolved within GEE, there is a Help button.
 
-(9.) Feedback
+**2.2.9 Feedback** 
 
 • A feedback option is supplied to reach out directly to Google.
 
-(10.) Tasks
+**2.2.10 Tasks**  
 
 • Assets and exports from GEE will show up under the "Tasks" (10.) tab when uploading to show progress. 
 
-(11.) Console
+**2.2.11 Console** 
 
 • The “Console” contains anything that has been printed or any errors existing in the c
 
-(12.) Inspector
+**2.2.12 Inspector** 
 
 • The “Inspector” tab gives information about the map, such as coordinates or scale. Once images or image collections have been added to the map, these will also have details that show up under this tab.
 
-(13.) Layer Manager
+**2.2.13 Layer manager**  
 
 • Any layers that have been added to the map will appear listed under the "Layer Manager" (13.), where the user can turn layers on and off and adjust visualization parameters.
 
 • Parameters can be established, typically as color palettes, by the user to visualize the data on the map. 
 
-(14.) Geometry Tools
+**2.2.14 Geometry tools** 
 
 • Geometry tools allow the user to draw directly on the map to specify a region of interest to which analysis will be applied, which will also appear in the "imports" tab.
 
-(15.) Zoom
+**2.2.15 Zoom**
 
 • The user can zoom in and out on the map using the "zoom" feature.
 
