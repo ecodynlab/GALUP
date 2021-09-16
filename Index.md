@@ -17,7 +17,6 @@
 The human eye is only able to detect wavelengths in the visible light range. However, many insects see in the 300 to 650 nm wavelength and can detect ultraviolet light because   they have special photoreceptors in their eyes.   
 
 
-
 **1.1. Spectral Bands**
 
 | Band                         | Wavelength           |
@@ -29,6 +28,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 |     Short-wave   infrared    |     0.50-0.68µm      |
 |     Cirrus                   |     1.36 -1.38µm     |
 |     Thermal Infrared         |     10.60–12.51µm    |
+
+<br/>
 
 **1.2 Hyperspectral**
 
