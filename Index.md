@@ -54,6 +54,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • Ex: Bolometer 
 
+![image](https://user-images.githubusercontent.com/87503837/133616355-0ff8f5fd-2d57-4e97-b781-786353fa934e.png)
+
 **External Photo-effect detectors**
 
 • has photocathode where incident light is partially absorbed and generates photoelectrons
