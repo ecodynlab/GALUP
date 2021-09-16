@@ -20,8 +20,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 |     Blue                     |     0.45-0.51µm      |
 |     Green                    |     0.53-0.59µm      |
 |     Red                      |     0.64-0.67µm      |
-|     Red-Edge                 |     0.76-1.04µm      |
-|     Near Infrared            |     1.57-2.35µm      |
+|     Near Infrared            |     0.75-2.5µm       |
 |     Short-wave   infrared    |     0.50-0.68µm      |
 |     Cirrus                   |     1.36 -1.38µm     |
 |     Thermal Infrared         |     10.60–12.51µm    |
