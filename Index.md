@@ -1,6 +1,9 @@
 # Satellite Remote Sensing for Land-Use Planning
 
 ## Module 1 - Introduction to Remote Sensing 
+
+Remote sensing is the science and art of obtaining information about an object, area, or phenomenon through the analysis of data acquired by a device that is not in contact with the object, area, or phenomenon under investigation
+
 ### 1. EM spectrum 
 • **Electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. 
 
@@ -85,6 +88,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 • **Temporal resolution** describes how often a sensor observes the same target. If the revisit time is small, i.e. the target is observed more frequently, the temporal resolution is considered high (e.g. SMAP at about 2-3 days). On the other hand if the revisit time is longer or infrequent, e.g. LandSat at about 16 days, the temporal resolution is low/coarse. Typically, finer spatial resolution is associated with infrequent coverage because it covers less area during each overpass. 
 
 • **Radiometric resolution** describes the number of wavelengths observed. For example, multispectral sensors observe about 10s of bands (or wavelength regions) in the VI/NIR spectrum, providing discrete observations. In contrast, hyperspectral sensors or imaging spectrometers observe 100s of wavelengths in the VI/NIR spectrum and provide continuous observations.
+
+(Include example file for demonstration?)
 
 <br/>
 
