@@ -3,8 +3,11 @@
 ## Module 1 - Introduction to Remote Sensing 
 ### 1. EM spectrum 
 • **Electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. 
+
 • **Observed energy** or **radiation** is primarily sensitive to molecular resonances in the to molecular resonances in the surface layer surface layer of target. 
+
 • **Emitted**, **reflected**, and **backscattered radiation** is sensitive to temperature distribution, geometric, and electric properties of surface or volume. 
+
 •**Near infrared (NIR)** is defined from 750 nm to 1400 nm and **shortwave infrared (SWIR)** from 1400 nm to 3000 nm.
 
 <p align="center">
