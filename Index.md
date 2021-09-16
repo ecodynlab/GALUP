@@ -2,7 +2,7 @@
 
 ## Module 1 - Introduction to Remote Sensing 
 
-_Remote sensing is the science and art of obtaining information about an object, area, or phenomenon through the analysis of data acquired by a device that is not in contact with the object, area, or phenomenon under investigation <sup>1</sup>._
+_Remote sensing is the science and art of obtaining information about an object, area, or phenomenon through the analysis of data acquired by a device that is not in contact with the object, area, or phenomenon under investigation<sup>1</sup>._
 
 ### 1. EM spectrum 
 • **Electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. 
@@ -250,3 +250,6 @@ Use Landsat dataset to calculate Albedo or NDVI
 
 ## Module 6 - Weights 
 ## Module 7 - LUCIS-OPEN
+
+# Citations
+1. Remote Sensing and Image Interpretation, 7th Edition, Lillesand, Kieffer, Chipman
