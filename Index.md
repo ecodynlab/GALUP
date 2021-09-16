@@ -33,8 +33,9 @@ The human eye is only able to detect wavelengths in the visible light range. How
 |     Blue                     |     0.45-0.51µm      |
 |     Green                    |     0.53-0.59µm      |
 |     Red                      |     0.64-0.67µm      |
-|     Near Infrared            |     0.75-2.5µm       |
-|     Short-wave   infrared    |     0.50-0.68µm      |
+|     Near Infrared            |     0.75-1µm         |
+|     Short-wave infrared 1    |     1-1.6µm          |
+|     Short-wave infrared 2    |     1.6-2.5µm        |
 |     Thermal Infrared         |     10.60–12.51µm    |
 
 <br/>
