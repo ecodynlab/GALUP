@@ -50,7 +50,6 @@ Spectral sampling: Multispectral sensors
 Spectral sampling: Hyperspectral sensors
 ![image](https://user-images.githubusercontent.com/87503837/133636485-93336e1a-214b-4897-b1ca-c1206879b4e1.png)
 
-**1.2 Applications of Remote Sensing**
 
 <br/>
 
@@ -118,6 +117,22 @@ Spectral sampling: Hyperspectral sensors
 <br/>
 
 **2.4 Graphics:**
+
+
+**2.5 Applications of Remote Sensing**
+1. Land use/land cover mapping
+2. Geological and soil mapping
+3. Agriculture
+4. Forestry
+5. Rangeland
+6. Water resource
+7. Snow and ice
+8. Urban and regional planning 
+9. Wetland mapping
+10. Wildlife ecology 
+11. Archeological 
+12. Environmental assesment and protection
+13. Natural disaster assesement 
 
 **Data Sources**
 | Topic                                         | Source                                                                                                                                   | Temporal range                 |
