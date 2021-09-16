@@ -4,6 +4,8 @@
 
 _Remote sensing is the science and art of obtaining information about an object, area, or phenomenon through the analysis of data acquired by a device that is not in contact with the object, area, or phenomenon under investigation<sup>1</sup>._
 
+Modern day remote sensing started with the advent of radar, sonar, and thermal infrared detection systems during WWII. Since then, detectors have been expanded to detect a run on most of the EM spectrum. 
+
 ### 1. EM spectrum 
 • **Electromagnetic spectrum** is the entire distribution of electromagnetic radiation according to frequency or wavelength. 
 
