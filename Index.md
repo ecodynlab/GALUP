@@ -70,8 +70,6 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • consists of **photoconductive detectors** and **photovoltaic detectors**
 
-![image](https://user-images.githubusercontent.com/87503837/133616643-ba9e4e28-2811-4d02-bc5a-987a549af606.png)
-
 <img src="https://user-images.githubusercontent.com/87503837/133616643-ba9e4e28-2811-4d02-bc5a-987a549af606.png" width="350" height="320">
 
 
