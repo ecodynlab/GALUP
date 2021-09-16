@@ -63,6 +63,33 @@ The human eye is only able to detect wavelengths in the visible light range. How
 **2.4 Graphics:**
 
 **Data Sources**
+| Topic                                         | Source                                                                                                                                   | Temporal range                 |
+|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| Administrative   boundaries                   | Global administrative   areas and boundaries (GADM)                                                                                      | 2020                           |
+| Albedo                                        | MODIS/MCD43B3                                                                                                                            | 2001, 2005 ,2009,   2013, 2016 |
+| Albedo                                        | MODIS/MCD43A3 v006                                                                                                                       | 2001, 2005 ,2009,   2013, 2016 |
+| Evapotranspiration   (ET)                     | MODIS/MOD16A2 v006                                                                                                                       | 2001, 2005 ,2009,   2013, 2016 |
+| Health -   stunting in children               | DHS UNICEF                                                                                                                               | 2000, 2015                     |
+| Health -   wasting prevalence in children     | DHS UNICEF                                                                                                                               | 2000, 2015                     |
+| Land cover                                    | LANDSAT/LT05/C01/T1_SR,   USGS Landsat 5 Surface Reflectance Tier 1, LANDSAT/LC08/C01/T1_SR, USGS   Landsat 8 Surface Reflectance Tier 1 | 1990-2020                      |
+| Land cover-2                                  | MODIS                                                                                                                                    | 2001, 2005 ,2009,   2013, 2016 |
+| Land surface   temperature                    | LANDSAT/LT05/C01/T1_SR,   USGS Landsat 5 Surface Reflectance Tier 1, LANDSAT/LC08/C01/T1_SR, USGS   Landsat 8 Surface Reflectance Tier 1 | 1990-2020                      |
+| Land surface   temperature                    | MODIS                                                                                                                                    | 2000, 2005, 2010,   2015, 2019 |
+| Micrometeorogical   dataset                   | Trans-African   HydroMeteorological Observatory, African Rainfall Climatology                                                            |                                |
+| NDVI                                          | MODIS/MOD13A1.005                                                                                                                        | 2001, 2005 ,2009,   2013, 2016 |
+| Normalized difference vegetation index (NDVI) | LANDSAT/LT05/C01/T1_SR,   USGS Landsat 5 Surface Reflectance Tier 1, LANDSAT/LC08/C01/T1_SR, USGS   Landsat 8 Surface Reflectance Tier 1 | 1990-2020                      |
+| Population   (rural)                          | LandScanTM                                                                                                                               | 2000-2018                      |
+| Population   (urban)                          | Africapolis                                                                                                                              | 1950-2020                      |
+| Road   checkpoints                            | CILSS                                                                                                                                    | 2018                           |
+| Roads                                         | Open Street Map                                                                                                                          | 2010-2020                      |
+| Socio-economic   indicators                   | SEDAC, Government of   Ghana                                                                                                             | 2010-2020                      |
+| Soil   properties - moisture                  | NASA-SMAP, NASA/JAXA   AMSR-E, AMSR2                                                                                                     | 2000 - 2020                    |
+| Soil   properties                             | AfSoilGrids                                                                                                                              |                                |
+| Topography                                    | USGS/SRTMGL1_003                                                                                                                         | 2000                           |
+| Ts                                            | MODIS/MOD11A1 v006                                                                                                                       | 2001, 2005 ,2009,   2013, 2016 |
+| NDVI                                          | MODIS/MOD13A1.005                                                                                                                        | 2001, 2005 ,2009,   2013, 2016 |
+| Ts                                            | MODIS/MOD11A2 v006                                                                                                                       | 2001, 2005 ,2009,   2013, 2016 |
+| Albedo                                        | MODIS/MCD43B3                                                                                                                            | 2001, 2005 ,2009,   2013, 2016 |
 
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 ### Setting up GEE
