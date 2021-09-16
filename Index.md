@@ -42,6 +42,24 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • **Passive Sensors** consist of receiver that receives naturally occurring EM energy from a target at a particular wavelength and direction. Examples include a camera without the flash and radiometers.
 
+**Types of Detectors:** 
+
+**Thermal detectors**
+• absorb incident flux and undergo temperature changes
+
+• the power in absorbed radiation is typically small, and so the detector itself should be small to have a low heat capacity
+
+• Ex: Bolometer 
+
+**External Photo-effect detectors**
+• has photocathode where incident light is partially absorbed and generates photoelectrons
+
+**Internal Photo-effect detectors**
+• semiconductors in which the electons undergo internal energy level transitions when they absorb an electron
+
+• consists of **photoconductive detectors** and **photovoltaic detectors**
+  
+
 <br/>
 
 **2.2 Resolution:**
