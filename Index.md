@@ -62,6 +62,9 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 • has photocathode where incident light is partially absorbed and generates photoelectrons
 
+• Ex: Photomultiplier Tube (PMT)
+
+
 <img src="https://user-images.githubusercontent.com/87503837/133625438-5593a350-5cd9-414a-bd1e-24f23e051fc4.png" width="500" height="320">
 
 **Internal Photo-effect detectors**
@@ -69,6 +72,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 • semiconductors in which the electons undergo internal energy level transitions when they absorb an electron
 
 • consists of **photoconductive detectors** and **photovoltaic detectors**
+
+• Ex: 
 
 <img src="https://user-images.githubusercontent.com/87503837/133616643-ba9e4e28-2811-4d02-bc5a-987a549af606.png" width="350" height="320">
 
