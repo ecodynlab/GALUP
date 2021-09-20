@@ -251,7 +251,10 @@ Import a shapefile as an asset (e.g. Ghana)
 
 
 ## Module 3 - Common RS Indices and Environmental Variables
-Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR).
+Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR). A table of bands in Landsat are given below, with the differences between Landsat 7 and 8 outlined.
+
+<img src="https://user-images.githubusercontent.com/84922404/134025212-0dc77407-5bee-400a-b9a3-d0fd03a14d20.jpg" width="800" height="500">
+(Table from B. Markham (July 2013), Nasa Landsat Science)
 
 Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
 
