@@ -173,7 +173,9 @@ A table of the bands from the Landsat satellite program are given below, with th
 
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 ### 2.1 Setting up GEE
-First, you must request to set up an account with Google Earth Engine (GEE). Start [here](https://earthengine.google.com/), and then click “Sign Up” at the top right of the page. It will ask for the institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
+First, you must request to set up an account with Google Earth Engine (GEE):
+* Start [here](https://earthengine.google.com/)
+* click “Sign Up” at the top right of the page and input institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 
 
 
