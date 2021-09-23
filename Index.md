@@ -46,6 +46,9 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 
 **1.2 Exercises**
+Download the following files and view them in QGIS. 
+
+Start by creating a new project in QGIS. Next add the files by clicking the **Add Roster Layer** icon on the lefthand side of the interface. If you dont see the icon, right click the toolbar at the top of the page and make sure **Manage Layers Toolbar** is checked. 
 
 <br/>
 
