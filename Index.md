@@ -284,6 +284,16 @@ Remote sensing indices serve the purpose of providing measurable indicators of e
 
 Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
 
+| Environmental Variables and Indices    | Sensor(s)   | Temporal Resolution     | Spatial Resolution
+|------------------------------|----------------------|------------------|---------------------------|
+|     EVI                     |MODIS (MOD13A2.006 Terra Vegetation Indices); Landsat 5, 7, 8 (8-Day EVI Composite generated from GEE)|16-Day; 8-Day|1 km; 30 m
+|     NDVI                    |     MODIS (MOD13A2.006 Terra Vegetation Indices); Landsat 5, 7, 8 (8-Day NDVI Composite generated from GEE)    | 16-Day; 8-Day | 1 km; 30 m
+|     NDWI                    |    MODIS (Terra Daily NDWI); Landsat 8 (8-Day NDWI Composite generated from GEE)    | Daily; 8-Day | 463 m; 30 m
+|     Precipitation            |     Global Precipitation Measurement (IMERG); ERA5 Land (Hourly - ECMWF Climate Reanalysis) | 30-Minute; Hourly | 10 km; 10 km
+|     Solar Radiation    | ERA5 Land (Hourly - ECMWF Climate Reanalysis); CFSR: Climate Forecast System Reanalysis       | Hourly; 6-Hour | 10 km; 38 km
+|     Air Temperature   |    ERA5 Land (Hourly - ECMWF Climate Reanalysis)    | Hourly | 10 km
+|     Land Surface Temperature         |  MODIS (MOD11A1.006 Terra Land Surface Temperature and Emissivity); Landsat 5, 7, 8 (Surface Reflectance Tier 1); | Daily; 16-Day | 1 km; 30 m
+
 
 ### Formulation, use/purpose, and significance
 A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). Some commonly used indices include albedo, enhanced vegetation index (EVI), and normalized difference vegetation index (NDVI). Additionally, environmental variables These provide vital information on environmental conditions and can be useful in monitoring land cover changes.
