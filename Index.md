@@ -183,6 +183,7 @@ First, you must request to set up an account with Google Earth Engine (GEE):
 The GEE [code editor](code.earthengine.google.com) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript API.
 
 The general interface functions for GEE can be seen below:
+
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
 Further description of the components of the figure above:
@@ -255,10 +256,27 @@ Further description of the components of the figure above:
 
 • The user can zoom in and out on the map using the "zoom" feature.
 
-### 2.3 Exercises in GEE to play with RS data  
-<br>
-Import a dataset (such as MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m) and add layer on map 
-Import a shapefile as an asset (e.g. Ghana)
+### 2.3 Exercises in GEE to play with RS data 
+#### Module 2 Exercise 1 ####
+##### Description #####
+In this exercise, we will cover satellite dataset visualization using Google Earth Engine.
+
+##### Skills and Goals #####
+* Understand how to import and filter a dataset in GEE
+
+* Create a visual map using specific bands
+
+* Identify satellite differences over various years and regions
+
+##### Instructions #####
+1. In Google Earth Engine, open the script "01_search_and_display."
+2. Using the geometry tools, identify a region of interest (smaller than the size of a country) and draw a polygon around it. This will be imported into the code editor.
+3. Choose a set of dates over which satellite data will be collected. Set the initial and end dates to be about 3 months apart.
+4. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
+5. Submit images/screenshots of your map.
+
+##### Result #####
+* Upon completion of the exercise, your submission should look similar to the file **here**.
 
 
 ## Module 3 - Common RS Indices and Environmental Variables
