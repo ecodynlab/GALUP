@@ -138,8 +138,9 @@ Spectral sampling: Hyperspectral sensors
 13. Natural disaster assesement 
 
 **Data Sources**
-| Albedo                                        | MODIS       |
+| Data type                                     | Source      |
 |-----------------------------------------------|-------------|
+| Albedo                                        | MODIS       |
 | Evapotranspiration   (ET)                     | MODIS       |
 | Land cover                                    | LANDSAT     |
 | Land surface   temperature                    | MODIS       |
