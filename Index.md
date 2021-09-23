@@ -45,6 +45,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 ![image](https://user-images.githubusercontent.com/87503837/130195843-a8aea0e9-def9-40c4-80ce-b562fd56e918.png)
 
 
+**1.2 Exercises**
 
 <br/>
 
@@ -162,7 +163,6 @@ A table of the bands from the Landsat satellite program are given below, with th
 </p>
 (M.U. Liaqat (February, 2016))
 
-**2.6 Exercises** 
 
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 ### 2.1 Setting up GEE
