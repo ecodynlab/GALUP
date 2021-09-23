@@ -162,6 +162,8 @@ A table of the bands from the Landsat satellite program are given below, with th
 </p>
 (M.U. Liaqat (February, 2016))
 
+**2.6 Exercises** 
+
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 ### 2.1 Setting up GEE
 First, you must request to set up an account with Google Earth Engine (GEE):
