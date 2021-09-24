@@ -183,6 +183,17 @@ The GEE [code editor](code.earthengine.google.com) uses the JavaScript language 
 
 The general interface functions for GEE can be seen below:
 
+<p float="left">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d">
+    <img src="https://user-images.githubusercontent.com/84922404/134725106-a332c7a6-ac94-449a-a793-5eac31ff6057.JPG" alt= "GEE Tutorial" width="400">
+  </a>
+  <img src="https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png" width="500" /> 
+</p>
+
+<a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d">
+  <img src="https://user-images.githubusercontent.com/84922404/134725106-a332c7a6-ac94-449a-a793-5eac31ff6057.JPG" alt= "GEE Tutorial" width="800">
+</a>
+
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
 Further description of the components of the figure above:
