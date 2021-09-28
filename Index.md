@@ -296,13 +296,11 @@ Environmental variables also provide key data for land-based analysis. These can
 
 | Environmental Variables and Indices    | Sensor(s)   | Temporal Resolution     | Spatial Resolution
 |------------------------------|----------------------|------------------|---------------------------|
-|     EVI                     |MODIS (MOD13A2.006 Terra Vegetation Indices); Landsat 5, 7, 8 (8-Day EVI Composite generated from GEE)|16-Day; 8-Day|1 km; 30 m
-|     NDVI                    |     MODIS (MOD13A2.006 Terra Vegetation Indices); Landsat 5, 7, 8 (8-Day NDVI Composite generated from GEE)    | 16-Day; 8-Day | 1 km; 30 m
-|     NDWI                    |    MODIS (Terra Daily NDWI); Landsat 8 (8-Day NDWI Composite generated from GEE)    | Daily; 8-Day | 463 m; 30 m
-|     Precipitation            |     Global Precipitation Measurement (IMERG); ERA5 Land (Hourly - ECMWF Climate Reanalysis) | 30-Minute; Hourly | 10 km; 10 km
-|     Solar Radiation    | ERA5 Land (Hourly - ECMWF Climate Reanalysis); CFSR: Climate Forecast System Reanalysis       | Hourly; 6-Hour | 10 km; 38 km
-|     Air Temperature   |    ERA5 Land (Hourly - ECMWF Climate Reanalysis)    | Hourly | 10 km
-|     Land Surface Temperature         |  MODIS (MOD11A1.006 Terra Land Surface Temperature and Emissivity); Landsat 5, 7, 8 (Surface Reflectance Tier 1); | Daily; 16-Day | 1 km; 30 m
+|     EVI                     |MODIS ([MOD13A2.006 Terra Vegetation Indices](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD13A2)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T1_8DAY_EVI), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_8DAY_EVI), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_EVI#:~:text=These%20composites%20are%20created%20from,following%20year%20by%203%20days.) (8-Day EVI Composite generated from GEE)|16-Day; 8-Day|1 km; 30 m
+|     NDVI                    |     MODIS ([MOD13A2.006 Terra Vegetation Indices](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD13A2)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T1_8DAY_NDVI), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_8DAY_NDVI), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDVI_) ([8-Day NDVI Composite generated from GEE])    | 16-Day; 8-Day | 1 km; 30 m
+|     NDWI                    |    MODIS ([Terra Daily NDWI](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDWI)); Landsat 8 ([8-Day NDWI Composite](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDWI) generated from GEE)    | Daily; 8-Day | 463 m; 30 m
+|     Precipitation            |     Global Precipitation Measurement ([IMERG](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06)) | Hourly | 10 km
+|     Land Surface Temperature         |  MODIS ([MOD11A1.006 Terra Land Surface Temperature and Emissivity](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD11A1)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T2_SR), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T2_SR), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T2_SR) (Surface Reflectance Tier 1); | Daily; 16-Day | 1 km; 30 m
 
 
 ### Formulation, use/purpose, and significance
