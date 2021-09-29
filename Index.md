@@ -304,7 +304,15 @@ Environmental variables also provide key data for land-based analysis. These can
 
 
 ### Formulation, use/purpose, and significance
-A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). Some commonly used indices include albedo, enhanced vegetation index (EVI), and normalized difference vegetation index (NDVI). Additionally, environmental variables These provide vital information on environmental conditions and can be useful in monitoring land cover changes.
+A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). These provide vital information on environmental conditions and can be useful in monitoring land cover changes. Some commonly used indices include enhanced vegetation index (EVI), normalized difference vegetation index (NDVI), soil adjusted vegetation index (SAVI), normalized difference built-up index (NDBI), and normalized difference water index (NDWI).
+
+| Index   | Formulation | Use/Purpose  | Source
+|-----------|-------------|--------------|-----------|
+|NDVI|((NIR - Red) / (NIR + Red)) | Measure and monitor vegetation greenness| [2] 
+|EVI| 2.5 * ((NIR - Red) / (NIR + 6.0 * Red - 7.5 * Blue + 1))| Measure and monitor vegetation greenness, corrects for light distortions | [3]
+|SAVI| ((NIR - Red) / (NIR + Red + 0.5)) * (1 + 0.5) | Correct NDVI for soil brightness influence | [4]
+|NDBI| (SWIR - NIR) / (SWIR + NIR) | Map urban built-up areas | [5]
+|NDWI| (Green-NIR)/(Green+NIR) |  Measure vegetation liquid water | [6]
 
 Environmental variables are commonly utilized to predict weather events, monitor climte, and measure variability. Variables such as precipitation, solar radiation, and land surface temperature (LST) are frequently used in environmental analysis.
 ### Exercises in GEE to play with indices  
@@ -330,3 +338,8 @@ Use Landsat dataset to calculate Albedo or NDVI
 
 # Citations
 1. Remote Sensing and Image Interpretation, 7th Edition, Lillesand, Kieffer, Chipman
+2. https://earthobservatory.nasa.gov/features/MeasuringVegetation/measuring_vegetation_2.php
+3. https://earthobservatory.nasa.gov/features/MeasuringVegetation/measuring_vegetation_4.php
+4. usgs.gov/core-science-systems/nli/landsat/landsat-soil-adjusted-vegetation-index
+5. He, Chunyang, et al. “Improving the Normalized Difference Built-up Index to Map Urban Built-up Areas Using a Semiautomatic Segmentation Approach.” Remote Sensing Letters, vol. 1, no. 4, 2010, pp. 213–221., doi:10.1080/01431161.2010.481681. 
+6. Gao, Bo-cai. “NDWI—A Normalized Difference WATER Index for Remote Sensing of VEGETATION Liquid Water from Space.” Remote Sensing of Environment, vol. 58, no. 3, 1996, pp. 257–266., doi:10.1016/s0034-4257(96)00067-3. 
