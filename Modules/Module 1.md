@@ -44,6 +44,8 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 ![image](https://user-images.githubusercontent.com/87503837/130195843-a8aea0e9-def9-40c4-80ce-b562fd56e918.png)
 
+</p>
+
 ### 2. Remote sensing systems and sensors
 **2.1 Sensors:** 
 
@@ -142,6 +144,8 @@ Download the following files and view them in QGIS.
 Start by creating a new project in QGIS. Next add the files by clicking the **Add Raster Layer** icon on the lefthand side of the interface. If you dont see the icon, right click the toolbar at the top of the page and make sure **Manage Layers Toolbar** is checked. Once you have added the two files, you should see them added as layer.  
 
 What range of values do you see for the two files? 
+
+</p>
 
 **Data Sources**
 | Data type                                     | Source      |
