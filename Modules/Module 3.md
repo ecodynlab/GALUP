@@ -13,14 +13,14 @@ Environmental variables also provide key data for land-based analysis. These can
 
 
 ### 3.1 Formulation, use/purpose, and significance
-A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). These provide vital information on environmental conditions and can be useful in monitoring land cover changes. Some commonly used indices include enhanced vegetation index (EVI), normalized difference vegetation index (NDVI), soil adjusted vegetation index (SAVI), normalized difference built-up index (NDBI), and normalized difference water index (NDWI).
+A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). These provide vital information on environmental conditions and can be useful in monitoring land cover changes. Some commonly used indices include enhanced vegetation index (EVI), normalized difference vegetation index (NDVI), soil adjusted vegetation index (SAVI), normalized burn ration (NBR), and normalized difference water index (NDWI).
 
 | Index   | Formulation | Use/Purpose  | Source
 |-----------|-------------|--------------|-----------|
 |NDVI|((NIR - Red) / (NIR + Red)) | Measure and monitor vegetation greenness| [2] 
 |EVI| 2.5 * ((NIR - Red) / (NIR + 6.0 * Red - 7.5 * Blue + 1))| Measure and monitor vegetation greenness, corrects for light distortions in NDVI | [3]
 |SAVI| ((NIR - Red) / (NIR + Red + 0.5)) * (1 + 0.5) | Correct NDVI for soil brightness influence | [4]
-|NDBI| (SWIR - NIR) / (SWIR + NIR) | Map urban built-up areas | [5]
+|NBR| (SWIR - NIR) / (SWIR + NIR) | Identify burned areas and measure burn severity | [5]
 |NDWI| (Green-NIR)/(Green+NIR) |  Measure vegetation liquid water | [6]
 
 An example of NDVI calculation and application is given in the image below:
