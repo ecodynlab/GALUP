@@ -1,3 +1,3 @@
 Modules
 
-[A relative link](Module 1.md)
+[a relative link](Module 1.md)
