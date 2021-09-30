@@ -1,3 +1,3 @@
 Modules
 
-[a relative link](Module 1.md)
+[a relative link](GALUP/Modules/Module 1.md)
