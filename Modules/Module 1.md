@@ -158,6 +158,7 @@ A table of the bands from the Landsat satellite program are given below, with th
 </p>
 (M.U. Liaqat (February, 2016))
 
+
 **2.6 Exercises**
 
 Download the following files and view them in QGIS. 
