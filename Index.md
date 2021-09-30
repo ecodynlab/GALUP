@@ -331,18 +331,6 @@ Use Landsat dataset to calculate Albedo or NDVI
 ### Exercises in GEE to play with classification & temporal changes in indices for different classes (Ag/Forest/Urban)
 <br>
 
-## Module 5 - Statistical Analysis of Spatio-Temporal RS Data 
-### Spatial statistics
-### Trend analysis
-### Relationships
-### Linkages
-<br>
-
-# Advanced concepts in remote sensing with application to LUCIS-OPEN 
-
-## Module 6 - Weights 
-## Module 7 - LUCIS-OPEN
-
 # Citations
 1. Remote Sensing and Image Interpretation, 7th Edition, Lillesand, Kieffer, Chipman
 2. https://earthobservatory.nasa.gov/features/MeasuringVegetation/measuring_vegetation_2.php
