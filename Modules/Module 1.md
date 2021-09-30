@@ -134,6 +134,15 @@ Spectral sampling: Hyperspectral sensors
 12. Environmental assesment and protection
 13. Natural disaster assesement 
 
+
+**2.6 Exercises**
+
+Download the following files and view them in QGIS. 
+
+Start by creating a new project in QGIS. Next add the files by clicking the **Add Raster Layer** icon on the lefthand side of the interface. If you dont see the icon, right click the toolbar at the top of the page and make sure **Manage Layers Toolbar** is checked. Once you have added the two files, you should see them added as layer.  
+
+What range of values do you see for the two files? 
+
 **Data Sources**
 | Data type                                     | Source      |
 |-----------------------------------------------|-------------|
@@ -157,12 +166,3 @@ A table of the bands from the Landsat satellite program are given below, with th
 <img src="https://user-images.githubusercontent.com/84922404/134026792-d1f488cd-3630-4266-ad2f-ed7062e52982.png" width="500" height="600">
 </p>
 (M.U. Liaqat (February, 2016))
-
-
-**2.6 Exercises**
-
-Download the following files and view them in QGIS. 
-
-Start by creating a new project in QGIS. Next add the files by clicking the **Add Raster Layer** icon on the lefthand side of the interface. If you dont see the icon, right click the toolbar at the top of the page and make sure **Manage Layers Toolbar** is checked. Once you have added the two files, you should see them added as layer.  
-
-What range of values do you see for the two files? 
