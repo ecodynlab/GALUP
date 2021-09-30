@@ -183,10 +183,12 @@ The GEE [code editor](code.earthengine.google.com) uses the JavaScript language 
 
 The general interface functions for GEE can be seen below:
 
-<a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d">
-  <img src="https://user-images.githubusercontent.com/84922404/134725106-a332c7a6-ac94-449a-a793-5eac31ff6057.JPG" alt= "GEE Tutorial" width="800">
-</a>
-
+<p align="center">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d">
+    <img src="https://user-images.githubusercontent.com/84922404/135470199-719878b5-7cb6-4a7a-aacd-e40881cda2e3.JPG" alt= "GEE Tutorial" width="800">
+  </a>
+</p>
+  
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
 Further description of the components of the figure above:
@@ -307,6 +309,7 @@ A database of remote sensing indices and their respective sensors and areas of a
 |NDBI| (SWIR - NIR) / (SWIR + NIR) | Map urban built-up areas | [5]
 |NDWI| (Green-NIR)/(Green+NIR) |  Measure vegetation liquid water | [6]
 
+An example of NDVI calculation and application is given in the image below:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/84922404/135468275-adaf7a44-b8f7-4d4e-9276-625a7a59f9d4.png" width="400">
 </p>
