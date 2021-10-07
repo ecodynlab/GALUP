@@ -32,8 +32,9 @@ Environmental variables are commonly utilized to predict weather events, monitor
 
 
 ### 3.2 Exercises in GEE to play with RS data 
-Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Global 1km) to see NDVI and EVI values
-Use Landsat dataset to calculate Albedo or NDVI
+Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Global 1km) to see NDVI and EVI values.
+Use Landsat dataset to calculate Albedo or NDVI. 
+Submit values <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
 
 ##
 Previous Section: 
