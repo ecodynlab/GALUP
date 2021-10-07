@@ -164,13 +164,6 @@ A table of the bands from the Landsat satellite program are given below, with th
 
 </p> 
 
-**2.6 Exercises**
-
-Download the following files and view them in QGIS. 
-
-Start by creating a new project in QGIS. Next add the files by clicking the **Add Raster Layer** icon on the lefthand side of the interface. If you dont see the icon, right click the toolbar at the top of the page and make sure **Manage Layers Toolbar** is checked. Once you have added the two files, you should see them added as layer.  
-
-What range of values do you see for the two files? 
 
 <a href="Module 2.md" title="Module 2">Module 2</a>
 
