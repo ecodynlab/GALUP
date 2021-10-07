@@ -1,6 +1,6 @@
-# Satellite Remote Sensing for Land-Use Planning
-
 ## Module 1 - Introduction to Remote Sensing 
+
+What will you learn from this module?
 
 _Remote sensing is the science and art of obtaining information about an object, area, or phenomenon through the analysis of data acquired by a device that is not in contact with the object, area, or phenomenon under investigation<sup>1</sup>._
 
