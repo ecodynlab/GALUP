@@ -107,12 +107,10 @@ In this exercise, we will cover satellite dataset visualization using Google Ear
 3. Choose two sets of dates over which satellite data will be collected: one set in the summer months (May through August) and one set in the winter months (December to March). Set the initial and end dates for each set to be about 3 months apart. 
 5. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
 6. Questions: What differences do you notice between the data taken during the summer and winter? Change the cloud cover fraction filtered in GEE: what changes do you notice in the output? Change the band combinations in the visualization parameters (e.g. for Landsat 8 edit "bands: ['B5', 'B4', 'B3']" to "bands: ['B4','B3','B2']". What do you notice about the map output after this change?
-7. Submit images/screenshots of your map.
+7. Submit images/screenshots of your map https://github.com/ecodynlab/GALUP/issues/new.
 
 ##### Result #####
 * Upon completion of the exercise, your submission should look similar to the file **here**.
-
-Submit assignment here 
 
 </p>
 
