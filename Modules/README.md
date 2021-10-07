@@ -10,4 +10,6 @@
 
 ## Assignment Submission
 
-At the top of the page, there is an option to create an issue. 
+At the top of the page, there is an option for issues. Click that and create a new issue to submit your assignment. 
+
+Put your name and the assignment number as the title of the issue and attach any documents needed for submission. 
