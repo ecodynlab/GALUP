@@ -32,9 +32,17 @@ Environmental variables are commonly utilized to predict weather events, monitor
 
 
 ### 3.2 Exercises in GEE to play with RS data 
-Look at MODIS vegetation dataset (MOD13A2.006 Terra Vegetation Indices 16-Day Global 1km) to see NDVI and EVI values.
-Use Landsat dataset to calculate Albedo or NDVI. 
-Submit values <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+#### 3.2.1 Exercise 1
+1. Using the script "05_time_series", draw a polygon within Ghana to act as the "geometry" input and alter the variables "ST_DATE" and "END_DATE" to reflect a period of interest (try 1-2 years).
+2. Run the script and note the time-series graph of NDVI values over the course of the given time period within the specified region. Do you notice any distinct patterns in NDVI levels over the year(s)?
+3. Take a screenshot of the graph and submit <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+
+#### 3.2.2 Exercise 2
+1. From the script "06_indices_images", choose two indices and specify them as the variables "IMG1" and "IMG2", respectively.
+2. Run the script over a chosen time period (about 1 year) and export the images that show up under the "tasks" bar to Google Drive.
+3. Download the images from Google Drive (they should be .tif files), and open QGIS. Upload the images as rasters to QGIS.
+4. Look at the "Properties" of each image, and change the symbology to effectively visualize each index (e.g. green colorbar for NDVI, blue for NDWI, etc.).
+5. Upload the images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\
 
 ##
 Previous Section: 
