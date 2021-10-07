@@ -11,3 +11,5 @@
 ## Assignment Submission
 
 Click the issues tab at the top of the page. Create a new issue to submit your assignment. Put your name and the assignment number as the title of the issue and attach any documents needed for submission. 
+
+https://github.com/ecodynlab/GALUP/issues/26
