@@ -9,3 +9,5 @@
 <a href="Module 3.md" title="Module 3">Module 3</a>
 
 ## Assignment Submission
+
+At the top of the page, there is an option to create an issue. 
