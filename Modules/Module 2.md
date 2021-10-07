@@ -114,6 +114,13 @@ In this exercise, we will cover satellite dataset visualization using Google Ear
 
 </p>
 
-<a href="Module 1.md" title="Module 1">Module 1</a>
+##
+Next Section: 
 
 <a href="Module 3.md" title="Module 3">Module 3</a>
+
+Previous Section:
+
+<a href="Module 1.md" title="Module 1">Module 1</a>
+
+
