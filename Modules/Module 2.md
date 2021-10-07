@@ -112,6 +112,8 @@ In this exercise, we will cover satellite dataset visualization using Google Ear
 ##### Result #####
 * Upon completion of the exercise, your submission should look similar to the file **here**.
 
+Submit assignment here 
+
 </p>
 
 ##
