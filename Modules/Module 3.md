@@ -33,16 +33,18 @@ Environmental variables are commonly utilized to predict weather events, monitor
 
 ### 3.2 Exercises in GEE to play with RS data 
 #### 3.2.1 Exercise 1
-1. Using the script "05_time_series", draw a polygon within Ghana to act as the "geometry" input and alter the variables "ST_DATE" and "END_DATE" to reflect a period of interest (try 1-2 years).
-2. Run the script and note the time-series graph of NDVI values over the course of the given time period within the specified region. Do you notice any distinct patterns in NDVI levels over the year(s)?
-3. Take a screenshot of the graph and submit <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+1. Using the script ["05_time_series"](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_time_series), alter the variables "ST_DATE" and "END_DATE" to reflect a period of interest (try 1-2 years), and there will be three regions of interest to examine.
+2. These regions will be designated by pre-set coordinates in the script labeled with four corners of a rectangle (e.g. xMin1,yMin1,xMax1,yMax1). However, you must comment out whichever two variables of "REG_GH" you do not want to analyze during a trial with "//" and keep the variable of interest for that region's trial.
+3. Run the script, and for each region, take a screenshot of the time-series graph of NDVI values over the course of the given time period within the specified region. Submit the screenshot <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+4. Questions: Do you notice any distinct patterns in NDVI levels over the course of the year(s)? What differences do you notice in NDVI between the regions? Input your answers in this **form**.
 
 #### 3.2.2 Exercise 2
 1. From the script "06_indices_images", choose two indices and specify them as the variables "IMG1" and "IMG2", respectively.
-2. Run the script over a chosen time period (about 1 year) and export the images that show up under the "tasks" bar to Google Drive.
-3. Download the images from Google Drive (they should be .tif files), and open QGIS. Upload the images as rasters to QGIS.
-4. Look at the "Properties" of each image, and change the symbology to effectively visualize each index (e.g. green colorbar for NDVI, blue for NDWI, etc.).
-5. Upload the images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+2. Choose a chosen time period (about 1 year) and over a chosen geometry (using the polygon tool). Tip: choose a smaller geometry size so that the image is not too large and will take less processing time.
+3. Run the script export the images that show up under the "tasks" bar to Google Drive.
+4. Download the images from Google Drive (they should be .tif files), and open QGIS. Upload the images as rasters to QGIS.
+5. Look at the "Properties" of each image, and change the symbology to effectively visualize each index (e.g. green colorbar for NDVI, blue for NDWI, etc.).
+6. Upload the images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
 
 ##
 Previous Section: 
