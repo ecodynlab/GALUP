@@ -35,10 +35,16 @@ In this exercise, we will cover satellite dataset visualization using Google Ear
 ##### Instructions #####
 1. In Google Earth Engine, open the script "01_search_and_display."
 2. Using the geometry tools (14.), identify a region of interest (smaller than the size of a country) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script.
-3. Choose two sets of dates over which satellite data will be collected: one set in the summer months (May through August) and one set in the winter months (December to March). Set the initial and end dates for each set to be about 3 months apart. 
-5. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
-6. Questions: What differences do you notice between the data taken during the summer and winter? Change the cloud cover fraction filtered in GEE: what changes do you notice in the output? Change the band combinations in the visualization parameters (e.g. for Landsat 8 edit "bands: ['B5', 'B4', 'B3']" to "bands: ['B4','B3','B2']". What do you notice about the map output after this change?
-7. Submit images/screenshots of your map <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+3. Choose dates over which satellite data will be collected in the format 'YYYY-MM-DD':
+
+    a. Enter a set of dates during the summer months (May through August), and set the start and end dates about 3 months apart.
+  
+    b. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
+  
+    c. Submit screenshots of your mapped images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+  
+4. Repeat the process of 3(a-c) with a set of dates during the winter months (December to March). 
+5. Questions: What differences do you notice between the data taken during the summer and winter? Change the cloud cover fraction filtered in GEE: what changes do you notice in the output? Change the band combinations in the visualization parameters (e.g. for Landsat 8 edit "bands: ['B5', 'B4', 'B3']" to "bands: ['B4','B3','B2']". What do you notice about the map output after this change? Submit your answers to these questions on this [form](https://docs.google.com/forms/d/e/1FAIpQLSexZ7T8WgL7gh1BDYaJ0_BCe4ndr03Q81Z0T5-gC-nG6SZa_A/viewform?usp=sf_link).
 
 
 ##### Result #####
