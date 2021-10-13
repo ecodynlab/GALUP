@@ -47,7 +47,7 @@ Environmental variables are commonly utilized to predict weather events, monitor
 6. Upload the images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
 
 ##
-Previous Section: 
+**Previous Section:** 
 
 <a href="Module 2.md" title="Module 2">Module 2</a>
 
