@@ -64,8 +64,8 @@ In this exercise, we will cover satellite dataset visualization using GEE.
 </p>
 
 ##
-**Next Section**:                                  **Previous Section**:
+**Next Section**:                                              **Previous Section**:
 
-<a href="Module 3.md" title="Module 3">Module 3</a>        <a href="Module 1.md" title="Module 1">Module 1</a>
+<a href="Module 3.md" title="Module 3">Module 3</a>            <a href="Module 1.md" title="Module 1">Module 1</a>
 
 
