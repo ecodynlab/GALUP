@@ -2,9 +2,10 @@
 
 What will you learn from this module?
 
-• Introduction to the Google Earth Engine interface with remote sensing applications 
+• How to set up the Google Earth Engine 
 
-•
+• Exploring remote sensing concepts using GEE 
+
 
 ## 
 
