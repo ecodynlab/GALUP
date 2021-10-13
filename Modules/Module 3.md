@@ -1,4 +1,4 @@
-## Module 3 - Common RS Indices and Environmental Variables\
+## Module 3 - Common RS Indices and Environmental Variables
 
 What will you learn from this module?
 
