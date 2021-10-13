@@ -1,4 +1,11 @@
 ## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
+
+What will you learn from this module?
+
+• Introduction to the Google Earth Engine interface with remote sensing applications 
+
+•
+
 ### 2.1 Setting up GEE (This may take a few days)
 First, you must request to set up an account with Google Earth Engine (GEE):
 * Start [here](https://earthengine.google.com/)
