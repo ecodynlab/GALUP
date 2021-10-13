@@ -23,7 +23,7 @@ Further description of the components of the figure are found [here](https://git
 ### 2.3 Exercises in GEE to play with RS data 
 #### Module 2 Exercise 1 ####
 ##### Description #####
-In this exercise, we will cover satellite dataset visualization using Google Earth Engine.
+In this exercise, we will cover satellite dataset visualization using GEE.
 
 ##### Skills and Goals #####
 * Understand how to import and filter a dataset in GEE
@@ -33,7 +33,7 @@ In this exercise, we will cover satellite dataset visualization using Google Ear
 * Identify satellite differences over various years and regions
 
 ##### Instructions #####
-1. In Google Earth Engine, open the script "01_search_and_display."
+1. In the GEE [code editor](https://code.earthengine.google.com/), open the script "01_search_and_display."
 2. Using the geometry tools (14.), identify a region of interest (smaller than the size of a country) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script.
 3. Choose dates over which satellite data will be collected in the format 'YYYY-MM-DD':
 
