@@ -1,4 +1,8 @@
-## Module 3 - Common RS Indices and Environmental Variables
+## Module 3 - Common RS Indices and Environmental Variables\
+
+What will you learn from this module?
+
+## 
 Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR). 
 
 Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
