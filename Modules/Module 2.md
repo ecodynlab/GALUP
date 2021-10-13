@@ -6,6 +6,8 @@ What will you learn from this module?
 
 •
 
+## 
+
 ### 2.1 Setting up GEE (This may take a few days)
 First, you must request to set up an account with Google Earth Engine (GEE):
 * Start [here](https://earthengine.google.com/)
