@@ -8,6 +8,8 @@
 
 <a href="Module 3.md" title="Module 3">Module 3</a> - Common RS Indices and Environmental Variables
 
+<a href="Module 3.md" title="Module 3">Module 3</a> - Classifications
+
 ## Assignment Submission
 
 Create a new issue to submit your assignment. Put your name and the assignment number as the title of the issue and attach any documents needed for submission.
