@@ -2,7 +2,7 @@
 
 What will you learn from this module?
 
-• Some of the most common indices and environmental variables in remote sensing
+• Some indices and environmental variables and their roles in remote sensing data
 
 • 
 
