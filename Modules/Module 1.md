@@ -29,7 +29,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 
 <!--**Scattering in atm**-->
 
-**Absorption in atm**
+<!--**Absorption in atm**-->
 
 <br/>
 
