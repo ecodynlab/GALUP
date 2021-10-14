@@ -1,4 +1,4 @@
-## Module 4 - Classifications
+## Module 4 - Land Cover Classification
 
 What will you learn from this module?
 
