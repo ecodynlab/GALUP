@@ -160,11 +160,13 @@ Spectral sampling: Hyperspectral sensors
 
 A table of the bands from the Landsat satellite program are given below, with the differences between Landsat 5, 7, and 8 outlined. General uses for these bands are supplied, such as Land Use/Land Cover (LULC) and Land Surface Temperature (LST).
 
-For further information on remote sensing, this [video](https://www.youtube.com/watch?v=qiqUAlJK4vI) from NASA ARSET is a useful resource.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/84922404/134026792-d1f488cd-3630-4266-ad2f-ed7062e52982.png" width="500" height="600">
 </p>
+
+For further information on remote sensing, this [video](https://www.youtube.com/watch?v=qiqUAlJK4vI) from NASA ARSET is a useful resource.
+
 (M.U. Liaqat (February, 2016))
 
 </p> 
