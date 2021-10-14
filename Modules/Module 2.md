@@ -31,7 +31,7 @@ The general interface functions for GEE can be seen below:
 
 Further description of the components of the figure are found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface).
 
-### 2.3 Exercises in GEE to play with RS data 
+### 2.3 Exercises in GEE to Apply RS data 
 #### Module 2 Exercise 1 ####
 ##### Description #####
 In this exercise, we will cover satellite dataset visualization using GEE.
