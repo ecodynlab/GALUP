@@ -58,10 +58,18 @@ Here is a video that may be useful for following along with this exercise.
   
     b. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
   
-    c. Submit screenshots of your mapped images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+    c. Take screenshots of the images displayed in the GEE map.
   
 4. Repeat the process of 3(a-c) with a set of dates during the winter months (December to March). 
-5. Questions: What differences do you notice between the data taken during the summer and winter? Change the cloud cover fraction filtered in GEE: what changes do you notice in the output? Change the band combinations in the visualization parameters (e.g. for Landsat 8 edit "bands: ['B5', 'B4', 'B3']" to "bands: ['B4','B3','B2']". What do you notice about the map output after this change? Submit your answers to these questions on this [form](https://docs.google.com/forms/d/e/1FAIpQLSexZ7T8WgL7gh1BDYaJ0_BCe4ndr03Q81Z0T5-gC-nG6SZa_A/viewform?usp=sf_link).
+5. Questions: 
+
+    a. What differences do you notice between the data taken during the summer and winter? 
+    
+    b. Change the cloud cover fraction filtered in GEE: what changes do you notice in the output? 
+    
+    c. Change the band combinations in the visualization parameters (e.g. for Landsat 8 edit "bands: ['B5', 'B4', 'B3']" to "bands: ['B4','B3','B2']". What do you notice     about the map output after this change? 
+    
+6.  Submit screenshots of your mapped images as well as the answers to questions 5a through 5c <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
 
 
 ##### Result #####
