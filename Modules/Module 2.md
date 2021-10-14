@@ -59,7 +59,8 @@ Here is a video that may be useful for following along with this exercise.
     b. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
   
     c. Take screenshots of the images displayed in the GEE map. 
-        i. Tip: if no images appear, this is likely due to cloud cover. Try changing the region of interest or the cloud cover percetange (e.g. filterMetadata('CLOUD_COVER','less_than',70) to filterMetadata('CLOUD_COVER','less_than',90).
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Tip: if no images appear, this is likely due to cloud cover. Try changing the region of interest or the cloud cover percentage (e.g. filterMetadata('CLOUD_COVER','less_than',70) to filterMetadata('CLOUD_COVER','less_than',90).
   
 4. Repeat the process of 3(a-c) with a set of dates during the winter months (December to March). 
 5. Questions: 
