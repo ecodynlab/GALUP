@@ -8,7 +8,7 @@
 
 <a href="Module 3.md" title="Module 3">Module 3</a> - Common RS Indices and Environmental Variables
 
-<a href="Module 3.md" title="Module 3">Module 3</a> - Classifications
+<a href="Module 4.md" title="Module 4">Module 4</a> - Classifications
 
 ## Assignment Submission
 
