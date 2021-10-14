@@ -32,7 +32,7 @@ An example of NDVI calculation and application is given in the image below:
 <img src="https://user-images.githubusercontent.com/84922404/135468275-adaf7a44-b8f7-4d4e-9276-625a7a59f9d4.png" width="400">
 </p>
 
-Environmental variables are commonly utilized to predict weather events, monitor climte, and measure variability. Variables such as precipitation, solar radiation, and land surface temperature (LST) are frequently used in environmental analysis.
+Environmental variables are commonly utilized to predict weather events, monitor climate, and measure variability. Variables such as precipitation, solar radiation, and land surface temperature (LST) are frequently used in environmental analysis.
 
 * Precipitation is used in remote sensing to first understand precipitation trends and then analyze data to predict temporal and spatial occurrences of rainfall changes or extremes.
 * Solar radiation data are important for analysis of ecological systems and vegetation trends.
