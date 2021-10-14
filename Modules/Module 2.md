@@ -14,7 +14,6 @@ First, you must request to set up an account with Google Earth Engine (GEE):
 * click “Sign Up” at the top right of the page and input institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 * Approval may not happen immediately; be sure to sign up in advance to provide a few days for completion.
 
-(Do this as soon as possible since it make take a few days for the account to be registered.)
 
 ### 2.2 Exploring GEE interface using RS concepts from Module 1
 The GEE [code editor](code.earthengine.google.com) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript API.
