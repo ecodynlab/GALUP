@@ -21,7 +21,7 @@ The GEE [code editor](code.earthengine.google.com) uses the JavaScript language 
 The general interface functions for GEE can be seen below:
 
 <p align="center">
-  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d" target="_blank">
     <img src="https://user-images.githubusercontent.com/84922404/135470199-719878b5-7cb6-4a7a-aacd-e40881cda2e3.JPG" alt= "GEE Tutorial" width="800">
   </a>
 </p>
@@ -45,7 +45,7 @@ In this exercise, we will cover satellite dataset visualization using GEE.
 ##### Instructions #####
 Here is a video that may be useful for following along with this exercise.
 <p align="center">
-  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/9d0bd66164844d478357dbb876e9a8b91d">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/9d0bd66164844d478357dbb876e9a8b91d" target="_blank">
     <img src="https://user-images.githubusercontent.com/84922404/137321837-30299889-bc42-4cc7-b3db-b991da355295.png" alt= "GEE Tutorial" width="800">
   </a>
 </p>
