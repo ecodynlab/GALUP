@@ -43,6 +43,13 @@ In this exercise, we will cover satellite dataset visualization using GEE.
 * Identify satellite differences over various years and regions
 
 ##### Instructions #####
+Here is a video that may be useful for following along with this exercise.
+<p align="center">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/9d0bd66164844d478357dbb876e9a8b91d">
+    <img src="https://user-images.githubusercontent.com/84922404/137321837-30299889-bc42-4cc7-b3db-b991da355295.png" alt= "GEE Tutorial" width="800">
+  </a>
+</p>
+
 1. In the GEE [code editor](https://code.earthengine.google.com/), copy and past the script for this exercise, ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts).
 2. Using the geometry tools (14.), identify a region of interest (smaller than the size of a country) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script.
 3. Choose dates over which satellite data will be collected in the format 'YYYY-MM-DD':
