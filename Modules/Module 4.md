@@ -5,6 +5,8 @@ What will you learn from this module?
 
 
 ## 
+Using indices – simple classification; accuracy & metrics
+
 
 
 ##
