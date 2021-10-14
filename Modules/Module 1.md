@@ -123,10 +123,8 @@ Spectral sampling: Hyperspectral sensors
 
 <br/>
 
-**2.4 Graphics:**
 
-
-**2.5 Applications of Remote Sensing**
+**2.4 Applications of Remote Sensing**
 1. Land use/land cover mapping
 2. Geological and soil mapping
 3. Agriculture
