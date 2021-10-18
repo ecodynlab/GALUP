@@ -71,7 +71,7 @@ Here is a video that may be useful for following along with this exercise.
     
     c. Change the band combinations in the visualization parameters (e.g. for Landsat 8 edit "bands: ['B5', 'B4', 'B3']" to "bands: ['B4','B3','B2']". What do you notice     about the map output after this change? 
     
-6.  Submit screenshots of your mapped images as well as the answers to questions 5a through 5c <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+6.  Submit screenshots of your mapped images as well as the answers to questions 5a through 5c <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
 
 
 ##### Result #####
