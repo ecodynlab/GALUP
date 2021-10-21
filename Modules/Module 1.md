@@ -110,12 +110,11 @@ Spectral sampling: Multispectral sensors and Hyperspectral sensors
 
 **2.3 Satellite Systems**
 
-•	**Geo-stationary/geo stationary/geo-synchronous** : continuous coverage of synchronous : continuous coverage of one region one region only (meteorological applications, high Earth (meteorological applications, high Earth orbit of ~36000 km; low/coarser spatial resolution; ~36000 km; low/coarser spatial resolution; e.g GOES, Japanese GOES, Japanese GMS, European GMS, European Metosat Metosat)
+•	**Geo-stationary/geo-synchronous** : at about 36,000km above the earth's surface and follows direction of Earth's rotation 
 
-•	**Polar orbiting** : 100s km, low Earth orbit, high/fine spatial resolution; repeat global resolution; repeat global coverage; e.g. coverage; e.g. Landsat Landsat, Landsat Landsat TM, NOAA AVHRR, SSM/I TM, NOAA AVHRR, SSM/I) 
+•	**Polar orbiting**: circle the Earth in an almost north-south orbit, passing close to both poles
 
-•	**Neither** - Tropical Rainfall Mapping Mission (TRMM), Tropical Rainfall Mapping Mission (TRMM), +/- 35deg
-
+•	**Neither** - Tropical Rainfall Mapping Mission (TRMM) 
 <br/>
 
 **Data Sources**
