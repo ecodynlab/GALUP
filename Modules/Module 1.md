@@ -115,6 +115,7 @@ Spectral sampling: Multispectral sensors and Hyperspectral sensors
 •	**Polar orbiting**: circle the Earth in an almost north-south orbit, passing close to both poles
 
 •	**Neither** - Tropical Rainfall Mapping Mission (TRMM) 
+
 <br/>
 
 **Data Sources**
