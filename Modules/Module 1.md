@@ -141,7 +141,7 @@ For further information on remote sensing, this [video](https://www.youtube.com/
 ### 2.4 Exercise
 #### Module 1 Exercise 1 ####
 ##### Description #####
-In this exercise, we will look at two different 
+In this exercise, we will look at two different bands of data through QGIS.  
 
 ##### Skills and Goals #####
 * Understand how to import and filter a dataset in GEE
@@ -151,6 +151,7 @@ In this exercise, we will look at two different
 * Identify satellite differences over various years and regions
 
 ## 
+
 **Next Section**: 
 
 <a href="Module 2.md" title="Module 2">Module 2</a>
