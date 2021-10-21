@@ -138,19 +138,12 @@ For further information on remote sensing, this [video](https://www.youtube.com/
 
 </p> 
 
-### 2.4 Exercise
-#### Module 1 Exercise 1 ####
-##### Description #####
-In this exercise, we will look at two different bands of data through QGIS.  
-
-##### Skills and Goals #####
-* Understand how to import and filter a dataset in GEE
-
-* Create a visual map using specific bands
-
-* Identify satellite differences over various years and regions
+### 2.4 Practice 
 
 ## 
+1. Download the file. 
+2. Switch between the two layers to see the difference between the different types of remote sensing data. 
+3. The file consists of NDVI and land surface temperature data. NDVI is a vegetation index that will be covered in another section.  
 
 **Next Section**: 
 
