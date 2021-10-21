@@ -124,40 +124,6 @@ Spectral sampling: Hyperspectral sensors
 <br/>
 
 
-**2.4 Applications of Remote Sensing**
-1. Land use/land cover mapping
-2. Geological and soil mapping
-3. Agriculture
-4. Forestry
-5. Rangeland
-6. Water resource
-7. Snow and ice
-8. Urban and regional planning 
-9. Wetland mapping
-10. Wildlife ecology 
-11. Archeological 
-12. Environmental assesment and protection
-13. Natural disaster assesement 
-
-</p>
-
-**Data Sources**
-| Data type                                     | Source      |
-|-----------------------------------------------|-------------|
-| Albedo                                        | MODIS       |
-| Evapotranspiration   (ET)                     | MODIS       |
-| Land cover                                    | LANDSAT     |
-| Land surface   temperature                    | MODIS       |
-| NDVI                                          | MODIS       |
-| Normalized difference vegetation index (NDVI) | LANDSAT     |
-| Soil   properties - moisture                  | NASA-SMAP   |
-| Soil   properties                             | AfSoilGrids |
-| Topography                                    | USGS        |
-| Ts                                            | MODIS       |
-| NDVI                                          | MODIS       |
-| Ts                                            | MODIS       |
-| Albedo                                        | MODIS       |
-
 A table of the bands from the Landsat satellite program are given below, with the differences between Landsat 5, 7, and 8 outlined. General uses for these bands are supplied, such as Land Use/Land Cover (LULC) and Land Surface Temperature (LST).
 
 
