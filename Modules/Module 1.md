@@ -27,9 +27,6 @@ Modern day remote sensing started with the advent of radar, sonar, and thermal i
 
 The human eye is only able to detect wavelengths in the visible light range. However, many insects see in the 300 to 650 nm wavelength and can detect ultraviolet light because   they have special photoreceptors in their eyes.   
 
-<!--**Scattering in atm**-->
-
-<!--**Absorption in atm**-->
 
 <br/>
 
@@ -101,6 +98,7 @@ The human eye is only able to detect wavelengths in the visible light range. How
 • **Temporal resolution** describes how often a sensor observes the same target 
 
 • **Radiometric resolution** describes the number of wavelengths observed. For example, multispectral sensors observe about 10s of bands (or wavelength regions) in the VI/NIR spectrum, providing discrete observations. 
+
 
 Spectral sampling: Multispectral sensors and Hyperspectral sensors
 
