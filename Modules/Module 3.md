@@ -47,7 +47,7 @@ Environmental variables are commonly utilized to predict weather events, monitor
 4. Questions: Do you notice any distinct patterns in NDVI levels over the course of the year(s)? What differences do you notice in NDVI between the regions? Input your answers in this **form**.
 
 #### 3.2.2 Exercise 2
-1. From the script "06_indices_images", choose two indices and specify them as the variables "IMG1" and "IMG2", respectively.
+1. From the script ["06_indices_images"](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_indices_images), choose two indices and specify them as the variables "IMG1" and "IMG2", respectively.
 2. Choose a chosen time period (about 1 year) and over a chosen geometry (using the polygon tool). Tip: choose a smaller geometry size so that the image is not too large and will take less processing time.
 3. Run the script export the images that show up under the "tasks" bar to Google Drive.
 4. Download the images from Google Drive (they should be .tif files), and open QGIS. Upload the images as rasters to QGIS.
