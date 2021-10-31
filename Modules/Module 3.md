@@ -53,7 +53,7 @@ Environmental variables are commonly utilized to predict weather events, monitor
 3. Run the script export the images that show up under the "tasks" bar to Google Drive.
 4. Download the images from Google Drive (they should be .tif files), and open QGIS. Upload the images as rasters to QGIS.
 5. Look at the "Properties" of each image, and change the symbology to effectively visualize each index (e.g. green colorbar for NDVI, blue for NDWI, etc.).
-6. Upload the images <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+6. Upload the images [here](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M2_E1.md).
 
 ##
 **Next Section:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; **Previous Section:**
