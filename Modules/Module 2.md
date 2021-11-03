@@ -3,7 +3,6 @@
 What will you learn from this module?
 
 • How to set up the Google Earth Engine 
-
 • Using GEE for remote sensing applications 
 
 ## 
@@ -37,9 +36,7 @@ In this exercise, we will cover satellite dataset visualization using GEE.
 
 ##### Skills and Goals #####
 * Understand how to import and filter a dataset in GEE
-
 * Create a visual map using specific bands
-
 * Identify satellite differences over various years and regions
 
 ##### Instructions #####
