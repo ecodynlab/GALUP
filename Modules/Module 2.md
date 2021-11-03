@@ -3,6 +3,7 @@
 What will you learn from this module?
 
 • How to set up the Google Earth Engine 
+
 • Using GEE for remote sensing applications 
 
 ## 
