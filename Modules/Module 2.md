@@ -2,9 +2,8 @@
 
 What will you learn from this module?
 
-• How to set up the Google Earth Engine 
-
-• Using GEE for remote sensing applications 
+* How to set up Google Earth Engine
+* Using GEE for remote sensing applications
 
 ## 
 
@@ -16,9 +15,9 @@ First, you must request to set up an account with Google Earth Engine (GEE):
 
 
 ### 2.2 Exploring GEE interface using RS concepts from Module 1
-The GEE [code editor](code.earthengine.google.com) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript API.
+The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
 
-The general interface functions for GEE can be seen below:
+The general interface functions for GEE can be seen below: 
 
 <p align="center">
   <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d" target="_blank">
@@ -41,6 +40,8 @@ In this exercise, we will cover satellite dataset visualization using GEE.
 * Identify satellite differences over various years and regions
 
 ##### Instructions #####
+1. In the GEE [code editor](https://code.earthengine.google.com/), copy and paste the script for this exercise, ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts).
+
 Here is a video that may be useful for following along with this exercise.
 <p align="center">
   <a href="https://mediasite.video.ufl.edu/Mediasite/Play/9d0bd66164844d478357dbb876e9a8b91d" target="_blank" rel="noopener">
@@ -48,7 +49,6 @@ Here is a video that may be useful for following along with this exercise.
   </a>
 </p>
 
-1. In the GEE [code editor](https://code.earthengine.google.com/), copy and paste the script for this exercise, ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts).
 2. Using the geometry tools (14.), identify a region of interest (smaller than the size of a country) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script.
 3. Choose dates over which satellite data will be collected in the format 'YYYY-MM-DD':
 
