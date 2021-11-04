@@ -1,4 +1,4 @@
-## Module 0 - Introduction to Github
+## Module 0 - Getting Started
 
 <p align="center">
   <a href="https://mediasite.video.ufl.edu/Mediasite/Play/9741afe237094a77aff3acbf6c2df8a91d" target="_blank">
