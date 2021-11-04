@@ -4,7 +4,7 @@ What will you learn from this module?
 
 • Some common indices and environmental variables and their roles in remote sensing data
 
-• How to work with examples of these indices in Google Earth Engineer 
+• How to work with examples of these indices in Google Earth Engine
 
 ## 
 Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR). 
