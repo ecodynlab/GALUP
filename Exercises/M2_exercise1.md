@@ -45,3 +45,5 @@ Here is a video that may be useful for following along with this exercise.
 * Upon completion of the exercise, your submission should look similar to the file [here](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M2_E1.md).
 
 </p>
+
+Return to [Module 2](https://github.com/ecodynlab/GALUP/blob/main/Modules/Module%202.md) or move on to [Module 3](https://github.com/ecodynlab/GALUP/blob/main/Modules/Module%203.md).
