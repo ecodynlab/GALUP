@@ -1,20 +1,19 @@
-## Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
+# Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
 
 What will you learn from this module?
 
 * How to set up Google Earth Engine
 * Using GEE for remote sensing applications
 
-## 
 
-### 2.1 Setting up GEE 
+## 2.1 Setting up GEE 
 First, you must request to set up an account with Google Earth Engine (GEE):
 * Start [here](https://earthengine.google.com/)
 * click “Sign Up” at the top right of the page and input institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 * Approval may not happen immediately; be sure to sign up in advance to provide a few days for completion.
 
 
-### 2.2 Exploring GEE interface using RS concepts from Module 1
+## 2.2 Exploring GEE interface using RS concepts from Module 1
 The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
 
 The general interface functions for GEE can be seen below: 
@@ -29,8 +28,10 @@ The general interface functions for GEE can be seen below:
 
 Further description of the components of the figure are found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface).
 
-### 2.3 Exercises in GEE to Apply RS data 
-#### Module 2 Exercise 1 ####
+## 2.3 Using GEE to Apply RS data 
+### 2.3.1 Example
+In the following example, we will use GEE to visualize Landsat satellite data in Ghana over two time periods. First, the script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) should be loaded into the GEE [code editor](https://code.earthengine.google.com/). 
+### 2.3.2 Video Tutorial
 ##### Description #####
 In this exercise, we will cover satellite dataset visualization using GEE.
 
@@ -56,7 +57,7 @@ Here is a video that may be useful for following along with this exercise.
   
     b. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
   
-    c. Take screenshots of the images displayed in the GEE map. 
+    c. Take a screenshot of the image displayed in the GEE map. 
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Tip: if no images appear, this is likely due to cloud cover. Try changing the region of interest or the cloud cover percentage (e.g. filterMetadata('CLOUD_COVER','less_than',70) to filterMetadata('CLOUD_COVER','less_than',90).
   
