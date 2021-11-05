@@ -30,7 +30,16 @@ Further description of the components of the figure are found [here](https://git
 
 ## 2.3 Using GEE to Apply RS data 
 ### 2.3.1 Example
-In the following example, we will use GEE to visualize Landsat satellite data in Ghana over two time periods. First, the script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) is be loaded into the GEE [code editor](https://code.earthengine.google.com/). This is the same script that will be used in Exercise 1, but some slight alterations will need to be made to complete the exercise.
+In the following example, we will use GEE to visualize Landsat satellite data in Ghana. 
+* The script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) is loaded into the GEE [code editor](https://code.earthengine.google.com/).   
+    * This is the same script that will be used in Exercise 1, but some slight alterations will need to be made to complete the exercise.
+* Given parameters:
+    * Dates of Interest
+    * Region of interest
+    * Data Collections and Filters
+    * Visualization parameters
+* The result of the example will be a map of Landsat images in the chosen region of interest.
+
 
 ### 2.3.2 Video Tutorial
 Here is a video tutorial to follow along with the example. This may also be useful in completing the exercise.
