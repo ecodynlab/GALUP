@@ -11,6 +11,13 @@ In this exercise, we will cover satellite dataset visualization using GEE.
 ## Instruction
 1. In the GEE [code editor](https://code.earthengine.google.com/), copy and paste the script for this exercise, ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts).
 
+This video from the Module 2 example may be useful for following along with this exercise.
+<p align="center">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/68693a462a914666807e47f992dedde11d" target="_blank" rel="noopener">
+    <img src="https://user-images.githubusercontent.com/84922404/140551115-a0e9d6fa-ae4b-4357-99be-0a27b1901394.png" alt= "GEE Tutorial" width="800">
+  </a>
+</p>
+
 2. Using the geometry tools (14.), identify a region of interest (roughly the size of a district) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script. 
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Note that if the region is too large, the image won't be able to be exported unless the maximum number of pixels is altered.
