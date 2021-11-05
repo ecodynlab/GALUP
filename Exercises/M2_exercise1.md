@@ -18,23 +18,26 @@ Here is a video that may be useful for following along with this exercise.
   </a>
 </p>
 
-2. Using the geometry tools (14.), identify a region of interest (smaller than the size of a country) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script.
+2. Using the geometry tools (14.), identify a region of interest (roughly the size of a district) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script. 
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Note that if the region is too large, the image won't be able to be exported unless the maximum number of pixels is altered.
+    
 3. Choose dates over which satellite data will be collected in the format 'YYYY-MM-DD':
 
     a. Enter a set of dates during the summer months (May through August), and set the start and end dates about 3 months apart.
   
     b. Using the script as a guide, map the satellite images using your chosen region and dates of interest.
   
-    c. Take screenshots of the images displayed in the GEE map. 
+    c. Take a screenshot of the image displayed in the GEE map. 
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Tip: if no images appear, this is likely due to cloud cover. Try changing the region of interest or the cloud cover percentage (e.g. filterMetadata('CLOUD_COVER','less_than',70) to filterMetadata('CLOUD_COVER','less_than',90).
   
 4. Repeat the process of 3(a-c) with a set of dates during the winter months (December to March). 
 5. Questions: 
 
-    a. What differences do you notice between the data taken during the summer and winter? 
+    a. Do you notice any differences between the color shades between the images taken from the summer months and the images from the winter months? If so, why do you think that might be happening?
     
-    b. Change the cloud cover fraction filtered in GEE: what changes do you notice in the output? 
+    b. Change the cloud cover fraction filtered in GEE to 30% (.filterMetadata('CLOUD_COVER','less_than',70)) and run the script again. Do you see any changes in the output? If so, why might that be? 
     
     
 6.  Submit screenshots of your mapped images as well as the answers to questions 5a through 5c <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
