@@ -42,7 +42,7 @@ Here is a video that may be useful for following along with this exercise.
     c. Run the script again after changing the cloud cover fraction filtered in GEE to 30% instead of the current value of 70% (.filterMetadata('CLOUD_COVER','less_than',70)) and run the script again. Do you see any changes in the output? If so, what could be causing the changes in your chosen area?
     
     
-6.  Download this document [template](https://github.com/ecodynlab/GALUP/files/7486701/WS2_M2E2_Submission.docx) and add screenshots of your mapped images as well as the answers to questions 5a through 5c to it. Once completed, submit the document <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
+6.  Download this document [template](https://github.com/ecodynlab/GALUP/files/7487735/WS2_M2E2_Submission.docx) and add screenshots of your mapped images as well as the answers to questions 5a through 5c to it. Once completed, submit the document <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
 
 
 ## Result
