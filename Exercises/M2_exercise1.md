@@ -35,12 +35,14 @@ Here is a video that may be useful for following along with this exercise.
 4. Repeat the process of 3(a-c) with a set of dates during the winter months (December to March). 
 5. Questions: 
 
-    a. Do you notice any differences between the color shades between the images taken from the summer months and the images from the winter months? If so, why do you think that might be happening?
+    a. What is the primary land cover in your chosen area (based upon Google maps and your knowledge of the area)?
     
-    b. Change the cloud cover fraction filtered in GEE to 30% (.filterMetadata('CLOUD_COVER','less_than',70)) and run the script again. Do you see any changes in the output? If so, why might that be? 
+    b. Do you notice any differences between the color shades of the images taken from the summer months and those from the winter months? If so, what could be causing these differences in your chosen area?
+    
+    c. Run the script again after changing the cloud cover fraction filtered in GEE to 30% instead of the current value of 70% (.filterMetadata('CLOUD_COVER','less_than',70)) and run the script again. Do you see any changes in the output? If so, what could be causing the changes in your chosen area?
     
     
-6.  Submit screenshots of your mapped images as well as the answers to questions 5a through 5c <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
+6.  Download this document [template](https://github.com/ecodynlab/GALUP/files/7486675/WS2_M2E2_Template_jj.docx) and add screenshots of your mapped images as well as the answers to questions 5a through 5c to it. Once completed, submit the document <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
 
 
 ## Result
