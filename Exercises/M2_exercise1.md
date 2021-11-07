@@ -48,7 +48,7 @@ This video from the Module 2 example may be useful for following along with this
 
 
 ## Result
-* Upon completion of the exercise, your GEE map should look similar to the file [here](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M2_E1.md).
+* Upon completion of the exercise, your GEE map should look similar to the file [here](hhttps://github.com/ecodynlab/GALUP/blob/main/Exercises/M2_E1_sample.md).
 
 </p>
 
