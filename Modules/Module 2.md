@@ -6,14 +6,15 @@ What will you learn from this module?
 * Using GEE for remote sensing applications
 
 
-## 2.1 Setting up GEE 
+## 1. Setting up GEE 
 First, you must request to set up an account with Google Earth Engine (GEE):
 * Start [here](https://earthengine.google.com/)
 * click “Sign Up” at the top right of the page and input institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
 * Approval may not happen immediately; be sure to sign up in advance to provide a few days for completion.
 
 
-## 2.2 Exploring GEE interface using RS concepts from Module 1
+## 2. Exploring GEE interface using RS concepts from Module 1
+
 The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
 
 The general interface functions for GEE can be seen below: 
@@ -28,8 +29,9 @@ The general interface functions for GEE can be seen below:
 
 Further description of the components of the figure are found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface).
 
-## 2.3 Using GEE to Apply RS data 
-### 2.3.1 Example
+## 3. Using GEE to Apply RS data 
+
+### 3.1 Example
 In the following example, we will use GEE to visualize Landsat satellite data in Ghana. 
 * The script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) is loaded into the GEE [code editor](https://code.earthengine.google.com/).   
     * This is the same script that will be used in Exercise 1, but some slight alterations will need to be made to complete the exercise.
@@ -41,7 +43,7 @@ In the following example, we will use GEE to visualize Landsat satellite data in
 * The result of the example will be a map of Landsat images in the chosen region of interest.
 
 
-### 2.3.2 Video Tutorial
+### 3.2 Video Tutorial
 Here is a video tutorial to follow along with the example. This may also be useful in completing the exercise.
 
 <p align="center">
@@ -50,7 +52,7 @@ Here is a video tutorial to follow along with the example. This may also be usef
   </a>
 </p>
 
-## 2.4 Exercises
+## 3.3 Exercises
 Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M2_exercise1.md) for Module 2.
 
 </p>
