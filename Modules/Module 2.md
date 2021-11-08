@@ -54,7 +54,7 @@ Here is a video tutorial to follow along with the example. This may also be usef
 
 ## Exercise and Post-Module Survey (required)
 1. Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M2_exercise1.md) for Module 2.
-2. Submit the Post-Module **survey**. 
+2. Submit the Post-Module [survey](https://ufl.qualtrics.com/jfe/form/SV_6fIRnsK59HEwZ9k). 
 
 </p>
 
