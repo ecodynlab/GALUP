@@ -1,19 +1,19 @@
-# Module 2 - Remote Sensing Applications using Google Earth Engine (GEE)
+# Module 2 - Remote Sensing Applications using Google Earth Engine
 
-What will you learn from this module?
+**What will you learn from this module?**
 
-* How to set up Google Earth Engine
-* Using GEE for remote sensing applications
-
+- Setting up Google Earth Engine (GEE)
+- Using GEE for remote sensing applications
 
 ## 1. Setting up GEE 
-First, you must request to set up an account with Google Earth Engine (GEE):
-* Start [here](https://earthengine.google.com/)
-* click “Sign Up” at the top right of the page and input institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
-* Approval may not happen immediately; be sure to sign up in advance to provide a few days for completion.
+Please request an account with Google Earth Engine (GEE) as follows:
+- Go to the GEE webpage [here](https://earthengine.google.com/)
+- Select “Sign Up” at the top right of the page and input institution and intention for use (e.g. using remote sensing datasets for land use suitability modeling).
+
+:pushpin: Approval may not happen immediately, so please be sure to sign up in advance of the workshop to provide a few days for completion.
 
 
-## 2. Exploring GEE interface using RS concepts from Module 1
+## 2. Exploring GEE Interface
 
 The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
 
@@ -29,7 +29,7 @@ The general interface functions for GEE can be seen below:
 
 Further description of the components of the figure are found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface).
 
-## 3. Using GEE to Apply RS data 
+## 3. Using GEE to explore RS concepts from Module-1
 
 ### 3.1 Example
 In the following example, we will use GEE to visualize Landsat satellite data in Ghana. 
