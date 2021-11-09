@@ -16,7 +16,7 @@ Please request an account with Google Earth Engine (GEE) as follows:
 
 ## 2. Exploring GEE Interface
 
-The following video and the Figure below shows general interface functions for GEE. Further description of the components of the Figure can be found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface). 
+The video and Figure below show general interface functions for GEE. Further description of the components of the Figure can be found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface). 
 
 <p align="center">
   <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d" target="_blank">
@@ -32,9 +32,8 @@ The following video and the Figure below shows general interface functions for G
 ## 3. Using GEE to Explore RS Concepts from Module-1
 
 ### 3.1 Downloading and Visualizing Landsat Data
-In the following example, we will use GEE to download and visualize Landsat satellite data in Ghana. Please use the Video Tutorial from Section 3.2 to follow along.
-* The script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) is loaded into the GEE [code editor](https://code.earthengine.google.com/).   
-    * This is the same script that will be used in Exercise 1, but some slight alterations will need to be made to complete the exercise.
+In the following example, we will use GEE to download and visualize Landsat satellite data in Ghana. Please use the video tutorial in Section 3.2 to follow along.
+* The script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) is loaded into the GEE [code editor](https://code.earthengine.google.com/). This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.  
 * Given parameters:
     * Dates of Interest
     * Region of interest
@@ -42,9 +41,8 @@ In the following example, we will use GEE to download and visualize Landsat sate
     * Visualization parameters
 * The result of the example will be a map of Landsat images in the chosen region of interest.
 
-
-### 3.2 Video Tutorial
-Here is a video tutorial to follow along with the example. This may also be useful in completing the exercise.
+### 3.2 Video Tutorial for the Section 3.1
+Use the video tutorial to follow along with the example. This may also be useful in completing the exercise.
 
 <p align="center">
   <a href="https://mediasite.video.ufl.edu/Mediasite/Play/68693a462a914666807e47f992dedde11d" target="_blank" rel="noopener">
