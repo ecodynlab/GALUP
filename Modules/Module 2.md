@@ -37,13 +37,14 @@ In the following example, we will use GEE to download and visualize Landsat sate
 - The script includes: <br/>
     **a.** Defining variables for dates of interest: **ST_DATE** and **EN_DATE** <br/>
     **b.** Defining the region of interest using 4 coordinates: **Longitude_min**, **Latitude_min**, **Longitude_max**, **Latitude_1** <br/>
-:pushpin: Latitudes south of Equator and Longitudes west of Greenwich Meridian are negative. <br/>
+            :pushpin: Latitudes south of Equator and Longitudes west of Greenwich Meridian are negative. <br/>
     **c.** Defining variables for RS data products: Here, data products from **Landsat 5, 7, and 8** are used.<br/>
     **d.** Selecting the data product: **Landsat 5** <br/>
     **e.** Filtering the data product by the region and dates of interest, and by the amount of cloud cover. <br/>
     **f.** Repeating **d** and **e** with **Landsat 7 & 8** <br/>
     **g.** Setting the visualization parameters for each product: **bands**, **min**, **max**, **gamma** <br/>
-    
+            > For information on Landsat bands, please refer to [Module-1](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module1.md) <br/>
+            > The parameters **min**, **max**, and **gamma** describe the RGB visual representation. For more details on these, see [here](https://developers.google.com/earth-engine/guides/image_visualization) <br/>
 * The result of the example will be a map of Landsat images in the chosen region of interest.
 
 ### 3.2 Video Tutorial for the Section 3.1
