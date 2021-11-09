@@ -30,7 +30,7 @@ This video from the Module 2 example may be useful for following along with this
   
     c. Take a screenshot of the image displayed in the GEE map. 
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Tip: if no images appear, this is likely due to cloud cover. Try changing the region of interest or the cloud cover percentage (e.g. filterMetadata('CLOUD_COVER','less_than',70) to filterMetadata('CLOUD_COVER','less_than',90).
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Tip: if no images appear, this is likely due to cloud cover. Try changing the region of interest or the cloud cover percentage (e.g. ```filterMetadata('CLOUD_COVER','less_than',70)``` to ```filterMetadata('CLOUD_COVER','less_than',90)```).
   
 4. Repeat the process of 3(a-c) with a set of dates during the winter months (December to March). 
 5. Questions: 
