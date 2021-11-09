@@ -16,9 +16,7 @@ Please request an account with Google Earth Engine (GEE) as follows:
 
 ## 2. Exploring GEE Interface
 
-The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
-
-The general interface functions for GEE can be seen below: 
+The following video and the Figure below shows general interface functions for GEE.  
 
 <p align="center">
   <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d" target="_blank">
@@ -29,6 +27,8 @@ The general interface functions for GEE can be seen below:
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
 Further description of the components of the figure are found [here](https://github.com/ecodynlab/GALUP/wiki/GEE-Interface).
+
+The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
 
 ## 3. Using GEE to explore RS concepts from Module-1
 
