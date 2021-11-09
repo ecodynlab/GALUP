@@ -2,8 +2,9 @@
 
 **What will you learn from this module?**
 
-- Setting up Google Earth Engine (GEE)
-- Using GEE for remote sensing applications
+- Set up Google Earth Engine (GEE)
+- Familiarize with GEE Interface
+- Download and visualize RS data using Code Editor in GEE 
 
 ## 1. Setting up GEE 
 Please request an account with Google Earth Engine (GEE) as follows:
