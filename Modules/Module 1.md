@@ -146,6 +146,4 @@ For further information on remote sensing, this [video](https://www.youtube.com/
 
 <a href="Module 2.md" title="Module 2">Module 2</a>
 
-[Practice1.zip](https://github.com/ecodynlab/GALUP/files/7507512/Practice1.zip)
-
 
