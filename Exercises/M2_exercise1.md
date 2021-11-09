@@ -9,7 +9,7 @@ In this exercise, we will cover Landsat dataset visualization using GEE.
 
 
 ## Instructions
-1. In the GEE [code editor](https://code.earthengine.google.com/), copy and paste the script for this exercise, ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts).
+1. In the GEE [code editor](https://code.earthengine.google.com/), copy and paste the script for this exercise, ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts).<br/>
 :pushpin: Refering back to the video from Module-2 may be useful.
 
 2. Using the geometry tools (14.), identify a region of interest (roughly the size of a district) and draw a polygon around it following the procedure given in the video. This will be automatically imported into the code editor, modifying the existing script. 
