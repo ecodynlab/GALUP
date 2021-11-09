@@ -27,7 +27,7 @@ The following video and the Figure below shows general interface functions for G
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
 
-:pushpin: The GEE [code editor](https://code.earthengine.google.com/) uses the JavaScript language for programming. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application programming interface (API).
+:pushpin: In this workshop, we will be programming in the GEE [code editor](https://code.earthengine.google.com/) that uses the JavaScript language. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application Programming Interface (API).
 
 ## 3. Using GEE to explore RS concepts from Module-1
 
