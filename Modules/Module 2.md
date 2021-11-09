@@ -29,10 +29,10 @@ The following video and the Figure below shows general interface functions for G
 
 :pushpin: In this workshop, we will be programming in the GEE [code editor](https://code.earthengine.google.com/) that uses the JavaScript language. There are extra [resources](https://developers.google.com/earth-engine/tutorials/tutorial_api_01) available from Google to introduce the JavaScript Application Programming Interface (API).
 
-## 3. Using GEE to explore RS concepts from Module-1
+## 3. Using GEE to Explore RS Concepts from Module-1
 
-### 3.1 Example
-In the following example, we will use GEE to visualize Landsat satellite data in Ghana. 
+### 3.1 Downloading and Visualizing Landsat Data
+In the following example, we will use GEE to download and visualize Landsat satellite data in Ghana. Please use the Video Tutorial from Section 3.2 to follow along.
 * The script ["01_search_and_display"](https://github.com/ecodynlab/GALUP/wiki/Scripts) is loaded into the GEE [code editor](https://code.earthengine.google.com/).   
     * This is the same script that will be used in Exercise 1, but some slight alterations will need to be made to complete the exercise.
 * Given parameters:
