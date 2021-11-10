@@ -1,4 +1,13 @@
 # Module-3 Exercise 2
+## Description
+In this exercise, we will explore different indices available in GEE.
+
+## Skills Developed
+- Understand what different indices represent
+- Use calculations of indices to gather desired data
+- Interact with downloaded data from GEE
+
+## Instructions
 1. From the script ["06_indices_images"](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_indices_images), choose two indices and specify them as the variables "IMG1" and "IMG2", respectively.
 2. Choose a chosen time period (about 1 year) and over a chosen geometry (using the polygon tool). <br>
     :pushpin: Tip: choose a smaller geometry size so that the image is not too large and will take less processing time.<br>
