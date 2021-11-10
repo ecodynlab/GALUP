@@ -5,4 +5,4 @@
 4. Download this document [template](https://github.com/ecodynlab/GALUP/files/7516603/WS2_M3E1_Template.docx) and add screenshots of your three graphs as well as the answers to the follwing questions:<br>
     a. Do you notice any distinct patterns in NDVI levels over the course of the year(s)? <br>
     b. What differences do you notice in NDVI between the regions? <br>
-5. Once completed, submit the document <a href="https://github.com/ecodyn/GALUP/issues/new?assignees=&labels=exercise+w2m2&template=w2m2-exercise-submission.md&title=Module+2+exercises+%5Breplace+with+your+name%5D" title="here">here</a>\.
+5. Once completed, submit the document <a href="https://github.com/ecodyn/GALUP/issues/new?assignees=&labels=exercise+w2m2&template=w2m2-exercise-submission.md&title=Module+2+exercises+%5Breplace+with+your+name%5D" title="here">here</a>\. Please submit the Post-Module-3 survey [here](https://ufl.qualtrics.com/jfe/form/SV_bpjF7THHLlhtWCO).
