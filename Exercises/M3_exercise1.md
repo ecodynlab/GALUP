@@ -1,4 +1,13 @@
 # Module-3 Exercise 1
+## Description
+In this exercise, we will analyze temporal trends of NDVI in different areas.
+
+## Skills Developed
+- Use graphing technologies available in GEE
+- Perform spatial and temporal analysis of indices 
+- Understand NDVI and its uses
+
+## Instructions
 1. Using the script ["05_time_series"](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_time_series), alter the variables "ST_DATE" and "END_DATE" to reflect a period of interest (try 1-2 years), and there will be three regions of interest to examine.
 2. These regions will be designated by pre-set coordinates in the script labeled with four corners of a rectangle (e.g. xMin1,yMin1,xMax1,yMax1). However, you must comment out whichever two variables of "REG_GH" you do not want to analyze during a trial with "//" and keep the variable of interest for that region's trial.
 3. Run the script, and for each region, take a screenshot of the time-series graph of NDVI values over the course of the given time period within the specified region.
