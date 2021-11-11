@@ -35,16 +35,16 @@
 - Commonly used variables include
 <blockquote>
   Precipitation <br>
-  Land Surface Temperature (LST) <br>
-  Incoming Solar Radiation (SRAD) <br>
+   Downward Solar Radiation (DSR) <br>
+   Land Surface Temperature (LST) <br>
  </blockquote>
-- **Precipitation** is used in remote sensing to first understand precipitation trends and then analyze data to predict temporal and spatial occurrences of rainfall changes or extremes.
-- **Solar radiation** data are important for analysis of ecological systems and vegetation trends.
-- **LST** acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change, and it can also be modeled to help predict other environmental parameters such as evapotranspiration and vegetative growth.
+ 
+ - **Precipitation** product is retrieved from backscatter observed by two RADAR operating at wavelengths of 0.84 cm and 2.2 cm. Remotely sensed precipitation helps understand distribution and trends of rainfall across space and time. Models can be used analyze precipitation data and make predictions. <br>
+- **Solar radiation** product is retrieved using optical and infrared spectral channels, as well data regarding (reflectance) and atmospheric composition. <br>
+- **LST** product is obtained from emission observations in ther TIR wavelengths. It acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change. In addition it is used to predict other parameters such as evapotranspiration and vegetation health.
 
-The Table below provides the 
-
-
+## 3. Sources and Resolutions 
+- The Table below provides the spatial and temporal resolutions of the RS indices and environment variables, along with their sensors/sources.
 
 |  RS Indices and Environmental Variables     | Sensor(s)   | Temporal Resolution     | Spatial Resolution
 |------------------------------|----------------------|------------------|---------------------------|
@@ -53,11 +53,6 @@ The Table below provides the
 |     NDWI                    |    MODIS ([Terra Daily NDWI](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDWI)); Landsat 8 ([8-Day NDWI Composite](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDWI) generated from GEE)    | Daily; 8-Day | 463 m; 30 m
 |     Precipitation            |     Global Precipitation Measurement ([IMERG](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06)) | Hourly | 10 km
 |     Land Surface Temperature         |  MODIS ([MOD11A1.006 Terra Land Surface Temperature and Emissivity](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD11A1)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T2_SR), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T2_SR), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T2_SR) (Surface Reflectance Tier 1); | Daily; 16-Day | 1 km; 30 m
-
-
-## 2. Formulation, Purpose, and Significance
-
-- 
 
 
 ## Exercise and Post-Module Survey (required)
