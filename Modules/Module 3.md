@@ -1,15 +1,19 @@
-## Module 3 - Common RS Indices and Environmental Variables
+# Module 3 - Common RS Indices and Environmental Variables
 
-What will you learn from this module?
+**What will you learn from this module?**
 
-• Some common indices and environmental variables and their roles in remote sensing data
+- Common indices and environmental variables and their roles in remote sensing data
 
-• How to work with examples of these indices in Google Earth Engine
+- Working with examples of these indices in Google Earth Engine
 
-## 
-Remote sensing indices serve the purpose of providing measurable indicators of environmental conditions and changes. These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR). 
+## 1. What are Indices and Variables?
+**Remote sensing indices** serve the purpose of providing measurable indicators of environmental conditions and changes. 
+- These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. 
+- There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR). 
 
-Environmental variables also provide key data for land-based analysis. These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets.
+**Environmental variables** also provide key data for land-based analysis. 
+- These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets. 
+- The table below outlines common variables and indices, the sensors from which they are acquired, and the resolutions.
 
 | Environmental Variables and Indices    | Sensor(s)   | Temporal Resolution     | Spatial Resolution
 |------------------------------|----------------------|------------------|---------------------------|
@@ -20,41 +24,50 @@ Environmental variables also provide key data for land-based analysis. These can
 |     Land Surface Temperature         |  MODIS ([MOD11A1.006 Terra Land Surface Temperature and Emissivity](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD11A1)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T2_SR), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T2_SR), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T2_SR) (Surface Reflectance Tier 1); | Daily; 16-Day | 1 km; 30 m
 
 
-### 3.1 Formulation, use/purpose, and significance
-A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). These provide vital information on environmental conditions and can be useful in monitoring land cover changes. Some commonly used indices include enhanced vegetation index (EVI), normalized difference vegetation index (NDVI), soil adjusted vegetation index (SAVI), normalized burn ration (NBR), and normalized difference water index (NDWI).
+## 2. Formulation, Purpose, and Significance
+:pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
+- These provide vital information on environmental conditions and can be useful in monitoring land cover changes. 
+  - Some commonly used indices include
+      > enhanced vegetation index (EVI)<br>
+      > normalized difference vegetation index (NDVI)<br> 
+      > soil adjusted vegetation index (SAVI)<br> 
+      > normalized burn ration (NBR)<br> 
+      > normalized difference water index (NDWI) <br>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/84922404/135870925-6baf5423-4762-4bff-9a59-3d30d189d039.png" width="700">
 </p>
 
-An example of NDVI calculation and application is given in the image below:
+- An example of NDVI calculation and application is given in the image below:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/84922404/135468275-adaf7a44-b8f7-4d4e-9276-625a7a59f9d4.png" width="400">
 </p>
 
-Environmental variables are commonly utilized to predict weather events, monitor climate, and measure variability. Variables such as precipitation, solar radiation, and land surface temperature (LST) are frequently used in environmental analysis.
+  - Environmental variables are commonly utilized to 
+      >predict weather events <br>
+      >monitor climate <br> 
+      >measure variability<br>
 
-* Precipitation is used in remote sensing to first understand precipitation trends and then analyze data to predict temporal and spatial occurrences of rainfall changes or extremes.
-* Solar radiation data are important for analysis of ecological systems and vegetation trends.
-* Land surface temperature (LST) acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change, and it can also be modeled to help predict other environmental parameters such as evapotranspiration and vegetative growth.
+Variables such as **precipitation**, **solar radiation**, and **land surface temperature (LST)** are frequently used in environmental analysis.
+- **Precipitation** is used in remote sensing to first understand precipitation trends and then analyze data to predict temporal and spatial occurrences of rainfall changes or extremes.
+- **Solar radiation** data are important for analysis of ecological systems and vegetation trends.
+- **LST** acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change, and it can also be modeled to help predict other environmental parameters such as evapotranspiration and vegetative growth.
 
 
-### 3.2 Exercises in GEE to play with RS data 
-#### 3.2.1 Exercise 1
-1. Using the script ["05_time_series"](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_time_series), alter the variables "ST_DATE" and "END_DATE" to reflect a period of interest (try 1-2 years), and there will be three regions of interest to examine.
-2. These regions will be designated by pre-set coordinates in the script labeled with four corners of a rectangle (e.g. xMin1,yMin1,xMax1,yMax1). However, you must comment out whichever two variables of "REG_GH" you do not want to analyze during a trial with "//" and keep the variable of interest for that region's trial.
-3. Run the script, and for each region, take a screenshot of the time-series graph of NDVI values over the course of the given time period within the specified region.
-4. Questions: Do you notice any distinct patterns in NDVI levels over the course of the year(s)? What differences do you notice in NDVI between the regions? 
-5.  Submit the screenshot and input your answers to the questions <a href="https://github.com/ecodynlab/GALUP/issues/new" title="here">here</a>\.
+## Exercise and Post-Module Survey (required)
+This video may be useful in completing the exercises:
+<p align="center">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/484d4b1a68194a6cbf85b4f6d97c29cd1d" target="_blank" rel="noopener">
+    <img src="https://user-images.githubusercontent.com/84922404/141213294-7439b0d8-13c8-4e75-84e6-ecf7de7cf994.png" alt= "GEE Tutorial" width="800">
+  </a>
+</p>
 
-#### 3.2.2 Exercise 2
-1. From the script ["06_indices_images"](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_indices_images), choose two indices and specify them as the variables "IMG1" and "IMG2", respectively.
-2. Choose a chosen time period (about 1 year) and over a chosen geometry (using the polygon tool). Tip: choose a smaller geometry size so that the image is not too large and will take less processing time.
-3. Run the script export the images that show up under the "tasks" bar to Google Drive.
-4. Download the images from Google Drive (they should be .tif files), and open QGIS. Upload the images as rasters to QGIS.
-5. Look at the "Properties" of each image, and change the symbology to effectively visualize each index (e.g. green colorbar for NDVI, blue for NDWI, etc.).
-6. Upload the images  <a href="https://github.com/ecodynlab/GALUP/issues/new?assignees=&labels=Exercises&template=assignment-submission.md&title=Add+your+name+and+the+module+number+for+submission" title="here">here</a>\.
-7. Please submit the Post-Module [survey](https://ufl.qualtrics.com/jfe/form/SV_bpjF7THHLlhtWCO)
+1. Please complete and submit [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M3_exercise1.md) for Module 3.
+2. Please complete and submit [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M3_exercise2.md) for Module 3.
+3. Submit the Post-Module [survey](https://ufl.qualtrics.com/jfe/form/SV_bpjF7THHLlhtWCO). 
+
+</p>
+
 
 ##
 **Next Section:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; **Previous Section:**
