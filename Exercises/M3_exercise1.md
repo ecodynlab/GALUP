@@ -1,9 +1,9 @@
 # Module-3 Exercise 1
 ## Description
-In this exercise, we will analyze temporal trends of NDVI in different areas.
+In this exercise, we will analyze temporal trends of NDVI in different areas using time-series data from Landsat.
 
 ## Skills Developed
-- Use graphing technologies available in GEE
+- Use graphing techniques available in GEE
 - Perform spatial and temporal analysis of indices 
 - Understand NDVI and its uses
 
