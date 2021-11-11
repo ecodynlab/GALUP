@@ -2,20 +2,51 @@
 
 **What will you learn from this module?**
 
-- Common indices and environmental variables and their roles in remote sensing data
+- What are some common RS indices and environmental variables and their role in land use planning
+- Use these indices in Google Earth Engine
 
-- Working with examples of these indices in Google Earth Engine
+## 1. RS Indices
+**Remote sensing indices** provide measurable indicators of land conditions and changes.
+- These indices can be calculated using observations directly obtained by sensors in specific bands/wavelength regions. In optical, near infrared (NIR), and shortwave infrared (SWIR) regions, the sensors observe fraction of solar radiation that is reflected by the terrain in the direction of the sensor - called **reflectance**. The values of reflectance range between 0 and 1. Thus, RS indices are combinations of reflectances obtained in different bands. 
 
-## 1. What are Indices and Variables?
-**Remote sensing indices** serve the purpose of providing measurable indicators of environmental conditions and changes. 
-- These indices can be calculated using measurable wavelength data, which is often provided by satellites or sensors. 
-- There are distinct "bands" that are provided by that satellites that represent the specific wavelengths, such as near infrared (NIR) or shortwave infrared (SWIR). 
+- Some commonly used RS indices include
+      <blockquote>
+      Enhanced Vegetation Index (EVI)<br>
+      Normalized Difference Vegetation Index (NDVI)<br> 
+      Soil Adjusted Vegetation Index (SAVI)<br> 
+      Normalized Burn Ratio (NBR)<br> 
+      Normalized Difference Water Index (NDWI) <br>
+      </blockquote>
+  
+- The Table below provides reflectances used to calculate the above indices and their uses.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/84922404/135870925-6baf5423-4762-4bff-9a59-3d30d189d039.png" width="700">
+</p>
 
-**Environmental variables** also provide key data for land-based analysis. 
-- These can be gathered from various satellites that read climatic and ecological conditions and subsequently communicate these as datasets. 
-- The table below outlines common variables and indices, the sensors from which they are acquired, and the resolutions.
+- For example, NDVI is a combination of reflectances in the red and NIR wavelengths as shown in the Figure below. Healthy vegetation reflects more solar radiation in the NIR wavelength than unhealthy vegetation. Thus, the NDVI for healthy vegetation is higher. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/84922404/135468275-adaf7a44-b8f7-4d4e-9276-625a7a59f9d4.png" width="400">
+</p>
 
-| Environmental Variables and Indices    | Sensor(s)   | Temporal Resolution     | Spatial Resolution
+:pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
+
+## 2. Environment Variables
+- These provide vital information on environmental conditions impacting land cover changes. They are commonly used to monitor and predict weather events and measure variability
+- Commonly used variables include
+<blockquote>
+  Precipitation <br>
+  Land Surface Temperature (LST) <br>
+  Incoming Solar Radiation (SRAD) <br>
+ </blockquote>
+- **Precipitation** is used in remote sensing to first understand precipitation trends and then analyze data to predict temporal and spatial occurrences of rainfall changes or extremes.
+- **Solar radiation** data are important for analysis of ecological systems and vegetation trends.
+- **LST** acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change, and it can also be modeled to help predict other environmental parameters such as evapotranspiration and vegetative growth.
+
+The Table below provides the 
+
+
+
+|  RS Indices and Environmental Variables     | Sensor(s)   | Temporal Resolution     | Spatial Resolution
 |------------------------------|----------------------|------------------|---------------------------|
 |     EVI                     |MODIS ([MOD13A2.006 Terra Vegetation Indices](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD13A2)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T1_8DAY_EVI), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_8DAY_EVI), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_EVI#:~:text=These%20composites%20are%20created%20from,following%20year%20by%203%20days.) (8-Day EVI Composite generated from GEE)|16-Day; 8-Day|1 km; 30 m
 |     NDVI                    |     MODIS ([MOD13A2.006 Terra Vegetation Indices](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD13A2)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T1_8DAY_NDVI), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_8DAY_NDVI), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDVI_) ([8-Day NDVI Composite generated from GEE])    | 16-Day; 8-Day | 1 km; 30 m
@@ -25,33 +56,8 @@
 
 
 ## 2. Formulation, Purpose, and Significance
-:pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
-- These provide vital information on environmental conditions and can be useful in monitoring land cover changes. 
-  - Some commonly used indices include
-      > enhanced vegetation index (EVI)<br>
-      > normalized difference vegetation index (NDVI)<br> 
-      > soil adjusted vegetation index (SAVI)<br> 
-      > normalized burn ration (NBR)<br> 
-      > normalized difference water index (NDWI) <br>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/84922404/135870925-6baf5423-4762-4bff-9a59-3d30d189d039.png" width="700">
-</p>
-
-- An example of NDVI calculation and application is given in the image below:
-<p align="center">
-<img src="https://user-images.githubusercontent.com/84922404/135468275-adaf7a44-b8f7-4d4e-9276-625a7a59f9d4.png" width="400">
-</p>
-
-  - Environmental variables are commonly utilized to 
-      >predict weather events <br>
-      >monitor climate <br> 
-      >measure variability<br>
-
-Variables such as **precipitation**, **solar radiation**, and **land surface temperature (LST)** are frequently used in environmental analysis.
-- **Precipitation** is used in remote sensing to first understand precipitation trends and then analyze data to predict temporal and spatial occurrences of rainfall changes or extremes.
-- **Solar radiation** data are important for analysis of ecological systems and vegetation trends.
-- **LST** acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change, and it can also be modeled to help predict other environmental parameters such as evapotranspiration and vegetative growth.
+- 
 
 
 ## Exercise and Post-Module Survey (required)
