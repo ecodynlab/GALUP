@@ -26,6 +26,8 @@ used GEE for RF/SVM/CCDC
 
 [GEE Supervised Classification](https://developers.google.com/earth-engine/guides/classification)
 
+![LCC Flowchart](https://user-images.githubusercontent.com/87503837/141534676-40798bfd-7a25-48a1-9676-c427c99046e0.png)
+
 Exercise
 using excel sheet - add training data using google map; google earth pro
 submit this after some time...
