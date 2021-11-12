@@ -23,7 +23,7 @@ creating training data - neeed a video tutorial  - generating boxes in qgis/expo
 used GEE for RF/SVM/CCDC
 
 [GEE CCDC Tools](https://gee-ccdc-tools.readthedocs.io/en/latest/)
-
+[GEE Supervised Classification](https://developers.google.com/earth-engine/guides/classification)
 
 Exercise
 using excel sheet - add training data using google map; google earth pro
