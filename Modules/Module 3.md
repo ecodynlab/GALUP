@@ -37,11 +37,11 @@
 ## 2. Environment Variables
 - These provide vital information on environmental conditions impacting land cover changes. They are commonly used to monitor and predict weather events and measure variability
 - Commonly used variables include
-<blockquote>
-  Precipitation <br>
-   Downward Solar Radiation (DSR) <br>
-   Land Surface Temperature (LST) <br>
- </blockquote>
+      <blockquote>
+      Precipitation <br>
+       Downward Solar Radiation (DSR) <br>
+       Land Surface Temperature (LST) <br>
+      </blockquote>
  
  - **Precipitation** product is retrieved from backscatter observed by two RADAR operating at wavelengths of 0.84 cm and 2.2 cm. Remotely sensed precipitation helps understand distribution and trends of rainfall across space and time. Models can be used analyze precipitation data and make predictions. <br>
 - **Solar radiation** product is retrieved using optical and infrared spectral channels, as well data regarding (reflectance) and atmospheric composition. <br>
