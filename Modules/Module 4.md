@@ -22,7 +22,7 @@ sample data/region
 creating training data - neeed a video tutorial  - generating boxes in qgis/exporting in excel and in kml; 
 used GEE for RF/SVM/CCDC
 
-([GEE CCDC Tools](https://gee-ccdc-tools.readthedocs.io/en/latest/))
+[GEE CCDC Tools](https://gee-ccdc-tools.readthedocs.io/en/latest/)
 
 
 Exercise
