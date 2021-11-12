@@ -2,21 +2,25 @@
 
 **What will you learn from this module?**
 
-- What are some common RS indices and environmental variables and their role in land use planning
-- Use these indices in Google Earth Engine
+- What are some common RS indices and environmental variables and their role in land use planning and environmental assessment,
+- Generate, visualize, and download these indices from Google Earth Engine.
 
 ## 1. RS Indices
-**Remote sensing indices** provide measurable indicators of land conditions and changes.
-- These indices can be calculated using observations directly obtained by sensors in specific bands/wavelength regions. In optical, near infrared (NIR), and shortwave infrared (SWIR) regions, the sensors observe fraction of solar radiation that is reflected by the terrain in the direction of the sensor - called **reflectance**. The values of reflectance range between 0 and 1. Thus, RS indices are combinations of reflectances obtained in different bands. 
+**Remote sensing indices** (or spectral indices) are arithmentic combinations of reflectance at two or more bands that help provide measurable estimates of the relative abundance of indicators of interest. Vegetation indices (such as the normalized difference vegetation index: NDVI) are the most widely known, but indices can be formulated for tracking burn areas, exposed soil or built-up areas.
+- Spectral/Image indices are generally calculated using simple mathematical transformations (addition, subtraction, division) conducted on satellite bands of specific wavelength regions. Values of image indices can range from -1 - +1 (normalized difference indices), to arbitrary scales for other ratio-based indices. See <a href="https://www.usgs.gov/core-science-systems/nli/landsat/landsat-surface-reflectance-derived-spectral-indices?qt-science_support_page_related_con=0#qt-science_support_page_related_con">this link</a> for a good introduction to indices that can be obtained using Landsat data.
 
 - Some commonly used RS indices include
       <blockquote>
+      Normalized Difference Vegetation Index (NDVI)<br>
       Enhanced Vegetation Index (EVI)<br>
-      Normalized Difference Vegetation Index (NDVI)<br> 
-      Soil Adjusted Vegetation Index (SAVI)<br> 
-      Normalized Burn Ratio (NBR)<br> 
-      Normalized Difference Water Index (NDWI) <br>
+      Soil Adjusted Vegetation Index (SAVI)<br>
+      Modified Soil Adjusted Vegetation Index (MSAVI)<br>
+      Normalized Difference Moisture Index (NDMI)<br>
+      Normalized Burn Ratio (NBR)<br>
+      Normalized Burn Ratio 2 (NBR2)<br>
+      Normalized Difference Snow Index (NDSI)<br>
       </blockquote>
+  
   
 - The Table below provides reflectances used to calculate the above indices and their uses.
 <p align="center">
