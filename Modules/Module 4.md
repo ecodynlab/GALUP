@@ -9,6 +9,7 @@ Supervised classification is based on the idea that a user can select sample pix
 Unsupervised classification is where the outcomes (groupings of pixels with common characteristics) are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to determine which pixels are related and groups them into classes. The user can specify which algorism the software will use and the desired number of output classes but otherwise does not aid in the classification process. However, the user must have knowledge of the area being classified when the groupings of pixels with common characteristics produced by the computer have to be related to actual features on the ground (such as wetlands, developed areas, coniferous forests, etc.)([Source](https://mapasyst.extension.org/whats-the-difference-between-a-supervised-and-unsupervised-image-classification/)). 
 
 **Several methods are used .... refs here review/table**
+Minimum-Distance to the Mean Classifier, Parallelepiped Classifier, Gaussian Maximum Likelihood Classifier
 
 Here we will use
 random forest - defs/explanation
