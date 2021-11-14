@@ -35,8 +35,7 @@
 :pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
 
 ## 2. Sources for Preprocessed Indices for Regional-scale Applications
-In general, computing RS requires that data be radiometrically calibrated and converted to apparent at-surface reflectance. However, some commonly used indices are often made available by agencies such as NASA or USGS to make regional-scale comparisons of landscape condition  easier.
-- The Table below provides the spatial and temporal resolutions of the RS indices and environment variables, along with their sensors/sources.
+- In general, computing RS requires that data be radiometrically calibrated and converted to apparent at-surface reflectance. However, some commonly used indices are often made available by agencies such as NASA or USGS to make regional-scale comparisons of landscape condition  easier. These data have been pre-processed and cleaned for artifacts (clouds, missing data) as 'analysis-ready' products. The Table below provides the spatial and temporal resolutions of the RS indices and environment variables, along with their sensors/sources.
 
 |  RS Indices and Environmental Variables     | Sensor(s)   | Temporal Resolution     | Spatial Resolution
 |------------------------------|----------------------|------------------|---------------------------|
