@@ -34,7 +34,7 @@
 
 :pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
 
-## 2. Other Sources
+## 2. Sources for Preprocessed Indices for Regional-scale Applications
 - The Table below provides the spatial and temporal resolutions of the RS indices and environment variables, along with their sensors/sources.
 
 |  RS Indices and Environmental Variables     | Sensor(s)   | Temporal Resolution     | Spatial Resolution
