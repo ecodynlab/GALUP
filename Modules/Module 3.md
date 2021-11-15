@@ -72,7 +72,6 @@ This video may be useful in completing the exercises:
 
 </p>
 
-1/2 
 ##
 **Next Section:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; **Previous Section:**
 
