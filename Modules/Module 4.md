@@ -22,6 +22,7 @@ Unsupervised classification is where the outcomes (groupings of pixels with comm
 3. The **Gaussian Maximum Likelihood Classifier (GMLC)** quantitatively evaluates both the variance and covariance of the category spectral response patterns when classifying an unknown pixel. It is assumed that the distribution of the cloud of points forming the category training data is Gaussian ([3](http://wgbis.ces.iisc.ernet.in/energy/water/paper/remotesensing/chapter1.htm)) 
 4. The **Random Forest Classifier** is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
 5. **Support Vector Machine (SVM) Classifiers** are a collection of non-parametric learning algorithms. 
+6. **CCDC**
 
 Here we will use
 random forest - defs/explanation
