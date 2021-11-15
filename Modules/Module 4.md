@@ -2,6 +2,8 @@
 
 **What will you learn from this module?**
 
+![ESRI](https://user-images.githubusercontent.com/87503837/141732355-b0dae87d-a4fd-4ec6-911a-b39ea77d5934.gif)
+
 **In this module, we will discuss supervised classification. DEFINITION....**
 
 Supervised classification is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. Training sites (also known as testing sets or input classes) are selected based on the knowledge of the user. The user also sets the bounds for how similar other pixels must be to group them together. These bounds are often set based on the spectral characteristics of the training area, plus or minus a certain increment (often based on “brightness” or strength of reflection in specific spectral bands). The user also designates the number of classes that the image is classified into. Many analysts use a combination of supervised and unsupervised classification processes to develop final output analysis and classified maps.
