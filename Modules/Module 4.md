@@ -3,6 +3,7 @@
 **What will you learn from this module?**
 
 ![ESRI](https://user-images.githubusercontent.com/87503837/141732355-b0dae87d-a4fd-4ec6-911a-b39ea77d5934.gif =561X341)
+<img src="https://user-images.githubusercontent.com/87503837/141732355-b0dae87d-a4fd-4ec6-911a-b39ea77d5934.gif =561X341" width="561" height="341"/>
 
 **In this module, we will discuss supervised classification. DEFINITION....**
 
