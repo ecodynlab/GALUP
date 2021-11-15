@@ -27,8 +27,10 @@
 <img src="https://user-images.githubusercontent.com/84922404/135870925-6baf5423-4762-4bff-9a59-3d30d189d039.png" width="700">
 </p>
 
-![Inidces](https://user-images.githubusercontent.com/87503837/141812107-0ede017e-353a-412e-8d6f-280b1d5c0713.png)
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/87503837/141812107-0ede017e-353a-412e-8d6f-280b1d5c0713.png">
+</p>
 
 
 - For example, NDVI is a combination of reflectances in the red and NIR wavelengths as shown in the Figure below. Healthy vegetation reflects more solar radiation in the NIR wavelength than unhealthy vegetation. Thus, the NDVI for healthy vegetation is higher. 
