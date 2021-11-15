@@ -1,8 +1,11 @@
 ## Module 4 - Land Cover Classification
 
 **What will you learn from this module?**
+</p>
 
-![ESRI](https://user-images.githubusercontent.com/87503837/141733532-56a05150-6b9d-4ac7-b124-aa1f8d7c5120.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87503837/141733532-56a05150-6b9d-4ac7-b124-aa1f8d7c5120.gif" alt="animated" />
+</p>
 
 **In this module, we will discuss supervised classification. DEFINITION....**
 
