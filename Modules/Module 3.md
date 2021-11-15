@@ -29,7 +29,7 @@
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/87503837/141812107-0ede017e-353a-412e-8d6f-280b1d5c0713.png">
+<img src="https://user-images.githubusercontent.com/87503837/141812107-0ede017e-353a-412e-8d6f-280b1d5c0713.png" height="50%" width="50%">
 </p>
 
 
