@@ -27,6 +27,19 @@
 <img src="https://user-images.githubusercontent.com/84922404/135870925-6baf5423-4762-4bff-9a59-3d30d189d039.png" width="700">
 </p>
 
+| Index | Formulation | Use |
+|-------|-------------|-----|
+| NDVI  |             |     |
+| EVI   |             |     |
+| SAVI  |             |     |
+| NBR   |             |     |
+| NDWI  |             |     |
+| MSAVI |             |     |
+| NDMI  |             |     |
+| NBR   |             |     |
+| NBR2  |             |     |
+| NDSI  |             |     |
+
 - For example, NDVI is a combination of reflectances in the red and NIR wavelengths as shown in the Figure below. Healthy vegetation reflects more solar radiation in the NIR wavelength than unhealthy vegetation. Thus, the NDVI for healthy vegetation is higher. 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/84922404/135468275-adaf7a44-b8f7-4d4e-9276-625a7a59f9d4.png" width="400">
