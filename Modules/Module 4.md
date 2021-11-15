@@ -20,6 +20,7 @@ Unsupervised classification is where the outcomes (groupings of pixels with comm
     3. Mahalanobis distance 
 2. The **Parallelepiped Classifier** uses the class limits and stored in each class signature to determine if a given pixel falls within the class or not. The class limits specify the dimensions (in standard deviation units) of each side of a parallelepiped surrounding the mean of the class in feature space  ([2](http://www.sc.chula.ac.th/courseware/2309507/Lecture/remote18.htm)) .
 3. The **Gaussian Maximum Likelihood Classifier (GMLC)** quantitatively evaluates both the variance and covariance of the category spectral response patterns when classifying an unknown pixel. It is assumed that the distribution of the cloud of points forming the category training data is Gaussian ([3](http://wgbis.ces.iisc.ernet.in/energy/water/paper/remotesensing/chapter1.htm)) 
+4. The **Random Forest Classifier** is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
 
 Here we will use
 random forest - defs/explanation
