@@ -40,7 +40,7 @@
 
 :pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
 
-## 2. Sources for Preprocessed Indices for Regional-scale Applications
+## 2. Sources for Preprocessed RS Indices for Regional-scale Applications
 - In general, computing RS requires that data be radiometrically calibrated and converted to apparent at-surface reflectance. However, some commonly used indices are often made available by agencies such as NASA or USGS to make regional-scale comparisons of landscape condition  easier. These data have been pre-processed and cleaned for artifacts (clouds, missing data) as 'analysis-ready' products. The Table below provides the spatial and temporal resolutions of the RS indices and environment variables, along with their sensors/sources.
 
 |  RS Indices and Environmental Variables     | Sensor(s)   | Temporal Resolution     | Spatial Resolution
@@ -51,19 +51,16 @@
 |     Precipitation            |     Global Precipitation Measurement ([IMERG](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06)) | Hourly | 10 km
 |     Land Surface Temperature         |  MODIS ([MOD11A1.006 Terra Land Surface Temperature and Emissivity](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD11A1)); Landsat [5](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C01_T2_SR), [7](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T2_SR), [8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T2_SR) (Surface Reflectance Tier 1); | Daily; 16-Day | 1 km; 30 m
 
-## 3. Other Environment Variables
-- These provide vital information on environmental conditions impacting land cover changes. They are commonly used to monitor and predict weather events and measure variability
-- Commonly used variables include
+## 3. Environment Variables Available on Google Earth Engine
+- In addition to satellite imagery and derived data, multiple environmental datasets are available on the GEE platform for ingestion into analytical processes. Commonly used enviornmental data include
       <blockquote>
-      Precipitation <br>
-       Downward Solar Radiation (DSR) <br>
-       Land Surface Temperature (LST) <br>
+      TerraClimate: Monthly Climate and Climatic Water Balance (includes precipitation, temperature, drought severity etc.) <a href="https://www.nature.com/articles/sdata2017191">Reference</a> <br>
+       SRTM Digital Elevation Data <a href=" https://srtm.csi.cgiar.org/">Reference</a><br>
+       GCOM-C/SGLI L3 Land Surface Temperature (LST) <a href="https://suzaku.eorc.jaxa.jp/GCOM/index.html">Reference</a><br>
+       OpenLandMap Soil textures, water holding capacity etc. <a href="https://www.openlandmap.org/">Reference</a><br>
+      Fire detection <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/about-firms">Reference</a><br>
       </blockquote>
  
- - **Precipitation** product is retrieved from backscatter observed by two RADAR operating at wavelengths of 0.84 cm and 2.2 cm. Remotely sensed precipitation helps understand distribution and trends of rainfall across space and time. Models can be used analyze precipitation data and make predictions. <br>
-- **Solar radiation** product is retrieved using optical and infrared spectral channels, as well data regarding (reflectance) and atmospheric composition. <br>
-- **LST** product is obtained from emission observations in ther TIR wavelengths. It acts as an indicator for temperature trends such as urban heat islands (UHIs) and climate change. In addition it is used to predict other parameters such as evapotranspiration and vegetation health.
-
 ## Exercise and Post-Module Survey (required)
 This video may be useful in completing the exercises:
 <p align="center">
