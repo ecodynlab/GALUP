@@ -13,7 +13,7 @@ Supervised classification is based on the idea that a user can select sample pix
 
 Unsupervised classification is where the outcomes (groupings of pixels with common characteristics) are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to determine which pixels are related and groups them into classes. The user can specify which algorism the software will use and the desired number of output classes but otherwise does not aid in the classification process. However, the user must have knowledge of the area being classified when the groupings of pixels with common characteristics produced by the computer have to be related to actual features on the ground (such as wetlands, developed areas, coniferous forests, etc.)([Source](https://mapasyst.extension.org/whats-the-difference-between-a-supervised-and-unsupervised-image-classification/)). 
 
-**Several methods are used .... refs here review/table**
+**Common Classifcation Algorithms** 
 1. The **Minimum-Distance to the Mean Classifier** is used to classify unknown image data to classes which minimize the distance between the image data and the class in multi-feature space. The distance is defined as an index of similarity so that the minimum distance is identical to the maximum similarity ([1](http://sar.kangwon.ac.kr/etc/rs_note/rsnote/cp11/cp11-6.htm)).
     1. Euclidean distance
     2. Normalized Euclidean distance
