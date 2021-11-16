@@ -2,8 +2,8 @@
 
 **What will you learn from this module?**
 
-- What are some common RS indices and environmental variables and their role in land use planning and environmental assessment,
-- Generate, visualize, and download these indices from Google Earth Engine.
+- Search, extract, and visualize common RS indices and environmental variables for potential use in landscape assessment and regional scale planning exercises,
+- Use Google Earth Engine to assess spatial and temporal trends in these data.
 
 ## 1. RS Indices
 **Remote sensing indices** (or spectral indices) are arithmentic combinations of reflectance at two or more bands that help provide measurable estimates of the relative abundance of indicators of interest. Vegetation indices (such as the normalized difference vegetation index: NDVI) are the most widely known, but indices can be formulated for tracking burn areas, exposed soil or built-up areas.
