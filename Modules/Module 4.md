@@ -28,7 +28,7 @@
 5. **Support Vector Machine (SVM) Classifiers** are a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
 6. **Continuous Change Detection and Classification (CCDC)** is a general-purpose algorithm that evaluates changes in pixel values over time. 
 
-
+## 3. Applications in Google Earth Engine 
 GEE 
 flow diagram of the classification process.
 sample data/region
