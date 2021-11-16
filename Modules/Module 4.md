@@ -12,13 +12,13 @@
 </p>
 
 
-## 1. Supervise and Unsupervised Classification 
+## 1. Supervised and Unsupervised Classification 
 
 **Supervised classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. Training sites (also known as testing sets or input classes) are selected based on the knowledge of the user. The user also sets the bounds for how similar other pixels must be to group them together. These bounds are often set based on the spectral characteristics of the training area, plus or minus a certain increment (often based on “brightness” or strength of reflection in specific spectral bands). The user also designates the number of classes that the image is classified into. Many analysts use a combination of supervised and unsupervised classification processes to develop final output analysis and classified maps.
 
 **Unsupervised classification** is where the outcomes (groupings of pixels with common characteristics) are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to determine which pixels are related and groups them into classes. The user can specify which algorism the software will use and the desired number of output classes but otherwise does not aid in the classification process. However, the user must have knowledge of the area being classified when the groupings of pixels with common characteristics produced by the computer have to be related to actual features on the ground (such as wetlands, developed areas, coniferous forests, etc.)([Source](https://mapasyst.extension.org/whats-the-difference-between-a-supervised-and-unsupervised-image-classification/)). 
 
-## 2. Common Classifcation Algorithms
+## 2. Common Classification Algorithms
 1. The **Minimum-Distance to the Mean Classifier** is used to classify unknown image data to classes which minimize the distance between the image data and the class in multi-feature space. The distance is defined as an index of similarity so that the minimum distance is identical to the maximum similarity ([1](http://sar.kangwon.ac.kr/etc/rs_note/rsnote/cp11/cp11-6.htm)).
     1. Euclidean distance
     2. Normalized Euclidean distance
