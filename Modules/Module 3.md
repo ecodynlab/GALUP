@@ -55,7 +55,7 @@
 - In addition to satellite imagery and derived data, multiple environmental datasets are available on the GEE platform for ingestion into analytical processes. Commonly used enviornmental data include
       <blockquote>
       TerraClimate: Monthly Climate and Climatic Water Balance (includes precipitation, temperature, drought severity etc.) <a href="https://www.nature.com/articles/sdata2017191">Reference</a> <br>
-       SRTM Digital Elevation Data <a href=" https://srtm.csi.cgiar.org/">Reference</a><br>
+       SRTM Digital Elevation Data <a href="https://srtm.csi.cgiar.org/">Reference</a><br>
        GCOM-C/SGLI L3 Land Surface Temperature (LST) <a href="https://suzaku.eorc.jaxa.jp/GCOM/index.html">Reference</a><br>
        OpenLandMap Soil textures, water holding capacity etc. <a href="https://www.openlandmap.org/">Reference</a><br>
       Fire detection <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/about-firms">Reference</a><br>
