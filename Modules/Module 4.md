@@ -4,7 +4,9 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/87503837/141733532-56a05150-6b9d-4ac7-b124-aa1f8d7c5120.gif" alt="animated" />
 </p>
+
 **What will you learn from this module?**
+
 - Common methods of land cover classification
 - Using indices for classifcation 
 - Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Claffication in Google Earth Engine 
