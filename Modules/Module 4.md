@@ -61,7 +61,7 @@ Using indices – simple classification; accuracy & metrics
 
 ## Exercise and Post-Module Survey (required)
 
-1. Please complete and submit exercise 1 for Module 4.
+1. Please complete and submit [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M4_Exercise1.md) for Module 4.
 2. Submit the Post-Module survey. 
 
 
