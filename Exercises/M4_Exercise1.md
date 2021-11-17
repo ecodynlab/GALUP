@@ -19,5 +19,5 @@ In this exercise, we will use the index extraction covered in the last module to
 5. Upload the shapefile into GEE as an asset (see this [link](https://developers.google.com/earth-engine/guides/asset_manager) for help with managing assets in GEE)
 6. Once the asset has been loaded into GEE, run the **script**. This will utilize the training data (the asset) to classify Ghana's land cover using the Random Forest classification method.
 7. Repeat step 6 using the SVM classification method.
-8. Open up the **CCDC** code in GEE 
+8. Open up the **CCDC** code in GEE. The [GEE CCDC Tools](https://gee-ccdc-tools.readthedocs.io/en/latest/) will be useful for this. 
     
