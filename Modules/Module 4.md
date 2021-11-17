@@ -32,6 +32,12 @@
 ## 3. Applications in Google Earth Engine 
 GEE 
 flow diagram of the classification process.
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84922404/142236533-7e953e69-75a8-4de1-abbe-b60a6a89b6f7.png" />
+</p>
+
 sample data/region
 creating training data - neeed a video tutorial  - generating boxes in qgis/exporting in excel and in kml; 
 used GEE for RF/SVM/CCDC
