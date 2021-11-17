@@ -69,8 +69,7 @@ This video may be useful in completing the exercises:
 </p>
 
 1. Please complete and submit [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M3_exercise1.md) for Module 3.
-2. Please complete and submit [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M3_exercise2.md) for Module 3.
-3. Submit the Post-Module [survey](https://ufl.qualtrics.com/jfe/form/SV_bpjF7THHLlhtWCO). 
+2. Submit the Post-Module [survey](https://ufl.qualtrics.com/jfe/form/SV_bpjF7THHLlhtWCO). 
 
 </p>
 
