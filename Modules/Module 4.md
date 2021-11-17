@@ -30,6 +30,8 @@
 6. **Continuous Change Detection and Classification (CCDC)** is a general-purpose algorithm that evaluates changes in pixel values over time. 
 
 ## 3. Applications in Google Earth Engine 
+For this workshop, we will be focusing on supervised classification methods. In particular, we will be using random forests, SVM, and CCDC in GEE. 
+
 GEE 
 flow diagram of the classification process.
 </p>
