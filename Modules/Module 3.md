@@ -63,8 +63,8 @@
 ## Exercise and Post-Module Survey (required)
 This video may be useful in completing the exercises:
 <p align="center">
-  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/484d4b1a68194a6cbf85b4f6d97c29cd1d" target="_blank" rel="noopener">
-    <img src="https://user-images.githubusercontent.com/84922404/141213294-7439b0d8-13c8-4e75-84e6-ecf7de7cf994.png" alt= "GEE Tutorial" width="800">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/bfe5811813c04582a51f02f636dc31161d" target="_blank" rel="noopener">
+    <img src="https://user-images.githubusercontent.com/84922404/142096329-b1cb29c6-411a-42d9-905c-20ec80f899b2.png" alt= "GEE Tutorial" width="800">
   </a>
 </p>
 
