@@ -60,6 +60,10 @@ qs: report on accuracies/metric; differences in classification;
 ## 
 Using indices – simple classification; accuracy & metrics
 
+## Exercise and Post-Module Survey (required)
+
+
+
 
 
 ##
