@@ -17,7 +17,7 @@ In this exercise, we will build upon module 1 by extracting Landsat imagery, der
   ```};``` <br> 
   to represent another chosen variable <br>
  :pushpin: Some common indices are given at the bottom of the script. <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If you change the variable name "getNDVI" (e.g. to "getSAVI") (this is good coding practice), ensure that the rest of the code that utilizes the "getNDVI" function is also changed.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If you change the variable name "getNDVI" (e.g. to "getSAVI") (this is good coding practice), ensure that the rest of the code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; that utilizes the "getNDVI" function is also changed.
 3. Run the script over the chosen region and time period, and take screenshots of: <br>
     a. The raw Landsat image <br>
     b. The image of the chosen index <br>
