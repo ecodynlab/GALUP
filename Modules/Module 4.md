@@ -3,7 +3,7 @@
 
 - Common methods of land cover classification
 - Using indices for classifcation 
-- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Claffication in Google Earth Engine <br>
+- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Claffication in Google Earth Engine 
 
 </p>
 
