@@ -62,6 +62,8 @@ Using indices – simple classification; accuracy & metrics
 
 ## Exercise and Post-Module Survey (required)
 
+1. Please complete and submit exercise 1 for Module 4.
+2. Submit the Post-Module survey. 
 
 
 
