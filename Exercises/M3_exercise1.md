@@ -1,11 +1,11 @@
 # Module-3 Exercise 1
 ## Description
-In this exercise, we will analyze temporal trends and visual representations of indices and environmental variables.
+In this exercise, we will build upon module 1 by extracting Landsat imagery, deriving image indices, and visualizing temporal changes in indices and other environmental variables.
 
 ## Skills Developed
-- Use graphing techniques available in GEE
-- Perform spatial and temporal analysis of indices 
-- Understand calculations of indices
+- Understand how image indices are derived,
+- Use graphing techniques available in GEE to perform spatial and temporal analysis of indices, 
+- Search, extract, and plot other environmental data from the GEE data repository.
 
 ## Instructions
 1. Using the script ["02_image_indices_environmental_data"](https://github.com/SERVIR-WA/GALUP/wiki/Scripts#02_image_indices_environmental_data), alter the variables "YEAR1", "YEAR2","ST_DATE", and "END_DATE" to indicate a period of interest.
