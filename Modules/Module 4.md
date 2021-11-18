@@ -21,7 +21,7 @@
 
 - **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
  <blockquote> 
-  Note: this classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
+Note: this classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
  </blockquote>
   
 -  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
