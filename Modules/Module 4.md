@@ -6,14 +6,9 @@
 - LCC systems
 - Classify images in Google Earth Engine 
 
-## 1. Land Cover Classification Method
-**Supervised image classification** is a method for identifying spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing towards those training sites as reference for unknown targets.  
-
-- **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
-   <blockquote> 
-   Note: this classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
-   </blockquote>
-  
+## 1. Supervised Image Classification Methods
+These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
+- **Minimum-Distance to the Mean Classifier**: An RS technique that calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
 -  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
 - **Gaussian Maximum Likelihood Classifier (GMLC)**: assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
 - **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
