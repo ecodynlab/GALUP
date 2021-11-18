@@ -31,6 +31,10 @@
 - **Continuous Change Detection and Classification (CCDC)**: a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
 ### 1.2 Land Cover Classification Systems 
+<blockquote>
+Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
+</blockquote>
+
 <details>
   <summary> <b> National Land Cover Classification System (Class, Value, Description) </b> </summary>
   <details>
@@ -106,6 +110,11 @@
   </details>
   
 </details>
+
+International Geosphere–Biosphere Programme (IGBP)
+<blockquote>
+  Additional info: http://www.igbp.net
+</blockquote>
 
 <details>
 <summary> <b> IGBP ecosystems surface classifications (Class, Class name, Description) </b> </summary>
