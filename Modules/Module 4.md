@@ -157,6 +157,8 @@ than 10% vegetated cover during any time of the year.
 </details>
 
 ## 2 Land cover classification in Google Earth Engine  
+:pushpin: Explanations for SVM, random forests, and CCDC for Google Earth Engine can be found on the GEE guides: [Supervised Classification](https://developers.google.com/earth-engine/guides/classification),  [CCDC](https://gee-ccdc-tools.readthedocs.io/en/latest/) 
+
 GEE 
 flow diagram of the classification process.
 </p>
