@@ -31,7 +31,23 @@
 - **Continuous Change Detection and Classification (CCDC)**: a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
 ### 1.2 Land Cover Classification Systems 
-
+<details>
+<summary>National Land Cover Classification Systemw</summary>
+Developed
+  
+Barren
+  
+Forest
+  
+Shrubland 
+ 
+Herbaceous
+ 
+Planted/Cultivated
+  
+Wetlands
+  
+</details>
 
 ## 2 Applications in Google Earth Engine  
 GEE 
