@@ -35,12 +35,23 @@
 <summary>National Land Cover Classification System</summary>
  <details>
  <summary>Water</summary>
-  - 11	Open Water- areas of open water, generally with less than 25% cover of vegetation or soil.
+  
+  - 11	_Open Water_ - areas of open water, generally with less than 25% cover of vegetation or soil.
    
-  - 12	Perennial Ice/Snow- areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.
+  - 12	_Perennial Ice/Snow_ - areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.
+   
  </details>
  <details>
  <summary>Developed</summary>
+ 
+  - 21	_Developed, Open Space_ - areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20% of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.
+   
+  - 22	_Developed, Low Intensity_ - areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20% to 49% percent of total cover. These areas most commonly include single-family housing units.
+   
+  - 23	_Developed, Medium Intensity_ - areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50% to 79% of the total cover. These areas most commonly include single-family housing units.
+   
+  - 24	_Developed High Intensity_ - highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80% to 100% of the total cover.
+   
  </details>
  <details>
  <summary>Barren</summary>
