@@ -37,7 +37,6 @@ The National Land Cover Database (NLCD) is a comprehensive land use and land cov
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
 </blockquote>
 
-<br/>
 
 The following outline shows the classification scheme for NLCD:  
 
@@ -120,12 +119,12 @@ The following outline shows the classification scheme for NLCD:
 
 <br/>
 
-International Geosphere–Biosphere Programme (IGBP)
+The International Geosphere–Biosphere Programme (IGBP) land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. 
+
 <blockquote>
   Additional info: http://www.igbp.net
 </blockquote>
 
-<br/>
 
 The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
 <details>
