@@ -152,36 +152,41 @@ The following outline shows the IGBP Ecosystems Surface Classifications classifi
 than 10% vegetated cover during any time of the year.
   
 17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
-
 </details>
 
+<br/>
+
+**Regional Land Cover Mapping (RCLM)**  
+<blockquote>
+  Additional info: https://eros.usgs.gov/westafrica/
+</blockquote>
 <details>
 <summary> <b> RLCM (Class name, Description) </b> </summary>
   
-1.	**Forêt / Forest** - dense, closed canopy formation of evergreen or semi-evergreen broadleaf vegetation with a multiple strata structure that includes scattered emergent trees. Upper stratum of trees over 30 m tall. Understory composed of evergreen or semievergreen shrubs; herbaceous cover is discontinuous.
-2.	**Forêt Galerie & Formation Ripicole / Gallery Forest & Riparian Forest** - forest formations forming a band or corridor of dense vegetation along permanent or temporary watercourses; generally closed canopy and similar in structure to forest; their width, extent, and luxuriance depend on the width, and depth of the valleys they follow, as well as the depth and dynamics of the water table. Riparian forest is similar in structure but is found bordering the edges of streams and rivers.
-3.	**Forêt Dégradée / Degraded Forest** - dense, evergreen broadleaf forest with closed or partially closed canopy whose integrity has been degraded by logging or other forms of exploitation. Degraded forest can also be immature forest, or forest in various stages of regrowth after disturbance. Trees 10 to 30 m tall.
-4.	**Forêt Claire / Woodland** - open formations of small to medium height trees; tree height over 10 m and tree cover generally between 50 and 75 percent; canopies are often contiguous, with open areas between trees; grass understory can be scattered to dense, often associated with other herbaceous plants.
-5.	**Forêt Marécageuse / Swamp Forest** - open to dense forests associated with temporarily or permanently waterlogged soils; these forests are generally found in natural depressions, seasonally inundated.
-6.	**Plantation** - regular stands of trees planted for the purpose of producing food, beverages, vegetable oils, raw materials for industry, wood, or for protection against wind and water erosion.
-7.	**Mangrove** - coastal forests of stilted shrubs or trees bordering the ocean or coastal estuaries, composed of one or several mangrove species. 
-8.	**Fourré / Thicket** - dense stand of shrubs, often thorny, forming generally impenetrable cover, with minimal or no herbaceous ground cover.
-9.	**Savane / Savanna** - herbaceous vegetation with mainly grasses that generally exceed 80 cm in height; dominated by annual and perennial grasses typically associated with the Sudan and Guinea zones; ground cover often consumed by annual fires; woody vegetation is usually present. The savanna class includes several major types or subclasses, based on density of shrubs and trees; the land use/land cover maps do not distinguish between shrub savanna, tree savanna, and wooded savanna; nevertheless, it is useful to define them:
-10.	**Savane Herbacée / Herbaceous Savanna** - continuous herbaceous ground cover; trees and shrubs normally absent; this class is represented on the land use / land cover maps.
-11.	**Savane Sahélienne / Sahelian Short Grass Savanna** - scattered trees and shrubs (or only shrubs) with a continuous herbaceous understory usually dominated by annual grasses generally associated with the Sahelian zone; woody cover between 1 and 25 percent.
-12.	**Bowé**– flat, open surfaces that generally occur as lateritic plateaus; the skeletal, ferruginous soils form a hardened, impenetrable surface, generally absent of woody vegetation, but supporting varying quantities of herbaceous cover during the rainy season.
-13.	**Steppe** - open, discontinuous herbaceous ground cover, often mixed with shrubs and trees; insufficient cover to carry fire; scattered annual grasses accompanied by widely spaced perennials. 
-14.	**Surfaces Sableuses / Sandy Area** – beach sand or shifting mounds of sand, formed by wind; active dunes.
-15.	**Terrains Rocheux / Rocky Land** - areas of rocky surfaces or outcrops, consisting of rocky peaks, batholiths, talus slopes, crest lines, cliffs, conglomerates, etc.
-16.	**Sols Dénudés / Bare Soil** - land with little or no vegetation cover, exposing the soil; examples include eroded slopes, gravesl plains, sebkhas, and badlands.
-17.	**Habitations / Settlements** - built up areas comprising human communities in a village, town or city.
-18.	**Zone de Culture / Agriculture** - cultivated areas, with crops dependent on rainfall.
-19.	**Cultures Irriguées / Irrigated Agriculture** - cultivated areas where crops receive water through an irrigation system to support their growth without relying on rainfall.
-20.	**Cultures des Bas-Fonds et de Décrue / Agriculture in Shallows and Recession** - cultivated areas in depressions or along river banks where crop development occurs as the waters recede during the dry season.
-21.	**Cultures et Jachères Sous Palmier à Huile / Cropland and Fallow with Oil Palms** - cultivated areas, with scattered oil palms in the fields; crops are mainly dependent on rainfall.
-22.	**Carrière / Open Mine** - open pit where rock material is mined
-23.	**Prairie Marécageuse – Vallée Inondable / Wetland – floodplain** - herbaceous or aquatic vegetation in permanent or semi-permanent wetlands and swamps.
-24.	**Plans D’eau / Water Bodies** - Any area with permanent or semipermanent surface water.
+-	**Forêt / Forest** - dense, closed canopy formation of evergreen or semi-evergreen broadleaf vegetation with a multiple strata structure that includes scattered emergent trees. Upper stratum of trees over 30 m tall. Understory composed of evergreen or semievergreen shrubs; herbaceous cover is discontinuous.
+-	**Forêt Galerie & Formation Ripicole / Gallery Forest & Riparian Forest** - forest formations forming a band or corridor of dense vegetation along permanent or temporary watercourses; generally closed canopy and similar in structure to forest; their width, extent, and luxuriance depend on the width, and depth of the valleys they follow, as well as the depth and dynamics of the water table. Riparian forest is similar in structure but is found bordering the edges of streams and rivers.
+-	**Forêt Dégradée / Degraded Forest** - dense, evergreen broadleaf forest with closed or partially closed canopy whose integrity has been degraded by logging or other forms of exploitation. Degraded forest can also be immature forest, or forest in various stages of regrowth after disturbance. Trees 10 to 30 m tall.
+-	**Forêt Claire / Woodland** - open formations of small to medium height trees; tree height over 10 m and tree cover generally between 50 and 75 percent; canopies are often contiguous, with open areas between trees; grass understory can be scattered to dense, often associated with other herbaceous plants.
+-	**Forêt Marécageuse / Swamp Forest** - open to dense forests associated with temporarily or permanently waterlogged soils; these forests are generally found in natural depressions, seasonally inundated.
+-	**Plantation** - regular stands of trees planted for the purpose of producing food, beverages, vegetable oils, raw materials for industry, wood, or for protection against wind and water erosion.
+-	**Mangrove** - coastal forests of stilted shrubs or trees bordering the ocean or coastal estuaries, composed of one or several mangrove species. 
+-	**Fourré / Thicket** - dense stand of shrubs, often thorny, forming generally impenetrable cover, with minimal or no herbaceous ground cover.
+-	**Savane / Savanna** - herbaceous vegetation with mainly grasses that generally exceed 80 cm in height; dominated by annual and perennial grasses typically associated with the Sudan and Guinea zones; ground cover often consumed by annual fires; woody vegetation is usually present. The savanna class includes several major types or subclasses, based on density of shrubs and trees; the land use/land cover maps do not distinguish between shrub savanna, tree savanna, and wooded savanna; nevertheless, it is useful to define them:
+-	**Savane Herbacée / Herbaceous Savanna** - continuous herbaceous ground cover; trees and shrubs normally absent; this class is represented on the land use / land cover maps.
+-	**Savane Sahélienne / Sahelian Short Grass Savanna** - scattered trees and shrubs (or only shrubs) with a continuous herbaceous understory usually dominated by annual grasses generally associated with the Sahelian zone; woody cover between 1 and 25 percent.
+-	**Bowé**– flat, open surfaces that generally occur as lateritic plateaus; the skeletal, ferruginous soils form a hardened, impenetrable surface, generally absent of woody vegetation, but supporting varying quantities of herbaceous cover during the rainy season.
+-	**Steppe** - open, discontinuous herbaceous ground cover, often mixed with shrubs and trees; insufficient cover to carry fire; scattered annual grasses accompanied by widely spaced perennials. 
+-	**Surfaces Sableuses / Sandy Area** – beach sand or shifting mounds of sand, formed by wind; active dunes.
+-	**Terrains Rocheux / Rocky Land** - areas of rocky surfaces or outcrops, consisting of rocky peaks, batholiths, talus slopes, crest lines, cliffs, conglomerates, etc.
+-	**Sols Dénudés / Bare Soil** - land with little or no vegetation cover, exposing the soil; examples include eroded slopes, gravesl plains, sebkhas, and badlands.
+-	**Habitations / Settlements** - built up areas comprising human communities in a village, town or city.
+-	**Zone de Culture / Agriculture** - cultivated areas, with crops dependent on rainfall.
+-	**Cultures Irriguées / Irrigated Agriculture** - cultivated areas where crops receive water through an irrigation system to support their growth without relying on rainfall.
+-	**Cultures des Bas-Fonds et de Décrue / Agriculture in Shallows and Recession** - cultivated areas in depressions or along river banks where crop development occurs as the waters recede during the dry season.
+-	**Cultures et Jachères Sous Palmier à Huile / Cropland and Fallow with Oil Palms** - cultivated areas, with scattered oil palms in the fields; crops are mainly dependent on rainfall.
+-	**Carrière / Open Mine** - open pit where rock material is mined
+-	**Prairie Marécageuse – Vallée Inondable / Wetland – floodplain** - herbaceous or aquatic vegetation in permanent or semi-permanent wetlands and swamps.
+-	**Plans D’eau / Water Bodies** - Any area with permanent or semipermanent surface water.
 
 </details>
 
