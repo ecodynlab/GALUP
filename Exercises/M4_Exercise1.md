@@ -14,7 +14,7 @@ In this exercise, we will use the index extraction covered in the last module to
     c. ICRISAT will fill out this sheet: <br>
     b. LUSPA wil fill out this sheet: <br>
 2. To complete the classifications, upload the given KML files to Google Earth Pro, and zoom in to determine the respective classification of each point. To classify the points, use the dropdown bar in the Google sheet in the row that corresponds to the point's ID.
-3. Once the sheet has been filled and the classification of each point completed, send this back to us by submitting it **here**.
+3. Once the sheet has been filled and the classification of each point completed, we will export the collected data and merge it with the coordinates of the random points.
 4. Once you receive the merged file of the classifications and original random points (this will be in the form of a shapefile), download this file.
 5. Upload the shapefile into GEE as an asset (see this [link](https://developers.google.com/earth-engine/guides/asset_manager) for help with managing assets in GEE)
 6. Once the asset has been loaded into GEE, run the **script**. This will utilize the training data (the asset) to classify Ghana's land cover using the Random Forest classification method.
