@@ -9,11 +9,11 @@ In this exercise, we will use the index extraction covered in the last module to
 
 ## Instructions
 📌 This process may be made easier by downloading and installing Google Eath Pro (<a href="https://www.google.com/earth/versions/#earth-pro">link</a>).
-1. Download these **KML files** that contain boxes assigned to your organization,
-    a. AGRHYMET KML: <br>
-    b. CERSGIS KML: <br>
-    c. ICRISAT KML: <br>
-    b. LUSPA KML: <br>
+1. Download these **KML files** that contain boxes assigned to your organization,<br>
+    a. AGRHYMET KML <br>
+    b. CERSGIS KML <br>
+    c. ICRISAT KML <br>
+    b. LUSPA KML <br>
 2. Opening these files in Google Earth Pro will zoom to the entire country. Expand the dropdown list to reveal individual boxes. Double-clicking on the boxes should make Google Earth Pro zoom into that location.
 3. Access this Google Spreadsheet <>link<>.
 4. Each organization has a tab assigned to it. The ID column corresponds to the ID of the boxes in the KML (do not change the ID). We have asumed each registered participant should be able to classify at least 100 locations by the end of the exercise, 
