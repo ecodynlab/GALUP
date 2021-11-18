@@ -13,11 +13,10 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
 ## 2. Land Cover Classification Systems 
-- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [**here**] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net
-
-The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
-<details>
-<summary> <b> IGBP (Class, Class name, Description) </b> </summary>
+- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [**luc here**] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net. The following outline shows the IGBP Ecosystems Surface Classifications classification scheme:
+ <ul>
+ <details>
+ <summary> <b> IGBP (Class, Class name, Description) </b> </summary>
  
 1. **Evergreen needleleaf forests** - Lands dominated by needleleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees remain green all year. Canopy is never without green foliage.
   
@@ -53,8 +52,8 @@ The following outline shows the IGBP Ecosystems Surface Classifications classifi
 than 10% vegetated cover during any time of the year.
   
 17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
-</details>
-
+  <li></details><li>
+<ul>
 <br/>
 
 
