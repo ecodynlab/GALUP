@@ -20,9 +20,10 @@
 **Supervised classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
 
 - **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
-<blockquote> 
- This classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
-</blockquote>
+ <blockquote> 
+  Note: this classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
+ </blockquote>
+  
 -  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
 - **Gaussian Maximum Likelihood Classifier (GMLC)**: quantitatively evaluates both the variance and covariance of the category spectral response patterns when classifying an unknown pixel. It is assumed that the distribution of the cloud of points forming the category training data is Gaussian ([3](http://wgbis.ces.iisc.ernet.in/energy/water/paper/remotesensing/chapter1.htm)) 
 - **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
