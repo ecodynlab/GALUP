@@ -2,8 +2,8 @@
 **What will you learn from this module?**
 
 - Common methods of land cover classification
-- Using indices for classifcation 
-- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Classification in Google Earth Engine 
+- Using indices for classification
+- Applications of Random Forests, Support Vector Machines, and Continuous  Change Detection and Classification in Google Earth Engine 
 
 </p>
 
@@ -27,7 +27,7 @@
   
 -  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
 - **Gaussian Maximum Likelihood Classifier (GMLC)**: assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
-- **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The random forest  algorithm can also classify variable importance. 
+- **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classification. The random forest  algorithm can also classify variable importance. 
 - **Support Vector Machine (SVM) Classifiers**: a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
 - **Continuous Change Detection and Classification (CCDC)**: a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
@@ -120,7 +120,7 @@ The following outline shows the IGBP Ecosystems Surface Classifications classifi
  
 1. **Evergreen needleleaf forests** - Lands dominated by needleleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees remain green all year. Canopy is never without green foliage.
   
-2. **Evergreen broadleaf forests** - Lands dominated by broadleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees and shrubsremain green year round. Canopy is never without green foliage.
+2. **Evergreen broadleaf forests** - Lands dominated by broadleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees and shrubs remain green year-round. Canopy is never without green foliage.
   
 3. **Deciduous needleleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of seasonal needleleaf tree communities with an annual cycle of leaf-on and leaf-off periods.
   
