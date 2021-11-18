@@ -13,12 +13,7 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. This is the method that is currently used to generate the MODIS Land Cover Product [**ref here XXXXXX**]
 
 ## 2. Land Cover Classification Systems 
-- The **International Geosphere–Biosphere Programme (IGBP)** land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. 
-
-<blockquote>
-  Additional info: http://www.igbp.net
-</blockquote>
-
+- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [here] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net
 
 The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
 <details>
