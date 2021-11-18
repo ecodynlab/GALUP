@@ -4,11 +4,6 @@
 - LCC systems
 - Classify images in Google Earth Engine 
 
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
-</p>
 
 ## 1. Supervised Image Classification Methods
 These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
@@ -22,9 +17,16 @@ These methods identify spectrally similar areas on images by first identifying k
 ### 1.2 Land Cover Classification Systems 
 The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
 
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
+</p>
+
 <blockquote>
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
 </blockquote>
+
 
 
 The following outline shows the classification scheme for NLCD:  
