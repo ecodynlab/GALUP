@@ -15,13 +15,13 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. This is the method that is currently used to generate the MODIS Land Cover Product [**ref here XXXXXX**]
 
 ### 1.2 Land Cover Classification Systems 
-The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
-
 </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
 </p>
+
+The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
 
 <blockquote>
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
