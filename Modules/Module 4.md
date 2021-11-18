@@ -34,6 +34,12 @@
 <details>
 <summary>National Land Cover Classification System</summary>
  <details>
+ <summary>Water</summary>
+  - 11	Open Water- areas of open water, generally with less than 25% cover of vegetation or soil.
+   
+  - 12	Perennial Ice/Snow- areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.
+ </details>
+ <details>
  <summary>Developed</summary>
  </details>
  <details>
@@ -56,6 +62,30 @@
  </details>
 </details>
 
+<details>
+<summary> IGBP ecosystems surface classifications</summary>
+ <details>
+ <summary>Developed</summary>
+ </details>
+ <details>
+ <summary>Barren</summary>
+ </details>
+ <details> 
+ <summary>Forest</summary>
+ </details>
+ <details>
+ <summary>Shrubland</summary>
+ </details>
+ <details>
+ <summary>Herbaceous</summary>
+ </details>
+ <details>
+ <summary>Planted/Cultivated</summary>
+ </details>
+ <details> 
+ <summary>Wetlands</summary>
+ </details>
+</details>
 ## 2 Applications in Google Earth Engine  
 GEE 
 flow diagram of the classification process.
