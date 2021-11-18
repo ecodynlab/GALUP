@@ -17,7 +17,7 @@
 
 
 ### 1.1 Supervised image Classification 
-**Supervised image classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
+**Supervised image classification** is a method for identifying spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing towards those training sites as reference for unknown targets.  
 
 - **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
    <blockquote> 
