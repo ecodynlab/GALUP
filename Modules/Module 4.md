@@ -66,7 +66,7 @@ The following outline shows the classification scheme for NLCD:
  
    - 31	**Barren Land (Rock/Sand/Clay)** - areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and      other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.
   
- Forest
+ _Forest_
    
   - 41	**Deciduous Forest** - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species shed - foliage simultaneously in response to seasonal change.
    
