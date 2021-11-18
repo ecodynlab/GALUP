@@ -13,10 +13,12 @@
 
 
 ## 1. Land Cover Classification Method 
-### 1.1 Supervised and Unsupervised Classification 
-**Unsupervised classification** is where the outcomes  are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to determine which pixels are related and groups them into classes. 
+For this workshop, we will be focusing only on supervised classification methods. In particular, we will be using random forests, SVM, and CCDC in GEE. 
 
-**Supervised classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
+### 1.1 Supervised and Unsupervised Classification 
+- **Unsupervised classification** is where the outcomes  are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to determine which pixels are related and groups them into classes. 
+
+- **Supervised classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
 
 
 ### 1.2 Common Classification Algorithms
@@ -32,8 +34,7 @@
 
 ### 1.3 Land Cover Classification Systems 
 
-## 2 Applications in Google Earth Engine 
-For this workshop, we will be focusing only on supervised classification methods. In particular, we will be using random forests, SVM, and CCDC in GEE. 
+## 2 Applications in Google Earth Engine  
 
 GEE 
 flow diagram of the classification process.
