@@ -65,13 +65,15 @@ than 10% vegetated cover during any time of the year.
 
 
 
+
+The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
+
 </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
 </p>
 
-The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
 
 <blockquote>
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
