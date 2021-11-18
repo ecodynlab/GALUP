@@ -22,15 +22,15 @@ For this workshop, we will be focusing only on supervised classification methods
 
 
 ### 1.2 Common Classification Algorithms
-1. The **Minimum-Distance to the Mean Classifier** is a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space. This classifier includes the 
+- The **Minimum-Distance to the Mean Classifier** is a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space. This classifier includes the 
     1. Euclidean distance,
     2. Normalized Euclidean distance, and
     3. Mahalanobis distance. 
-2. The **Parallelepiped Classifier** 
-3. The **Gaussian Maximum Likelihood Classifier (GMLC)** quantitatively evaluates both the variance and covariance of the category spectral response patterns when classifying an unknown pixel. It is assumed that the distribution of the cloud of points forming the category training data is Gaussian ([3](http://wgbis.ces.iisc.ernet.in/energy/water/paper/remotesensing/chapter1.htm)) 
-4. The **Random Forest Classifier** is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
-5. **Support Vector Machine (SVM) Classifiers** are a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
-6. **Continuous Change Detection and Classification (CCDC)** is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
+- The **Parallelepiped Classifier** 
+- The **Gaussian Maximum Likelihood Classifier (GMLC)** quantitatively evaluates both the variance and covariance of the category spectral response patterns when classifying an unknown pixel. It is assumed that the distribution of the cloud of points forming the category training data is Gaussian ([3](http://wgbis.ces.iisc.ernet.in/energy/water/paper/remotesensing/chapter1.htm)) 
+- The **Random Forest Classifier** is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
+- **Support Vector Machine (SVM) Classifiers** are a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
+- **Continuous Change Detection and Classification (CCDC)** is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
 ### 1.3 Land Cover Classification Systems 
 
