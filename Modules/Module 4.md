@@ -30,6 +30,8 @@
 5. **Support Vector Machine (SVM) Classifiers** are a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
 6. **Continuous Change Detection and Classification (CCDC)** is a general-purpose algorithm that evaluates changes in pixel values over time. 
 
+## 1.3 Land Cover Classification Systems 
+
 ## 2 Applications in Google Earth Engine 
 For this workshop, we will be focusing only on supervised classification methods. In particular, we will be using random forests, SVM, and CCDC in GEE. 
 
