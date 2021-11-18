@@ -1,15 +1,10 @@
 ## Module 4 - Land Cover Classification
+
 **What will you learn from this module?**
 
-- Common methods of land cover classification
-- Using indices for classifcation 
-- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Classification in Google Earth Engine 
-
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/87503837/142462927-a5adce30-ec6c-4c8b-8ba6-f2dc46f66d0d.gif" alt="animated" />
-</p>
+- Common methods for land cover classification (LCC)
+- Using RS indices for supervised image classification 
+- Classify images in Google Earth Engine 
 
 
 
@@ -33,6 +28,14 @@
 
 ### 1.2 Land Cover Classification Systems 
 The National Land Cover Database (NLCD) is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
+
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87503837/142462927-a5adce30-ec6c-4c8b-8ba6-f2dc46f66d0d.gif" alt="animated" />
+</p>
+
+
 
 <blockquote>
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
