@@ -1,33 +1,15 @@
 ## Module 4 - Land Cover Classification
 **What will you learn from this module?**
+- Common methods using RS indices for supervised land cover classification (LCC)
+- LCC systems
+- Classify images in Google Earth Engine 
 
-- Common methods of land cover classification
-- Using indices for classification
-- Applications of Random Forests, Support Vector Machines, and Continuous  Change Detection and Classification in Google Earth Engine 
-
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
-</p>
-
-
-
-## 1. Land Cover Classification Method
-
-
-
-### 1.1 Supervised image Classification 
-**Supervised image classification** is a method for identifying spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing towards those training sites as reference for unknown targets.  
-
-- **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
-   <blockquote> 
-   Note: this classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
-   </blockquote>
-  
+## 1. Supervised Image Classification Methods
+These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
+- **Minimum-Distance to the Mean Classifier**: An RS technique that calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
 -  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
 - **Gaussian Maximum Likelihood Classifier (GMLC)**: assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
-- **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classification. The random forest  algorithm can also classify variable importance. 
+- **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
 - **Support Vector Machine (SVM) Classifiers**: a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
 - **Continuous Change Detection and Classification (CCDC)**: a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
