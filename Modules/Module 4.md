@@ -8,8 +8,9 @@
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/87503837/141733532-56a05150-6b9d-4ac7-b124-aa1f8d7c5120.gif" alt="animated" />
+  <img src="https://user-images.githubusercontent.com/87503837/142462927-a5adce30-ec6c-4c8b-8ba6-f2dc46f66d0d.gif" alt="animated" />
 </p>
+
 
 
 ## 1. Land Cover Classification Method
