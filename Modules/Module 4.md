@@ -12,7 +12,59 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Support Vector Machine (SVM) Classifier**: These is a collection of non-parametric learning algorithms which find the optimal separating hyperplane between classes by focusing on the training data. 
 - **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. This is the method that is currently used to generate the MODIS Land Cover Product [**ref here XXXXXX**]
 
-### 1.2 Land Cover Classification Systems 
+### 2 Land Cover Classification Systems 
+The **International Geosphere–Biosphere Programme (IGBP)** land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. 
+
+<blockquote>
+  Additional info: http://www.igbp.net
+</blockquote>
+
+
+The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
+<details>
+<summary> <b> IGBP (Class, Class name, Description) </b> </summary>
+ 
+1. **Evergreen needleleaf forests** - Lands dominated by needleleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees remain green all year. Canopy is never without green foliage.
+  
+2. **Evergreen broadleaf forests** - Lands dominated by broadleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees and shrubs remain green year-round. Canopy is never without green foliage.
+  
+3. **Deciduous needleleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of seasonal needleleaf tree communities with an annual cycle of leaf-on and leaf-off periods.
+  
+4. **Deciduous broadleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods
+  
+5. **Mixed forests** - Lands dominated by trees with a percent cover >60% and height exceeding 2m. Consists of tree communities with interspersed mixtures or mosaics of the other four forest types. None of the forest types exceeds 60% of landscape.
+  
+6. **Closed shrublands** Lands with woody vegetation less than 2m tall and with shrub canopy cover >60%. The shrub foliage can be either evergreen or deciduous.
+  
+7. **Open shrublands** - Lands with woody vegetation less than 2m tall and with shrub canopy cover between 10% and 60%. The shrub foliage can be either evergreen or deciduous.
+  
+8. **Woody savannas** - Lands with herbaceous and other understory systems, and with forest canopy cover between 30% and 60%. The forest cover height exceeds 2m.
+  
+9. **Savannas** - Lands with herbaceous and other understory systems, and with forest canopy cover between 10% and 30%. The forest cover height exceeds 2m.
+  
+10. **Grasslands** - Lands with herbaceous types of cover. Tree and shrub cover is less than 10%.
+  
+11. **Permanent wetlands** - Lands with a permanent mixture of water and herbaceous or woody vegetation. The vegetation can be present either in salt, brackish, or fresh water.
+  
+12. **Croplands** - Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type.
+  
+13. **Urban and built-up lands** - Land covered by buildings and other man-made structures.
+  
+14. **Cropland/natural vegetation mosaics** - Lands with a mosaic of croplands, forests, shrubland, and grasslands in which no one component comprises more than 60% of the landscape.
+  
+15. **Snow and ice** - Lands under snow/ice cover throughout the year.
+  
+16. **Barren** - Lands with exposed soil, sand, rocks, or snow and never have more
+than 10% vegetated cover during any time of the year.
+  
+17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
+</details>
+
+<br/>
+
+
+
+
 </p>
 
 <p align="center">
@@ -95,54 +147,7 @@ _Wetlands_
 
 <br/>
 
-The **International Geosphere–Biosphere Programme (IGBP)** land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. 
 
-<blockquote>
-  Additional info: http://www.igbp.net
-</blockquote>
-
-
-The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
-<details>
-<summary> <b> IGBP (Class, Class name, Description) </b> </summary>
- 
-1. **Evergreen needleleaf forests** - Lands dominated by needleleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees remain green all year. Canopy is never without green foliage.
-  
-2. **Evergreen broadleaf forests** - Lands dominated by broadleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees and shrubs remain green year-round. Canopy is never without green foliage.
-  
-3. **Deciduous needleleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of seasonal needleleaf tree communities with an annual cycle of leaf-on and leaf-off periods.
-  
-4. **Deciduous broadleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods
-  
-5. **Mixed forests** - Lands dominated by trees with a percent cover >60% and height exceeding 2m. Consists of tree communities with interspersed mixtures or mosaics of the other four forest types. None of the forest types exceeds 60% of landscape.
-  
-6. **Closed shrublands** Lands with woody vegetation less than 2m tall and with shrub canopy cover >60%. The shrub foliage can be either evergreen or deciduous.
-  
-7. **Open shrublands** - Lands with woody vegetation less than 2m tall and with shrub canopy cover between 10% and 60%. The shrub foliage can be either evergreen or deciduous.
-  
-8. **Woody savannas** - Lands with herbaceous and other understory systems, and with forest canopy cover between 30% and 60%. The forest cover height exceeds 2m.
-  
-9. **Savannas** - Lands with herbaceous and other understory systems, and with forest canopy cover between 10% and 30%. The forest cover height exceeds 2m.
-  
-10. **Grasslands** - Lands with herbaceous types of cover. Tree and shrub cover is less than 10%.
-  
-11. **Permanent wetlands** - Lands with a permanent mixture of water and herbaceous or woody vegetation. The vegetation can be present either in salt, brackish, or fresh water.
-  
-12. **Croplands** - Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type.
-  
-13. **Urban and built-up lands** - Land covered by buildings and other man-made structures.
-  
-14. **Cropland/natural vegetation mosaics** - Lands with a mosaic of croplands, forests, shrubland, and grasslands in which no one component comprises more than 60% of the landscape.
-  
-15. **Snow and ice** - Lands under snow/ice cover throughout the year.
-  
-16. **Barren** - Lands with exposed soil, sand, rocks, or snow and never have more
-than 10% vegetated cover during any time of the year.
-  
-17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
-</details>
-
-<br/>
 
 **Regional Land Cover Mapping (RCLM)**  
 <blockquote>
