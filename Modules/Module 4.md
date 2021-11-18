@@ -2,17 +2,11 @@
 
 **What will you learn from this module?**
 
-- Common methods for land cover classification (LCC)
-- Using RS indices for supervised image classification 
+- Common methods using RS indices for supervised land cover classification (LCC)
+- LCC systems
 - Classify images in Google Earth Engine 
 
-
-
 ## 1. Land Cover Classification Method
-
-
-
-### 1.1 Supervised image Classification 
 **Supervised image classification** is a method for identifying spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing towards those training sites as reference for unknown targets.  
 
 - **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
