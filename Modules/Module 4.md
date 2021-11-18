@@ -6,7 +6,7 @@
 
 
 ## 1. Supervised Image Classification Methods
-
+These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
 - **Minimum-Distance to the Mean Classifier**: This technique calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
 -  **Parallelepiped Classifier**: This technique uses a decision rule to classify RS data. The decision boundaries form an n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. If the pixel value lies between the low and high threshold values for all n-bands being classified, it is assigned to that class. 
 - **Gaussian Maximum Likelihood Classifier (GMLC)**: This technique assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
