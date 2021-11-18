@@ -12,13 +12,14 @@
 </p>
 
 
-## 1. Supervised and Unsupervised Classification 
+## 1. Land Cover Classification Method 
+### 1.1 Supervised and Unsupervised Classification 
 **Unsupervised classification** is where the outcomes  are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to determine which pixels are related and groups them into classes. 
 
 **Supervised classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
 
 
-## 2. Common Classification Algorithms
+### 1.2 Common Classification Algorithms
 1. The **Minimum-Distance to the Mean Classifier** is used to classify unknown image data to classes which minimize the distance between the image data and the class in multi-feature space. The distance is defined as an index of similarity so that the minimum distance is identical to the maximum similarity ([1](http://sar.kangwon.ac.kr/etc/rs_note/rsnote/cp11/cp11-6.htm)).
     1. Euclidean distance
     2. Normalized Euclidean distance
@@ -29,7 +30,7 @@
 5. **Support Vector Machine (SVM) Classifiers** are a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
 6. **Continuous Change Detection and Classification (CCDC)** is a general-purpose algorithm that evaluates changes in pixel values over time. 
 
-## 3. Applications in Google Earth Engine 
+## 2 Applications in Google Earth Engine 
 For this workshop, we will be focusing only on supervised classification methods. In particular, we will be using random forests, SVM, and CCDC in GEE. 
 
 GEE 
