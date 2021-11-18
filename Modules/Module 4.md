@@ -44,77 +44,64 @@ The following outline shows the classification scheme for NLCD:
 
 <details>
   <summary> <b> NLCD (Class, Value, Description) </b> </summary>
-  <details>
-  <summary>Water</summary>
   
-   - 11	_Open Water_ - areas of open water, generally with less than 25% cover of vegetation or soil.
+   _Water_
+  
+   - 11	**Open Water** - areas of open water, generally with less than 25% cover of vegetation or soil.
    
-   - 12	_Perennial Ice/Snow_ - areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.   
-  </details>
+   - 12	**Perennial Ice/Snow** - areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.   
   
- <details>
- <summary>Developed</summary>
+ _Developed_
  
-  - 21	_Developed, Open Space_ - areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20% of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.
+  - 21	**Developed, Open Space** - areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20% of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.
    
-  - 22	_Developed, Low Intensity_ - areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20% to 49% percent of total cover. These areas most commonly include single-family housing units.
+  - 22	**Developed, Low Intensity** - areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20% to 49% percent of total cover. These areas most commonly include single-family housing units.
    
-  - 23	_Developed, Medium Intensity_ - areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50% to 79% of the total cover. These areas most commonly include single-family housing units.
+  - 23	**Developed, Medium Intensity** - areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50% to 79% of the total cover. These areas most commonly include single-family housing units.
    
-  - 24	_Developed High Intensity_ - highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80% to 100% of the total cover.
- </details>
+  - 24	**Developed High Intensity** - highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80% to 100% of the total cover.
   
- <details>
- <summary>Barren</summary>
- 
-   - 31	_Barren Land (Rock/Sand/Clay)_ - areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and      other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.
- </details>
-  
- <details> 
- <summary>Forest</summary>
-   
-  - 41	_Deciduous Forest_ - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species shed - foliage simultaneously in response to seasonal change.
-   
-  - 42	_Evergreen Forest_ - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species maintain their leaves all year. Canopy is never without green foliage.
-   
-  - 43	_Mixed Forest_ - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75% of total tree cover.  
- </details>
-  
- <details>
- <summary>Shrubland</summary>
-   
-  - 51 _Dwarf Scrub_ - Alaska only areas dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation.
-   
-  - 52	_Shrub/Scrub_ - areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. 
- </details>
 
- <details>
- <summary>Herbaceous</summary>
-   
-  - 71	_Grassland/Herbaceous_ - areas dominated by gramanoid or herbaceous vegetation, generally greater than 80% of total vegetation. These areas are not subject to intensive management such as tilling, but can be utilized for grazing.
-   
-  - 72	_Sedge/Herbaceous_ - Alaska only areas dominated by sedges and forbs, generally greater than 80% of total vegetation. This type can occur with significant other grasses or other grass like plants, and includes sedge tundra, and sedge tussock tundra.
-   
-  - 73	_Lichens_ - Alaska only areas dominated by fruticose or foliose lichens generally greater than 80% of total vegetation.
-   
-  - 74	_Moss_ - Alaska only areas dominated by mosses, generally greater than 80% of total vegetation.  
- </details>
+   _Barren_ 
+ 
+   - 31	**Barren Land (Rock/Sand/Clay)** - areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and      other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.
   
- <details>
- <summary>Planted/Cultivated</summary>
+ Forest
    
-  - 81	_Pasture/Hay_ - areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20% of total vegetation.
+  - 41	**Deciduous Forest** - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species shed - foliage simultaneously in response to seasonal change.
    
-  - 82	_Cultivated Crops_ - areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20% of total vegetation. This class also includes all land being actively tilled.   
- </details>
+  - 42	**Evergreen Forest** - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species maintain their leaves all year. Canopy is never without green foliage.
+   
+  - 43	**Mixed Forest** - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75% of total tree cover.  
+
+_Shrubland_
+   
+  - 51 **Dwarf Scrub** - Alaska only areas dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation.
+   
+  - 52	**Shrub/Scrub** - areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. 
+ 
+ 
+ _Herbaceous_
+   
+  - 71	**Grassland/Herbaceous** - areas dominated by gramanoid or herbaceous vegetation, generally greater than 80% of total vegetation. These areas are not subject to intensive management such as tilling, but can be utilized for grazing.
+   
+  - 72	**Sedge/Herbaceous** - Alaska only areas dominated by sedges and forbs, generally greater than 80% of total vegetation. This type can occur with significant other grasses or other grass like plants, and includes sedge tundra, and sedge tussock tundra.
+   
+  - 73	**Lichens** - Alaska only areas dominated by fruticose or foliose lichens generally greater than 80% of total vegetation.
+   
+  - 74	**Moss** - Alaska only areas dominated by mosses, generally greater than 80% of total vegetation.  
   
- <details> 
- <summary>Wetlands</summary>
+ _Planted/Cultivated_
    
-  - 90	_Woody Wetlands_ - areas where forest or shrubland vegetation accounts for greater than 20% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
+  - 81	**Pasture/Hay** - areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20% of total vegetation.
    
-  - 95	_Emergent Herbaceous Wetlands_ - areas where perennial herbaceous vegetation accounts for greater than 80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
-  </details>
+  - 82	**Cultivated Crops** - areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20% of total vegetation. This class also includes all land being actively tilled.   
+
+_Wetlands_
+   
+  - 90	**Woody Wetlands**- areas where forest or shrubland vegetation accounts for greater than 20% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
+   
+  - 95	**Emergent Herbaceous Wetlands** - areas where perennial herbaceous vegetation accounts for greater than 80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
   
 </details>
 
@@ -132,22 +119,38 @@ The following outline shows the IGBP Ecosystems Surface Classifications classifi
 <summary> <b> IGBP (Class, Class name, Description) </b> </summary>
  
 1. **Evergreen needleleaf forests** - Lands dominated by needleleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees remain green all year. Canopy is never without green foliage.
+  
 2. **Evergreen broadleaf forests** - Lands dominated by broadleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees and shrubsremain green year round. Canopy is never without green foliage.
+  
 3. **Deciduous needleleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of seasonal needleleaf tree communities with an annual cycle of leaf-on and leaf-off periods.
+  
 4. **Deciduous broadleaf forests** - Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2m. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods
+  
 5. **Mixed forests** - Lands dominated by trees with a percent cover >60% and height exceeding 2m. Consists of tree communities with interspersed mixtures or mosaics of the other four forest types. None of the forest types exceeds 60% of landscape.
+  
 6. **Closed shrublands** Lands with woody vegetation less than 2m tall and with shrub canopy cover >60%. The shrub foliage can be either evergreen or deciduous.
+  
 7. **Open shrublands** - Lands with woody vegetation less than 2m tall and with shrub canopy cover between 10% and 60%. The shrub foliage can be either evergreen or deciduous.
+  
 8. **Woody savannas** - Lands with herbaceous and other understory systems, and with forest canopy cover between 30% and 60%. The forest cover height exceeds 2m.
+  
 9. **Savannas** - Lands with herbaceous and other understory systems, and with forest canopy cover between 10% and 30%. The forest cover height exceeds 2m.
+  
 10. **Grasslands** - Lands with herbaceous types of cover. Tree and shrub cover is less than 10%.
+  
 11. **Permanent wetlands** - Lands with a permanent mixture of water and herbaceous or woody vegetation. The vegetation can be present either in salt, brackish, or fresh water.
+  
 12. **Croplands** - Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type.
+  
 13. **Urban and built-up lands** - Land covered by buildings and other man-made structures.
+  
 14. **Cropland/natural vegetation mosaics** - Lands with a mosaic of croplands, forests, shrubland, and grasslands in which no one component comprises more than 60% of the landscape.
+  
 15. **Snow and ice** - Lands under snow/ice cover throughout the year.
+  
 16. **Barren** - Lands with exposed soil, sand, rocks, or snow and never have more
 than 10% vegetated cover during any time of the year.
+  
 17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
 
 
