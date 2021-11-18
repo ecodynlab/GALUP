@@ -159,7 +159,7 @@ flow diagram of the classification process.
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84922404/142236533-7e953e69-75a8-4de1-abbe-b60a6a89b6f7.png" />
+  <img src="https://user-images.githubusercontent.com/84922404/142464048-247df488-02e0-46ee-9de8-849ad658280d.png" />
 </p>
 
 sample data/region
