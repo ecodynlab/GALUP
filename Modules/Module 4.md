@@ -6,13 +6,13 @@
 
 
 ## 1. Supervised Image Classification Methods
-These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
-- **Minimum-Distance to the Mean Classifier**: An RS technique that calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
--  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
-- **Gaussian Maximum Likelihood Classifier (GMLC)**: assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
-- **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
-- **Support Vector Machine (SVM) Classifiers**: a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
-- **Continuous Change Detection and Classification (CCDC)**: a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
+
+- **Minimum-Distance to the Mean Classifier**: This technique calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
+-  **Parallelepiped Classifier**: This technique uses a decision rule to classify RS data. The decision boundaries form an n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. If the pixel value lies between the low and high threshold values for all n-bands being classified, it is assigned to that class. 
+- **Gaussian Maximum Likelihood Classifier (GMLC)**: This technique assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
+- **Random Forest Classifier**: This is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
+- **Support Vector Machine (SVM) Classifier**: These is a collection of non-parametric learning algorithms which find the optimal separating hyperplane between classes by focusing on the training data. 
+- **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. This is the method that is currently used to generate the MODIS Land Cover Product [**ref here XXXXXX**]
 
 ### 1.2 Land Cover Classification Systems 
 The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
