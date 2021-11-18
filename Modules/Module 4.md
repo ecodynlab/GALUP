@@ -1,30 +1,38 @@
 ## Module 4 - Land Cover Classification
-
 **What will you learn from this module?**
 
-- Common methods using RS indices for supervised land cover classification (LCC)
-- LCC systems
-- Classify images in Google Earth Engine 
-
-## 1. Supervised Image Classification Methods
-These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
-- **Minimum-Distance to the Mean Classifier**: This technique calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
--  **Parallelepiped Classifier**: This technique uses a decision rule to classify RS data. The decision boundaries form an n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. If the pixel value lies between the low and high threshold values for all n-bands being classified, it is assigned to that class. 
-- **Gaussian Maximum Likelihood Classifier (GMLC)**: This technique assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
-- **Random Forest Classifier**: This is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
-- **Support Vector Machine (SVM) Classifier**: These is a collection of non-parametric learning algorithms which find the optimal separating hyperplane between classes by focusing on the training data. 
-- **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. This is the method that is currently used to generate the MODIS Land Cover Product [**ref here XXXXXX**]
-
-### 2. Land Cover Classification Systems 
-The National Land Cover Database (NLCD) is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
+- Common methods of land cover classification
+- Using indices for classifcation 
+- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Classification in Google Earth Engine 
 
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/87503837/142462927-a5adce30-ec6c-4c8b-8ba6-f2dc46f66d0d.gif" alt="animated" />
+  <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
 </p>
 
 
+
+## 1. Land Cover Classification Method
+
+
+
+### 1.1 Supervised image Classification 
+**Supervised image classification** is a method for identifying spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing towards those training sites as reference for unknown targets.  
+
+- **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
+   <blockquote> 
+   Note: this classifier includes multiple metrics including Euclidean distance, normalized Euclidean distance, and Mahalanobis distance. 
+   </blockquote>
+  
+-  **Parallelepiped Classifier**: uses a decision rule to classify multispectral data by forming a n-dimensional parallelepiped classification in image data space by assigning given pixels to classes based on threshold values. 
+- **Gaussian Maximum Likelihood Classifier (GMLC)**: assumes that each class in each band is normally distributed and evaluates both variance and covariance of the category spectral response patterns when classifying an unknown pixel. 
+- **Random Forest Classifier**: an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The random forest  algorithm can also classify variable importance. 
+- **Support Vector Machine (SVM) Classifiers**: a collection of non-parametric learning algorithms which finds the optimal separating hyperplane between classes by focusing on the training data. 
+- **Continuous Change Detection and Classification (CCDC)**: a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
+
+### 1.2 Land Cover Classification Systems 
+The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
 
 <blockquote>
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
@@ -99,7 +107,7 @@ _Wetlands_
 
 <br/>
 
-The International Geosphere–Biosphere Programme (IGBP) land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. 
+The **International Geosphere–Biosphere Programme (IGBP)** land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. 
 
 <blockquote>
   Additional info: http://www.igbp.net
@@ -145,6 +153,35 @@ than 10% vegetated cover during any time of the year.
   
 17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
 
+</details>
+
+<details>
+<summary> <b> RLCM (Class name, Description) </b> </summary>
+  
+1.	**Forêt / Forest** - dense, closed canopy formation of evergreen or semi-evergreen broadleaf vegetation with a multiple strata structure that includes scattered emergent trees. Upper stratum of trees over 30 m tall. Understory composed of evergreen or semievergreen shrubs; herbaceous cover is discontinuous.
+2.	**Forêt Galerie & Formation Ripicole / Gallery Forest & Riparian Forest** - forest formations forming a band or corridor of dense vegetation along permanent or temporary watercourses; generally closed canopy and similar in structure to forest; their width, extent, and luxuriance depend on the width, and depth of the valleys they follow, as well as the depth and dynamics of the water table. Riparian forest is similar in structure but is found bordering the edges of streams and rivers.
+3.	**Forêt Dégradée / Degraded Forest** - dense, evergreen broadleaf forest with closed or partially closed canopy whose integrity has been degraded by logging or other forms of exploitation. Degraded forest can also be immature forest, or forest in various stages of regrowth after disturbance. Trees 10 to 30 m tall.
+4.	**Forêt Claire / Woodland** - open formations of small to medium height trees; tree height over 10 m and tree cover generally between 50 and 75 percent; canopies are often contiguous, with open areas between trees; grass understory can be scattered to dense, often associated with other herbaceous plants.
+5.	**Forêt Marécageuse / Swamp Forest** - open to dense forests associated with temporarily or permanently waterlogged soils; these forests are generally found in natural depressions, seasonally inundated.
+6.	**Plantation** - regular stands of trees planted for the purpose of producing food, beverages, vegetable oils, raw materials for industry, wood, or for protection against wind and water erosion.
+7.	**Mangrove** - coastal forests of stilted shrubs or trees bordering the ocean or coastal estuaries, composed of one or several mangrove species. 
+8.	**Fourré / Thicket** - dense stand of shrubs, often thorny, forming generally impenetrable cover, with minimal or no herbaceous ground cover.
+9.	**Savane / Savanna** - herbaceous vegetation with mainly grasses that generally exceed 80 cm in height; dominated by annual and perennial grasses typically associated with the Sudan and Guinea zones; ground cover often consumed by annual fires; woody vegetation is usually present. The savanna class includes several major types or subclasses, based on density of shrubs and trees; the land use/land cover maps do not distinguish between shrub savanna, tree savanna, and wooded savanna; nevertheless, it is useful to define them:
+10.	**Savane Herbacée / Herbaceous Savanna** - continuous herbaceous ground cover; trees and shrubs normally absent; this class is represented on the land use / land cover maps.
+11.	**Savane Sahélienne / Sahelian Short Grass Savanna** - scattered trees and shrubs (or only shrubs) with a continuous herbaceous understory usually dominated by annual grasses generally associated with the Sahelian zone; woody cover between 1 and 25 percent.
+12.	**Bowé**– flat, open surfaces that generally occur as lateritic plateaus; the skeletal, ferruginous soils form a hardened, impenetrable surface, generally absent of woody vegetation, but supporting varying quantities of herbaceous cover during the rainy season.
+13.	**Steppe** - open, discontinuous herbaceous ground cover, often mixed with shrubs and trees; insufficient cover to carry fire; scattered annual grasses accompanied by widely spaced perennials. 
+14.	**Surfaces Sableuses / Sandy Area** – beach sand or shifting mounds of sand, formed by wind; active dunes.
+15.	**Terrains Rocheux / Rocky Land** - areas of rocky surfaces or outcrops, consisting of rocky peaks, batholiths, talus slopes, crest lines, cliffs, conglomerates, etc.
+16.	**Sols Dénudés / Bare Soil** - land with little or no vegetation cover, exposing the soil; examples include eroded slopes, gravesl plains, sebkhas, and badlands.
+17.	**Habitations / Settlements** - built up areas comprising human communities in a village, town or city.
+18.	**Zone de Culture / Agriculture** - cultivated areas, with crops dependent on rainfall.
+19.	**Cultures Irriguées / Irrigated Agriculture** - cultivated areas where crops receive water through an irrigation system to support their growth without relying on rainfall.
+20.	**Cultures des Bas-Fonds et de Décrue / Agriculture in Shallows and Recession** - cultivated areas in depressions or along river banks where crop development occurs as the waters recede during the dry season.
+21.	**Cultures et Jachères Sous Palmier à Huile / Cropland and Fallow with Oil Palms** - cultivated areas, with scattered oil palms in the fields; crops are mainly dependent on rainfall.
+22.	**Carrière / Open Mine** - open pit where rock material is mined
+23.	**Prairie Marécageuse – Vallée Inondable / Wetland – floodplain** - herbaceous or aquatic vegetation in permanent or semi-permanent wetlands and swamps.
+24.	**Plans D’eau / Water Bodies** - Any area with permanent or semipermanent surface water.
 
 </details>
 
