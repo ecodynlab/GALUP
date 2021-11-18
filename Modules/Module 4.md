@@ -10,10 +10,10 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Minimum-Distance to the Mean Classifier**: This technique calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
 - **Random Forest Classifier**: This is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classificaiton. The RF algorithm can also classify variable importance. 
 - **Support Vector Machine (SVM) Classifier**: These is a collection of non-parametric learning algorithms which find the optimal separating hyperplane between classes by focusing on the training data. 
-- **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. This is the method that is currently used to generate the MODIS Land Cover Product [**ref here XXXXXX**]
+- **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 
 ## 2. Land Cover Classification Systems 
-- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [here] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net
+- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [**here**] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net
 
 The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
 <details>
