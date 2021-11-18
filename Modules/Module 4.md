@@ -34,8 +34,6 @@
 
 
 ## 2 Applications in Google Earth Engine  
-We will be focusing only on supervised classification methods,particularly random forests, SVM, and CCDC in GEE. 
-
 GEE 
 flow diagram of the classification process.
 </p>
