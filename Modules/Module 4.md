@@ -97,6 +97,7 @@
  <summary>Wetlands</summary>
  </details>
 </details>
+
 ## 2 Applications in Google Earth Engine  
 GEE 
 flow diagram of the classification process.
