@@ -190,6 +190,8 @@ flow diagram of the classification process.
   <img width="700" height="400"  src="https://user-images.githubusercontent.com/84922404/142513142-5544be55-4027-4b41-91ff-753688742de5.png" />
 </p>
 
+
+
 sample data/region
 creating training data - neeed a video tutorial  - generating boxes in qgis/exporting in excel and in kml; 
 used GEE for RF/SVM/CCDC
