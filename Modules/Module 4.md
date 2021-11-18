@@ -32,21 +32,28 @@
 
 ### 1.2 Land Cover Classification Systems 
 <details>
-<summary>National Land Cover Classification Systemw</summary>
-Developed
-  
-Barren
-  
-Forest
-  
-Shrubland 
- 
-Herbaceous
- 
-Planted/Cultivated
-  
-Wetlands
-  
+<summary>National Land Cover Classification System</summary>
+ <details>
+ <summary>Developed</summary>
+ </details>
+ <details>
+ <summary>Barren</summary>
+ </details>
+ <details> 
+ <summary>Forest</summary>
+ </details>
+ <details>
+ <summary>Shrubland</summary>
+ </details>
+ <details>
+ <summary>Herbaceous</summary>
+ </details>
+ <details>
+ <summary>Planted/Cultivated</summary>
+ </details>
+ <details> 
+ <summary>Wetlands</summary>
+ </details>
 </details>
 
 ## 2 Applications in Google Earth Engine  
