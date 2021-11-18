@@ -3,7 +3,7 @@
 
 - Common methods of land cover classification
 - Using indices for classifcation 
-- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Claffication in Google Earth Engine 
+- Applications of Random Forests, Support Vector Machines, and Countinous Change Detection and Classification in Google Earth Engine 
 
 </p>
 
@@ -153,7 +153,7 @@ than 10% vegetated cover during any time of the year.
 
 </details>
 
-## 2 Applications in Google Earth Engine  
+## 2 Land cover classification in Google Earth Engine  
 GEE 
 flow diagram of the classification process.
 </p>
