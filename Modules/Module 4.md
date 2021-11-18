@@ -16,8 +16,8 @@
 
 
 
-### 1.1 Supervised Classification 
-**Supervised classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
+### 1.1 Supervised image Classification 
+**Supervised image classification** is based on the idea that a user can select sample pixels in an image that are representative of specific classes and then direct the image processing software to use these training sites as references for the classification of all other pixels in the image. 
 
 - **Minimum-Distance to the Mean Classifier**: a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space.
    <blockquote> 
@@ -37,8 +37,13 @@ The National Land Cover Database (NLCD) is a comprehensive land use and land cov
 Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
 </blockquote>
 
+<br/>
+
+The following outline shows the classification scheme for NLCD:  
+
+
 <details>
-  <summary> <b> National Land Cover Classification System (Class, Value, Description) </b> </summary>
+  <summary> <b> NLCD (Class, Value, Description) </b> </summary>
   <details>
   <summary>Water</summary>
   
@@ -113,13 +118,18 @@ Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-
   
 </details>
 
+<br/>
+
 International Geosphere–Biosphere Programme (IGBP)
 <blockquote>
   Additional info: http://www.igbp.net
 </blockquote>
 
+<br/>
+
+The following outline shows the IGBP Ecosystems Surface Classifications classification scheme: 
 <details>
-<summary> <b> IGBP ecosystems surface classifications (Class, Class name, Description) </b> </summary>
+<summary> <b> IGBP (Class, Class name, Description) </b> </summary>
  
 1. **Evergreen needleleaf forests** - Lands dominated by needleleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees remain green all year. Canopy is never without green foliage.
 2. **Evergreen broadleaf forests** - Lands dominated by broadleaf woody vegetation with a percent cover >60% and height exceeding 2m. Almost all trees and shrubsremain green year round. Canopy is never without green foliage.
@@ -134,7 +144,7 @@ International Geosphere–Biosphere Programme (IGBP)
 11. **Permanent wetlands** - Lands with a permanent mixture of water and herbaceous or woody vegetation. The vegetation can be present either in salt, brackish, or fresh water.
 12. **Croplands** - Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type.
 13. **Urban and built-up lands** - Land covered by buildings and other man-made structures.
-14. **Cropland/natural vegetation mosaicsv - Lands with a mosaic of croplands, forests, shrubland, and grasslands in which no one component comprises more than 60% of the landscape.
+14. **Cropland/natural vegetation mosaics** - Lands with a mosaic of croplands, forests, shrubland, and grasslands in which no one component comprises more than 60% of the landscape.
 15. **Snow and ice** - Lands under snow/ice cover throughout the year.
 16. **Barren** - Lands with exposed soil, sand, rocks, or snow and never have more
 than 10% vegetated cover during any time of the year.
