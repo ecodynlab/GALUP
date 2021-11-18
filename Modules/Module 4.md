@@ -56,7 +56,7 @@
  <details>
  <summary>Barren</summary>
  
-   - _31	Barren Land (Rock/Sand/Clay)_ - areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.
+   - 31	_Barren Land (Rock/Sand/Clay)_ - areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and      other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.
  </details>
   
  <details> 
@@ -67,7 +67,6 @@
   - 42	_Evergreen Forest_ - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species maintain their leaves all year. Canopy is never without green foliage.
    
   - 43	_Mixed Forest_ - areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75% of total tree cover.  
-   
  </details>
   
  <details>
@@ -75,8 +74,7 @@
    
   - 51 _Dwarf Scrub_ - Alaska only areas dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation.
    
-  - 52	_Shrub/Scrub_ - areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.
-   
+  - 52	_Shrub/Scrub_ - areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. 
  </details>
 
  <details>
@@ -88,17 +86,15 @@
    
   - 73	_Lichens_ - Alaska only areas dominated by fruticose or foliose lichens generally greater than 80% of total vegetation.
    
-  - 74	_Moss_ - Alaska only areas dominated by mosses, generally greater than 80% of total vegetation.
-   
+  - 74	_Moss_ - Alaska only areas dominated by mosses, generally greater than 80% of total vegetation.  
  </details>
   
  <details>
  <summary>Planted/Cultivated</summary>
    
-  - 81	_Pasture/Hay_ -areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20% of total vegetation.
+  - 81	_Pasture/Hay_ - areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20% of total vegetation.
    
-  - 82	_Cultivated Crops_ -areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20% of total vegetation. This class also includes all land being actively tilled.
-   
+  - 82	_Cultivated Crops_ - areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20% of total vegetation. This class also includes all land being actively tilled.   
  </details>
   
  <details> 
@@ -106,9 +102,8 @@
    
   - 90	_Woody Wetlands_ - areas where forest or shrubland vegetation accounts for greater than 20% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
    
-  - 95	_Emergent Herbaceous Wetlands_ - Areas where perennial herbaceous vegetation accounts for greater than 80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
-   
- </details>
+  - 95	_Emergent Herbaceous Wetlands_ - areas where perennial herbaceous vegetation accounts for greater than 80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
+  </details>
   
 </details>
 
