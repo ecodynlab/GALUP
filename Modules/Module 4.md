@@ -22,10 +22,10 @@ For this workshop, we will be focusing only on supervised classification methods
 
 
 ### 1.2 Common Classification Algorithms
-1. The **Minimum-Distance to the Mean Classifier** is used to classify unknown image data to classes which minimize the distance between the image data and the class in multi-feature space. The distance is defined as an index of similarity so that the minimum distance is identical to the maximum similarity ([1](http://sar.kangwon.ac.kr/etc/rs_note/rsnote/cp11/cp11-6.htm)).
-    1. Euclidean distance
-    2. Normalized Euclidean distance
-    3. Mahalanobis distance 
+1. The **Minimum-Distance to the Mean Classifier** is a remote sensing technique used to classify unknown image data to known classes by calculating the mean point in digital parameter space. This includes the 
+    1. Euclidean distance,
+    2. Normalized Euclidean distance, and
+    3. Mahalanobis distance. 
 2. The **Parallelepiped Classifier** uses the class limits and stored in each class signature to determine if a given pixel falls within the class or not. The class limits specify the dimensions (in standard deviation units) of each side of a parallelepiped surrounding the mean of the class in feature space  ([2](http://www.sc.chula.ac.th/courseware/2309507/Lecture/remote18.htm)) .
 3. The **Gaussian Maximum Likelihood Classifier (GMLC)** quantitatively evaluates both the variance and covariance of the category spectral response patterns when classifying an unknown pixel. It is assumed that the distribution of the cloud of points forming the category training data is Gaussian ([3](http://wgbis.ces.iisc.ernet.in/energy/water/paper/remotesensing/chapter1.htm)) 
 4. The **Random Forest Classifier** is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classifcaiton. The RF algorithm can also classify variable importance. 
