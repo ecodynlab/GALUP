@@ -19,7 +19,7 @@ These methods identify spectrally similar areas on images by first identifying k
  <p><cite><a href="https://www.sciencedirect.com/science/article/pii/S0167865505002242"rel="external">Random Forests for land cover classification</a></cite></p>
  <p><cite><a href="https://www.tandfonline.com/doi/abs/10.1080/01431160110040323"rel="external">SVM for land cover classification</a></cite></p>
  <p><cite><a href="https://sites.bu.edu/measures/project-methods/change-detection-and-classification-algorithm/">CCDC algorithm</a></cite></p>
- <p><cite><a href="https://wiki.q-researchsoftware.com/wiki/Machine_Learning_-_Classification_And_Regression_Trees_(CART)/">CART algorithm</a></cite></p>
+ <p><cite><a href="https://wiki.q-researchsoftware.com/wiki/Machine_Learning_-_Classification_And_Regression_Trees_(CART)">CART algorithm</a></cite></p>
 </blockquote>
 
 
