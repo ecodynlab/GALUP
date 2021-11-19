@@ -183,7 +183,7 @@ The figure below shows the flow diagram of the classification process that will 
 ## Exercise and Post-Module Survey (required)
 
 1. Please complete and submit [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/Exercises/M4_Exercise1.md) for Module 4.
-2. Submit the Post-Module survey. 
+2. Submit the Post-Module [survey](https://ufl.qualtrics.com/jfe/form/SV_6VxnjyVgVx04GuG). 
 
 
 
