@@ -1,18 +1,19 @@
 ## Module 4 - Land Cover Classification
 **What will you learn from this module?**
-- Common methods using RS indices for supervised land cover classification (LCC)
-- LCC systems
-- Classify images in Google Earth Engine 
+- Organizing satellite imagery and generating ground truth for land cover classification (LCC) tasks,
+- Utilizing commonly used methods for using RS data (and image indices) for supervised LCC,
+- Assessing classification accuracy using training/testing splits,
 
 ## 1. Supervised Image Classification Methods
 These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
-- **Minimum-Distance to the Mean Classifier**: This technique calculates the mean point in digital parameter space, and uses multiple metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis distance from that mean to classify unknown image data to known classes.
-- **Random Forest Classifier**: This is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classificaiton. The RF algorithm can also classify variable importance. 
-- **Support Vector Machine (SVM) Classifier**: These is a collection of non-parametric learning algorithms which find the optimal separating hyperplane between classes by focusing on the training data. 
-- **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
+- **Minimum-Distance to the Mean Classifier**: This simple technique calculates the mathemaical distance of each location in the parameter space defined by the predictors (bands), and assigns the location the class that is closest to the center of the distribution defined by the group of locations of that class. Multiple distance metrics such as Euclidean distance, normalized Euclidean distance, and Mahalanobis can be used.
+- **Random Forest Classifier**: A random forest classifier is a superset of tree-based classification techniques. Tree-based techniques recursively divide the parameter space to isolate the minimum spanning tree that most efficiently separates the classes defined by the training set. This is an ensemble learning method that creates a multitude of decision trees and takes the average of the trees for classificaiton. See this <a href="https://scikit-learn.org/stable/modules/tree.html">link</a> for a good description of tree-based classifiers.
+- **Support Vector Machine (SVM) Classifier**: These is a collection of non-parametric learning algorithms which find the optimal separating hyperplane between classes by focusing on the training data. See the Python library documentation for a good overview <a href="https://scikit-learn.org/stable/modules/svm.html">here</a>.
+- **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. A comprehensive document detailing the algorithm is provided at the Boston University <a href="https://sites.bu.edu/measures/project-methods/change-detection-and-classification-algorithm/">website</a>.
 
 ## 2. Land Cover Classification Systems 
-- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [**luc here**] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net. The following (expandable) outline shows the classification scheme for the IGBP Ecosystems Surface Classifications:
+- Land cover classification is an inherently question-based exercise. Land cover classes have to be defined based on the kind of research applications, and in cognizance of the availability of both miagery and training data. Several different land cover schemes have consequently been developed, some serve applications at the global scale (for e.g. for input into carbon cycling models), some focused on protected area management, and others focusing on urban dynamics. At regional-national scales, classification schemas may simultaneously serve economic development, ecological conservation, and regional planning needs. There is therefore no single "correct" classification scheme. Here are some examples of widely used schemes.
+- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [**luc here**] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net. The following outline shows the IGBP Ecosystems Surface Classifications classification scheme:
  <ul>
  <details>
  <summary> <b> IGBP (Class, Class name, Description) </b> </summary>
@@ -51,14 +52,34 @@ These methods identify spectrally similar areas on images by first identifying k
 than 10% vegetated cover during any time of the year.
   
 17. **Water bodies** -  Oceans, seas, lakes, reservoirs, and rivers. Can be either fresh or saltwater bodies.
-</details>
-</ul>
-
-- The **Modified Anderson Level II Land Use/Land Cover Classification System** is used by the US Geological Survey (USGS) to generate National Land Cover Database (NLCD). The Database provides a comprehensive land cover product for the US, that is available for all 50 states and Puerto Rico and updated every 5 years. It is primarily based on Landsat data. Additional information can be obtained at https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend. 
+  <li></details><li>
 <ul>
- It consists of 16 classes, as shown in the following outline:  
+<br/>
+
+
+
+
+
+The **National Land Cover Database (NLCD)** is a comprehensive land use and land cover product covering all 50 states and Puerto Rico. The classification scheme developed in this product is primarily based on Landsat satellite data and the product is renewed every 5 years. 
+
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
+</p>
+
+
+<blockquote>
+Additional info: https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend
+</blockquote>
+
+
+
+The following outline shows the classification scheme for NLCD:  
+
+
 <details>
-  <summary> <b> Modified Anderson LULC (Class, Value, Description) </b> </summary>
+  <summary> <b> NLCD (Class, Value, Description) </b> </summary>
   
    _Water_
   
@@ -119,16 +140,16 @@ _Wetlands_
   - 95	**Emergent Herbaceous Wetlands** - areas where perennial herbaceous vegetation accounts for greater than 80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.
   
 </details>
-</ul>
 
-- **LCC System for Ghana**: Currently, the best available land cover maps for Ghana are those developed by the USGS at 30 m resolution for three years - 1975, 200, and 2013. The Figure below shows the classification of Ghana for the three years [**luc reference this https://eros.usgs.gov/westafrica/land-cover/land-use-land-cover-and-trends-ghana**] 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
-</p>
-<ul>
- Efforts are ongoing to develop a harmonized LCC specific for West Africa land covers. Below is the current scheme for the Regional Land Cover Mapping (RLCM) in West Africa.
- <details>
+<br/>
+
+
+
+**Regional Land Cover Mapping (RCLM)**  
+<blockquote>
+  Additional info: https://eros.usgs.gov/westafrica/
+</blockquote>
+<details>
 <summary> <b> RLCM (Class name, Description) </b> </summary>
   
 -	**Forêt / Forest** - dense, closed canopy formation of evergreen or semi-evergreen broadleaf vegetation with a multiple strata structure that includes scattered emergent trees. Upper stratum of trees over 30 m tall. Understory composed of evergreen or semievergreen shrubs; herbaceous cover is discontinuous.
@@ -155,8 +176,8 @@ _Wetlands_
 -	**Carrière / Open Mine** - open pit where rock material is mined
 -	**Prairie Marécageuse – Vallée Inondable / Wetland – floodplain** - herbaceous or aquatic vegetation in permanent or semi-permanent wetlands and swamps.
 -	**Plans D’eau / Water Bodies** - Any area with permanent or semipermanent surface water.
+
 </details>
-</ul>
 
 ## 2 Land cover classification in Google Earth Engine  
 :pushpin: Explanations for SVM, random forests, and CCDC for Google Earth Engine can be found on the GEE guides: [Supervised Classification](https://developers.google.com/earth-engine/guides/classification),  [CCDC](https://gee-ccdc-tools.readthedocs.io/en/latest/) 
@@ -166,8 +187,10 @@ flow diagram of the classification process.
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84922404/142464048-247df488-02e0-46ee-9de8-849ad658280d.png" />
+  <img width="700" height="400"  src="https://user-images.githubusercontent.com/84922404/142513142-5544be55-4027-4b41-91ff-753688742de5.png" />
 </p>
+
+
 
 sample data/region
 creating training data - neeed a video tutorial  - generating boxes in qgis/exporting in excel and in kml; 
