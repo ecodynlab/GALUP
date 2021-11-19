@@ -12,15 +12,17 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Continuous Change Detection and Classification (CCDC)**: This is a general-purpose algorithm that evaluates changes in land cover, land use, or condition over time. The algorithm includes a two-step masking algorithm to eliminate any noisy data caused by snow, clouds, or cloud shadows. Classification occurs after change is detected in a pixel value. 
 - **Classification and Regression Trees (CART)**: This model uses binary decision trees to explain predicted values using a sample of training data with already known classifications. Large amount of data is recommended for good results because the branching process for the decision trees. 
 
+
+<details>
+<summary><b>Additional resources</b></summary>
 <blockquote>
- <b>Additional resources</b>: 
  <p><cite><a href="https://docs.lib.purdue.edu/larstech/25/"rel="external">Minimum Distance Classification</a></cite></p>
  <p><cite><a href="https://www.sciencedirect.com/science/article/pii/S0167865505002242"rel="external">Random Forests for land cover classification</a></cite></p>
  <p><cite><a href="https://www.tandfonline.com/doi/abs/10.1080/01431160110040323"rel="external">SVM for land cover classification</a></cite></p>
  <p><cite><a href="https://sites.bu.edu/measures/project-methods/change-detection-and-classification-algorithm/">CCDC Algorithm</a></cite></p>
  <p><cite><a href="https://wiki.q-researchsoftware.com/wiki/Machine_Learning_-_Classification_And_Regression_Trees_(CART)/">CART Algorithm</a></cite></p>
 </blockquote>
-
+</details>
 
 
 ## 2. Land Cover Classification Systems 
