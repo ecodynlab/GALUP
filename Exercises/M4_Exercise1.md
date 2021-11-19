@@ -8,7 +8,16 @@ In this exercise, we will use the index extraction covered in the last module to
 - Download classified maps for your area.
 
 ## Instructions
-📌 This process may be made easier by downloading and installing Google Eath Pro (<a href="https://www.google.com/earth/versions/#earth-pro">link</a>).
+📌 This process may be made easier by downloading and installing Google Eath Pro (<a href="https://www.google.com/earth/versions/#earth-pro">link</a>). <br>
+This video may help in completing steps 1 through 5:
+
+ <p align="center">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/38ea2eb245184e9d8bab2a4c6fc28ed31d" target="_blank" rel="noopener">
+    <img src="https://user-images.githubusercontent.com/84922404/142556118-d1429e06-8332-44c5-bc2e-9baa7b4f87af.png" alt= "GEE Tutorial" width="800">
+  </a>
+</p>
+
+
 1. Download these **KML files** that contain boxes assigned to your organization: <br>
     a. [AGRHYMET KML](https://github.com/ecodynlab/GALUP/files/7565808/BOXES_AGRHYMET.zip) <br>
     b. [CERSGIS KML](https://github.com/ecodynlab/GALUP/files/7565809/BOXES_CERSGIS.zip) <br>
