@@ -1,9 +1,8 @@
 ## Module 4 - Land Cover Classification
 **What will you learn from this module?**
-- Common methods using RS indices for supervised land cover classification (LCC)
-- LCC systems
-- Classify images in Google Earth Engine 
-
+- Organizing satellite imagery and generating ground truth for land cover classification (LCC) tasks,
+- Utilizing commonly used methods for using RS data (and image indices) for supervised LCC,
+- Assessing classification accuracy using training/testing splits,
 
 ## 1. Supervised Image Classification Methods
 These methods identify spectrally similar areas on images by first identifying known classes from training sites and then directing the image processing using those training sites as reference for unknown sites. Following methods are commonly used for LCC:
