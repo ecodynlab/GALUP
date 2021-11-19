@@ -177,7 +177,7 @@ The figure below shows the flow diagram of the classification process that will 
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84922404/142464048-247df488-02e0-46ee-9de8-849ad658280d.png" />
+  <img src="https://user-images.githubusercontent.com/84922404/142555956-2c22826e-671e-45bf-a6c7-68718c9cde28.png" />
 </p>
 
 ## Exercise and Post-Module Survey (required)
