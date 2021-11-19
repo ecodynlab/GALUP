@@ -28,9 +28,12 @@ This video may help in completing steps 1 through 5:
 4. Each organization has a tab assigned to it. The ID column corresponds to the ID of the boxes in the KML (do not change the ID). We have asumed each registered participant should be able to classify at least 100 locations by the end of the exercise, 
 5. Double-click on any box in the KML to zoom to that location. On the spreadsheet, locate the row corresponding to the KML box ID and click on the "Landcover" cell to reveal several options. Click on an option to select the landcover class. Clicking on this cell will result in several options appearing in the "Subclass cell". These are details of the landcover you selected. Select an option if you are sure the land cover class can be better defined using one of the subclasses.
 6. Once the sheet has been filled and the classification of each point completed, we will export the collected data and merge it with the coordinates of the random points.
+
+**The classifications on the spreadsheet must be completed by Monday, 11/22 at 1:00 PM GMT**
+
 7. Once you receive the merged file of the classifications and original random points (this will be in the form of a shapefile), download this file.
-5. Upload the shapefile into GEE as an asset (see this [link](https://developers.google.com/earth-engine/guides/asset_manager) for help with managing assets in GEE)
-6. Once the asset has been loaded into GEE, run the **script**. This will utilize the training data (the asset) to classify Ghana's land cover using the Random Forest classification method.
-7. Repeat step 6 using the SVM classification method.
-8. Open up the **CCDC** code in GEE. The [GEE CCDC Tools](https://gee-ccdc-tools.readthedocs.io/en/latest/) will be useful for this. 
+8. Upload the shapefile into GEE as an asset (see this [link](https://developers.google.com/earth-engine/guides/asset_manager) for help with managing assets in GEE)
+9. Once the asset has been loaded into GEE, run the **script**. This will utilize the training data (the asset) to classify Ghana's land cover using the Random Forest classification method.
+10. Repeat step 6 using the SVM classification method.
+11. Open up the **CCDC** code in GEE. The [GEE CCDC Tools](https://gee-ccdc-tools.readthedocs.io/en/latest/) will be useful for this. 
     
