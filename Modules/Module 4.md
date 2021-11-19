@@ -13,20 +13,19 @@ These methods identify spectrally similar areas on images by first identifying k
 - **Classification and Regression Trees (CART)**: This model uses binary decision trees to explain predicted values using a sample of training data with already known classifications. Large amount of data is recommended for good results because the branching process for the decision trees. 
 
 
-<details>
-<summary><b>Additional resources</b></summary>
+<b>Additional resources: </b>
 <blockquote>
- <p><cite><a href="https://docs.lib.purdue.edu/larstech/25/"rel="external">Minimum Distance Classification</a></cite></p>
+ <p><cite><a href="https://docs.lib.purdue.edu/larstech/25/"rel="external">Minimum Distance classification</a></cite></p>
  <p><cite><a href="https://www.sciencedirect.com/science/article/pii/S0167865505002242"rel="external">Random Forests for land cover classification</a></cite></p>
  <p><cite><a href="https://www.tandfonline.com/doi/abs/10.1080/01431160110040323"rel="external">SVM for land cover classification</a></cite></p>
- <p><cite><a href="https://sites.bu.edu/measures/project-methods/change-detection-and-classification-algorithm/">CCDC Algorithm</a></cite></p>
- <p><cite><a href="https://wiki.q-researchsoftware.com/wiki/Machine_Learning_-_Classification_And_Regression_Trees_(CART)/">CART Algorithm</a></cite></p>
+ <p><cite><a href="https://sites.bu.edu/measures/project-methods/change-detection-and-classification-algorithm/">CCDC algorithm</a></cite></p>
+ <p><cite><a href="https://wiki.q-researchsoftware.com/wiki/Machine_Learning_-_Classification_And_Regression_Trees_(CART)/">CART algorithm</a></cite></p>
 </blockquote>
-</details>
+
 
 
 ## 2. Land Cover Classification Systems 
-- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover Product [**luc here**] land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net. The following (expandable) outline shows the classification scheme for the IGBP Ecosystems Surface Classifications:
+- The **International Geosphere–Biosphere Programme (IGBP)** is used by the current MODIS Land Cover [Product](https://modis.gsfc.nasa.gov/data/dataprod/mod12.php). The land cover scheme consists of 17 classes that were decided upon to meet IGBP science projects standards. The scheme considers ground biomass, longevity, and leaf type when creating classes. Additional info: http://www.igbp.net. The following (expandable) outline shows the classification scheme for the IGBP Ecosystems Surface Classifications:
  <ul>
  <details>
  <summary> <b> IGBP (Class, Class name, Description) </b> </summary>
@@ -68,9 +67,8 @@ than 10% vegetated cover during any time of the year.
 </details>
 </ul>
 
-- The **Modified Anderson Level II Land Use/Land Cover Classification System** is used by the US Geological Survey (USGS) to generate National Land Cover Database (NLCD). The Database provides a comprehensive land cover product for the US, that is available for all 50 states and Puerto Rico and updated every 5 years. It is primarily based on Landsat data. Additional information can be obtained at https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend. 
-<ul>
- It consists of 16 classes, as shown in the following outline:  
+- The **Modified Anderson Level II Land Use/Land Cover Classification System** is used by the US Geological Survey (USGS) to generate National Land Cover Database (NLCD). The Database provides a comprehensive land cover product for the US, that is available for all 50 states and Puerto Rico and updated every 5 years. It is primarily based on Landsat data. Additional information can be obtained at [MRLC](https://www.mrlc.gov/data/legends/national-land-cover-database-2019-nlcd2019-legend).  It consists of 16 classes, as shown in the following outline: 
+<ul> 
 <details>
   <summary> <b> Modified Anderson LULC (Class, Value, Description) </b> </summary>
   
@@ -135,7 +133,7 @@ _Wetlands_
 </details>
 </ul>
 
-- **LCC System for Ghana**: Currently, the best available land cover maps for Ghana are those developed by the USGS at 30 m resolution for three years - 1975, 200, and 2013. The Figure below shows the classification of Ghana for the three years [**luc reference this https://eros.usgs.gov/westafrica/land-cover/land-use-land-cover-and-trends-ghana**] 
+- **LCC System for Ghana**: Currently, the best available land cover maps for Ghana are those developed by the USGS at 30 m resolution for three years - 1975, 200, and 2013. The Figure below shows the classification of Ghana for the three years ([Source](https://eros.usgs.gov/westafrica/land-cover/land-use-land-cover-and-trends-ghana)). 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/87503837/142496834-09496d67-12e2-44a8-93bc-69001f5dbea9.gif" alt="animated" />
