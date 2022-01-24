@@ -6,7 +6,7 @@
 
 
 ## Objectives
-
+- Discrete and continuous land cover change 
 
 ## Assignment Submission and Help
 
