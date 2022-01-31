@@ -1,4 +1,4 @@
-# Workshop 2: Introduction to Satellite Remote Sensing
+# Workshop 3: Introduction to Change Detection 
 
 > **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>).&nbsp;&nbsp;&nbsp;&nbsp;**Date**:
 ## Goal
