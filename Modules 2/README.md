@@ -6,7 +6,9 @@
 
 
 ## Objectives
-- Discrete and continuous land cover change 
+- Time Series Analysis 
+
+- Land cover change detection 
 
 ## Assignment Submission and Help
 
