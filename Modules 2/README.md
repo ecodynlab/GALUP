@@ -8,9 +8,9 @@
 
 
 ## Objectives
-- Time Series Analysis 
-
-- Land cover change detection 
+- Time Series Analysis <br>
+- Land cover change detection <br>
+- Advanced spatial analysis <br>
 
 ## Assignment Submission and Help
 
@@ -27,4 +27,5 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 1. [Module 1 - Time Series Analysis](module1.md)
 2. Module 2 - Landcover Change Detection 
+3. Module 3 - Advanced Spatial Analysis 
 
