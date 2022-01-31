@@ -1,6 +1,6 @@
 # Workshop 3: Introduction to Change Detection 
 
-> **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>).&nbsp;&nbsp;&nbsp;&nbsp;
+> **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
 > **Date**:<br>
 > **Co-authors**: 
 ## Goal
