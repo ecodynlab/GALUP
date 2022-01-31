@@ -23,6 +23,6 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 ## Modules
 
-1. [Module 1 - Change Detection Using Google Earth Engine](module1.md)
-2. Module 2 - Generating Inputs for LUCIS
+1. [Module 1 - Time Series Analysis](module1.md)
+2. Module 2 - Landcover Change Detection 
 
