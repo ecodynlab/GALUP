@@ -25,5 +25,9 @@ GEE has a variety of functions useful for time series analysis:
 - filtering and compilation of data across large datasets over time
 - analysis using map visualizations and user interface generated charts and graphs
 
+## 3. Change Detection Basics
+Landsat-based detection of Trends  
+
+
 
 
