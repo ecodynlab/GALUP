@@ -1,4 +1,4 @@
-# Module 1 - Time XXXX Analysis 
+# Module 1 - Time Series Analysis 
 
 
 **What will you learn from this module?**
