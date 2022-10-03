@@ -2,8 +2,8 @@
 
 
 **What will you learn from this module?**
-- Time Series Concept
-- Time Series Basics
+- Time Series Analysis Concept
+- Time Series Analysis Fundamentals
 - Techniques for Time Series Analysis in GEE
 
 ## 1. Introduction to Time Series Analysis
@@ -23,7 +23,7 @@
 ([Source](https://earthobservatory.nasa.gov/world-of-change/Yellowstone))<br>
 
 
-## 2. Basics of Time Series 
+## 2. Basics of Time Series Analysis
 - **Spatial/geospatial data** is information about locations and shapes of objects in a geographic coordinate system and is represented as shapes in the form of points, paths and surfaces. <br>
 - **Temporal data** is data that represents a state in time. <br>
 - **Spatio-temporal** databases host data collected across both space and time that describe a phenomenon in a particular location and period of time. 
@@ -65,14 +65,28 @@ It is driven by annual temperature and/or precipitation to assess variation betw
 ## 3. Time Series Analysis in GEE
 
 GEE has a variety of functions useful for time series analysis:
-- filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
-- analysis using map visualizations and user interface generated charts and graphs
+- Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
+- Analysis using map visualizations and user interface generated charts and graphs
 <p align="center">
 <img src="https://developers.google.com/static/earth-engine/images/Charts_image_collection_05.svg">
 </p>
 <sub> Example chart of time series NDVI data from MODIS plotted in GEE from 2010 to 2019. </sub>
 
 ([Source](https://developers.google.com/earth-engine/guides/charts_image_collection))<br>
+
+**3.1 Running Time Series Analysis**<br>
+- In the following example, we will use GEE to run a Time Series Analysis and print a chart to show results for a selected area in Ghana. Please use the video tutorial in **Section 3.2** to follow along.
+
+- Copy the script [Time Series Analysis](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_analysis) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
+- The script includes:<br>
+  a. Defining variables for dates of interest: **ST_DATE** and **EN_DATE** <br>
+  b. Defining the region of interest using 4 coordinates: **Longitude_min**, **Latitude_min**, **Longitude_max**, **Latitude_max** or draw using drawing tools <br>
+  c. Filtering the data product by the **region** and **dates of interest**. <br>
+  d. Creating a function to add an **NDVI** band to an image collection. <br>
+  e. Display the result. <br>
+  f. Define the **chart** and **print**. <br>
+  
+**3.2 Video tutorial for the section 3.1** <br>
 
 ## 4. Exercises and Post-training Survey
 
