@@ -2,9 +2,6 @@
 
 
 **What will you learn from this module?**
-- Time Series Basic Concepts
-- Time Series Types and Methods
-- Techniques for Time Series Analysis in GEE
 
 ## 1. Introduction to Time Series Analysis
 **Time series analysis** looks at landscape change as a dynamic process over several months, years, etc. Mapping the environment at various timescales can provide information about land monitoring parameters like land cover change trends and patterns in vegetation growth. Time series of satellite observations are used to derive environmental parameters to evaluate environmental conditions. <br>
