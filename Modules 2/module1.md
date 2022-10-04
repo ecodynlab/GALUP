@@ -99,5 +99,5 @@ GEE has a variety of functions useful for time series analysis:
 
 ## 5. What's Next?
 
-Module 3 - Landcover Change Detection
+Module 2 - Landcover Change Detection
 
