@@ -35,9 +35,8 @@
 ([Source](https://doi.org/10.1186/s40965-017-0038-z))<br>
 MODIS NDVI and EVI
 
-**Imagery Collection Guide:**
-- Images should be collected at same time of day and same month or season to avoid seasonal/phenological differences.
-- To minimize differences in sun angle, images should be taken around the same time of day.
+**Imagery Selection Guide:**
+- Images should be collected at particular times aand seasons depending on the application. For istance phenological differences or Land cover chnages.
 - Seasonal trends result from differences in precipitation and temperature.
 - Be aware of different annual weather conditions – For example, drought years vs. non-drought years.
 
