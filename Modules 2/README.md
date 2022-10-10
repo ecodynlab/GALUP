@@ -25,6 +25,6 @@ The participants will have to sign into their GitHub accounts to submit assignme
 ## Modules
 
 1. [Module 1 - Time Series Analysis](module1.md)
-2. [Module 2 - Landcover Change Detection](module2.md)
+2. [Module 2 - Landcover Change Detection](Module2.md)
 3. Module 3 - Advanced Spatial Analysis 
 
