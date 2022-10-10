@@ -16,11 +16,11 @@
 - Monitoring post-fire conditions
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/85199074/193483159-0a7eff47-d4d5-4dd9-81a6-6275ad535ec3.png">
+<img src="https://user-images.githubusercontent.com/85199074/194786938-24b992c2-f1b2-4972-97b5-5a0ba0b7633a.jpg">
 </p>
-<sub> Large portions of Yellowstone National Park were destroyed by fires that were started by lightning and human related activities in the summer of 1988. Increased greenness is evident in NDVI estimates over a 30-year period, showing recovery of vegetation across the burn scar. - NASA.</sub>
+<sub> Landcover changes for Greater Accra Metropolitan Area (GAMA) from the year 1991 to 2015.</sub>
 
-([Source](https://earthobservatory.nasa.gov/world-of-change/Yellowstone))<br>
+([Source](https://www.mdpi.com/2413-8851/3/1/26))<br>
 
 
 ## 2. Basics of Time Series Analysis
@@ -36,7 +36,7 @@
 MODIS NDVI and EVI
 
 **Imagery Selection Guide:**
-- Images should be collected at particular times aand seasons depending on the application. For istance phenological differences or Land cover chnages.
+- Images should be selected at particular times aand seasons depending on the application. For istance phenological differences or Land cover chnages.
 - Seasonal trends result from differences in precipitation and temperature.
 - Be aware of different annual weather conditions – For example, drought years vs. non-drought years.
 
@@ -45,21 +45,21 @@ MODIS NDVI and EVI
 It is a yearly assessment undertaken for as many years as possible (availability of data). It is particularly useful for land use/land cover analysis over long periods of time.
 
 <p align="center">
-<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10708-020-10302-4/MediaObjects/10708_2020_10302_Fig3_HTML.png">
+<img src="https://www.mdpi.com/land/land-09-00300/article_deploy/html/images/land-09-00300-g003.png">
 </p>
-<sub> Mangalore Taluk Land Use/Land Cover (LULC) for the years 1972-2018. </sub>
+<sub> Maps showing land cover change (LCC) characteristics in Kumasi (1986–2018)a. </sub>
 
-([Source](https://link.springer.com/article/10.1007/s10708-020-10302-4))<br>
+([Source](https://www.mdpi.com/2073-445X/9/9/300/htm))<br>
 
 - **Seasonal Trends:**
 It is driven by annual temperature and/or precipitation to assess variation between seasons. It can measure change within a year timeframe and is useful in comparison of seasonal variation between years.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/85199074/193489786-81894af7-5381-425a-8a8f-e9ac3fb019b5.png">
+<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12665-022-10481-y/MediaObjects/12665_2022_10481_Fig9_HTML.png?as=webp">
 </p>
-<sub> Snow cover monitoring in the Himalayas </sub>
+<sub> Temperature analysis over the study period (1970–2020) in Southwestern Ghana </sub>
 
-([Source](https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications))<br>
+([Source](https://link.springer.com/article/10.1007/s12665-022-10481-y))<br>
  
 ## 3. Time Series Analysis in GEE
 
@@ -73,8 +73,10 @@ GEE has a variety of functions useful for time series analysis:
 
 ([Source](https://developers.google.com/earth-engine/guides/charts_image_collection))<br>
 
-**3.1 Running Time Series Analysis**<br>
-- In the following example, we will use GEE to run a Time Series Analysis and print a chart to show results for a selected area in Ghana. Please use the video tutorial in **Section 3.2** to follow along.
+**3.1 Video tutorial for the section 3.1** <br>
+
+**3.2 Running Time Series Analysis**<br>
+- In the following example, we will use GEE to run a Time Series Analysis and print a chart to show results for a selected area in Ghana. Please use the video tutorial in **Section 3.1** to follow along.
 
 - Copy the script [Time Series Analysis](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_analysis) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
 - The script includes:<br>
@@ -85,7 +87,12 @@ GEE has a variety of functions useful for time series analysis:
   e. Display the result. <br>
   f. Define the **chart** and **print**. <br>
   
-**3.2 Video tutorial for the section 3.1** <br>
+  
+  **Other Resources** <br>
+ 1. dbsbsjb
+ 2. snsnfns
+  
+  
 
 ## 4. Exercises and Post-training Survey
 
