@@ -22,17 +22,15 @@
 - Cyclic change. E.g Seasonal phenology
 - Multidirectional change. E,g Deforestation and forest regeneration
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/85199074/194786938-24b992c2-f1b2-4972-97b5-5a0ba0b7633a.jpg">
-</p>
-<sub> Landcover changes for Greater Accra Metropolitan Area (GAMA) from the year 1991 to 2015.</sub>
-
-([Source](https://www.mdpi.com/2413-8851/3/1/26))<br>
-
-
 ## 2. Change Detection Using Remote Sensing
 Changes in the landscape are detected as changes in the spectral values of pixels. We can use spectral signatures to differentiate between cover types and calculate environmental indices. For example, healthy vegetation has high reflectance in the green and near-infrared but low in the short-wave infrared while burned areas have low reflectance in the green and near-infrared but high in the S short-wave infrared. Note, Change detetcion is only possible if time series data is available  to compare changes to cover types and features.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/85199074/194796915-95e941ba-75d1-4c58-aa52-2462e10d18ba.jpg">
+</p>
+<sub> Healthy vegetation has a large peak in the near infrared, while soil or burned areas are much lower. Healthy vegetation also has low reflectance in the shortwave infrared, while burned areas have high reflectance.</sub>
+
+([Source](https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications))<br>
 
 ## 3. Change Detection Methods
 - ##Yet to be devloped##
