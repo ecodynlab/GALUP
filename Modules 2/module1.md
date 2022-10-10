@@ -86,13 +86,7 @@ GEE has a variety of functions useful for time series analysis:
   d. Creating a function to add an **NDVI** band to an image collection. <br>
   e. Display the result. <br>
   f. Define the **chart** and **print**. <br>
-  
-  
-  **Other Resources** <br>
- 1. dbsbsjb
- 2. snsnfns
-  
-  
+   
 
 ## 4. Exercises and Post-training Survey
 
@@ -106,3 +100,7 @@ GEE has a variety of functions useful for time series analysis:
 ## 5. What's Next?
 
 Module 2 - Landcover Change Detection
+
+## 6. Other Useful Resources
+ 1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
+ 2. [NASA ARSET: Time Series Analysis](https://www.youtube.com/watch?v=RqVselZ5hKM&t=3695s)<br>
