@@ -1,11 +1,10 @@
-# Workshop 3: Introduction to Change Detection 
+# Workshop 4: Introduction to Remote Sensing Contd. 
 
 > **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
 > **Date**:<br>
 > **Co-authors**: 
 ## Goal
-
-
+The fourth GALUP workshop aims at applying skills learned in the second workshop -Introduction to Remote Sensing using Google Earth Engine (GEE) for further analysis. The participants will learn basics in Time Series Analysis and Change Detection and apply this to land use studies and analysis. This workshop is the second phase toward understanding how RS data can be used for land-use assessments.
 
 ## Objectives
 - Time Series Analysis <br>
@@ -26,6 +25,6 @@ The participants will have to sign into their GitHub accounts to submit assignme
 ## Modules
 
 1. [Module 1 - Time Series Analysis](module1.md)
-2. Module 2 - Landcover Change Detection 
+2. [Module 2 - Landcover Change Detection](module2.md)
 3. Module 3 - Advanced Spatial Analysis 
 
