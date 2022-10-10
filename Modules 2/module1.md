@@ -35,8 +35,6 @@
 ([Source](https://doi.org/10.1186/s40965-017-0038-z))<br>
 MODIS NDVI and EVI
 
-## 3. Methods of Time Series Analysis
-
 **Imagery Selection Guide:**
 - Images should be selected at particular times aand seasons depending on the application. For istance phenological differences or Land cover chnages.
 - Seasonal trends result from differences in precipitation and temperature.
@@ -62,6 +60,9 @@ It is driven by annual temperature and/or precipitation to assess variation betw
 <sub> Temperature analysis over the study period (1970–2020) in Southwestern Ghana </sub>
 
 ([Source](https://link.springer.com/article/10.1007/s12665-022-10481-y))<br>
+
+## 3. Methods of Time Series Analysis
+- ##Yet to be devloped##
  
 ## 4. Time Series Analysis in GEE
 
