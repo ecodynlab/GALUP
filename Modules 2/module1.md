@@ -2,8 +2,8 @@
 
 
 **What will you learn from this module?**
-- Time Series Analysis Concept
-- Time Series Analysis Fundamentals
+- Time Series Analysis Concept and fundamentals
+- Time Series Analysis Methods
 - Techniques for Time Series Analysis in GEE
 
 ## 1. Introduction to Time Series Analysis
@@ -35,6 +35,8 @@
 ([Source](https://doi.org/10.1186/s40965-017-0038-z))<br>
 MODIS NDVI and EVI
 
+## 3. Methods of Time Series Analysis
+
 **Imagery Selection Guide:**
 - Images should be selected at particular times aand seasons depending on the application. For istance phenological differences or Land cover chnages.
 - Seasonal trends result from differences in precipitation and temperature.
@@ -61,7 +63,7 @@ It is driven by annual temperature and/or precipitation to assess variation betw
 
 ([Source](https://link.springer.com/article/10.1007/s12665-022-10481-y))<br>
  
-## 3. Time Series Analysis in GEE
+## 4. Time Series Analysis in GEE
 
 GEE has a variety of functions useful for time series analysis:
 - Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
@@ -73,10 +75,10 @@ GEE has a variety of functions useful for time series analysis:
 
 ([Source](https://developers.google.com/earth-engine/guides/charts_image_collection))<br>
 
-**3.1 Video tutorial for the section 3.1** <br>
+**4.1 Video tutorial for the section 3.1** <br>
 
-**3.2 Running Time Series Analysis**<br>
-- In the following example, we will use GEE to run a Time Series Analysis and print a chart to show results for a selected area in Ghana. Please use the video tutorial in **Section 3.1** to follow along.
+**4.2 Running Time Series Analysis**<br>
+- In the following example, we will use GEE to run a Time Series Analysis and print a chart to show results for a selected area in Ghana. Please use the video tutorial in **Section 4.1** to follow along.
 
 - Copy the script [Time Series Analysis](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_analysis) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
 - The script includes:<br>
@@ -88,7 +90,7 @@ GEE has a variety of functions useful for time series analysis:
   f. Define the **chart** and **print**. <br>
    
 
-## 4. Exercises and Post-training Survey
+## 5. Exercises and Post-training Survey
 
 - Please complete the [Exercise 1]
 - Please complete the [Exercise 2]
@@ -97,10 +99,10 @@ GEE has a variety of functions useful for time series analysis:
   
 - Please submit your exercises [here]
 
-## 5. What's Next?
+## 6. What's Next?
 
 Module 2 - Landcover Change Detection
 
-## 6. Other Useful Resources
+## 7. Other Useful Resources
  1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
  2. [NASA ARSET: Time Series Analysis](https://www.youtube.com/watch?v=RqVselZ5hKM&t=3695s)<br>
