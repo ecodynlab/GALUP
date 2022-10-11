@@ -1,6 +1,4 @@
 # Module 2 - Change Detection
-
-
 **What will you learn from this module?**
 - Introduction to Change Detection
 - Change Detection using Remote Sensing
@@ -20,7 +18,10 @@
 **Forms of Change;**
 - Directional change. E.g Urban development/growth direction
 - Cyclic change. E.g Seasonal phenology
-- Multidirectional change. E,g Deforestation and forest regeneration
+- Multidirectional change. E.g. Deforestation and forest regeneration
+- Between class changes. E.g. forest to agriculture conversion
+- Within-class changes. E.g. change in vegetation index values
+
 
 ## 2. Change Detection Using Remote Sensing
 Changes in the landscape are detected as changes in the spectral values of pixels. We can use spectral signatures to differentiate between cover types and calculate environmental indices. For example, healthy vegetation has high reflectance in the green and near-infrared but low in the short-wave infrared while burned areas have low reflectance in the green and near-infrared but high in the S short-wave infrared. Note, Change detetcion is only possible if time series data is available  to compare changes to cover types and features.
@@ -33,7 +34,14 @@ Changes in the landscape are detected as changes in the spectral values of pixel
 ([Source](https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications))<br>
 
 ## 3. Change Detection Methods
-- ##Yet to be devloped##
+**a**.  **Visual Analysis** - It is the identification of change through visual comparison, digitization, and/or band combinations. It is suitable for large changes such as patch shape or size but not for subtle changes such as land degradation.. It does not neccesarily utilise spectral reactivity.
+
+**b**.  **Image Differencing** - is computed on a pixel-by-pixel basis and is executed across the full extent of both images.The pixel-based nature of image differencing allows for more precise identification of change. This method is particularly useful for assessing change over continuous indices (such as those used to measure vegetation and soil). 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/85199074/194987983-817db71d-207d-4624-a9bc-fcaf350750c9.png">
+</p>
+
+
  
 ## 4. Change Detection in GEE
 
