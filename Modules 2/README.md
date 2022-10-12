@@ -1,4 +1,4 @@
-# Workshop 4: Introduction to Remote Sensing Contd. 
+# Workshop 4: Introduction to Remote Sensing - II (Time Series Analysis and Change Detection)
 
 > **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
 > **Date**:<br>
@@ -24,7 +24,8 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 ## Modules
 
-1. [Module 1 - Time Series Analysis](module1.md)
-2. [Module 2 - Landcover Change Detection](Module2.md)
-3. Module 3 - Advanced Spatial Analysis 
+1. [Module 0 - Pre-Workshop Exercise](module0.md)
+2. [Module 1 - Time Series Analysis](module1.md)
+3. [Module 2 - Landcover Change Detection](module2.md)
+
 
