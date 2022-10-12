@@ -26,6 +26,6 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 1. [Module 0 - Pre-Workshop Exercise](module0.md)
 2. [Module 1 - Time Series Analysis](module1.md)
-3. [Module 2 - Landcover Change Detection](module2.md)
+3. [Module 2 - Change Detection](module2.md)
 
 
