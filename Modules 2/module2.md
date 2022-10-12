@@ -64,8 +64,5 @@ Changes in the landscape are detected as changes in the spectral values of pixel
   
 - Please submit your exercises [here]
 
-## 6. What's Next?
-Module 2 - Landcover Change Detection
-
-## 7. Other Useful Resources
+## 6. Other Useful Resources
 
