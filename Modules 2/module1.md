@@ -113,7 +113,7 @@ GEE has a variety of functions useful for time series analysis:
 
 ## 6. What's Next?
 
-Module 2 - Change Detection
+Module 2 - [Change Detection](module2.md)
 
 ## 7. Other Useful Resources
  1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
