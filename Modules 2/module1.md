@@ -104,7 +104,7 @@ GEE has a variety of functions useful for time series analysis:
 
 ## 5. Exercises and Post-training Survey
 
-- Please complete the [Exercise 1]
+- Please complete the [Exercise 1](ExercisesM2/Exercise1)
 - Please complete the [Exercise 2]
 
 - Please take this [post-training survey]
