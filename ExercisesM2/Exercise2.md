@@ -1,4 +1,4 @@
-# Module4 - Time series Exercise 2
+# Module4 - Time Series Exercise 2
 
 ## Description
 In this exercise, we would select an area of our choice, run the "Linearfit script" for the area and expalin the generated histograms for Temperature, Rain and NDVI for a specified period of time.
