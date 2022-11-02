@@ -1,4 +1,4 @@
-# Workshop 4: Introduction to Remote Sensing - II (Time Series Analysis and Change Detection)
+# Workshop 4: Introduction to Remote Sensing - II
 
 > **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
 > **Date**:<br>
