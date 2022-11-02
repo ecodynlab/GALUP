@@ -60,6 +60,7 @@ Changes in the landscape are detected as changes in the spectral values of pixel
 - Please complete the [Exercise 1]
 - Please complete the [Exercise 2]
 
+- Please take this [post-module survey]
 - Please take this [post-training survey]
   
 - Please submit your exercises [here]
