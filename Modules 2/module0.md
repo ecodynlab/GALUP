@@ -83,10 +83,12 @@ The video and Figure below show general interface functions for GEE. Further des
 
 - Please complete the [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise0.md)
 
-- Please take this [post-training survey]
-  
 - Please submit your exercises [here]
 
 ## 6. What's Next?
 
 Module 1 - [Time Series Analysis](module1.md)
+
+## Other Resources
+
+Kindly refer to Workshop 2 - [Introduction to Satelite Remote Senisng I](https://github.com/SERVIR-WA/GALUP/tree/master/training/2_rs)
