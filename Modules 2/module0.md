@@ -89,6 +89,6 @@ The video and Figure below show general interface functions for GEE. Further des
 
 Module 1 - [Time Series Analysis](module1.md)
 
-## Other Resources
+## 7. Other Resources
 
 Kindly refer to Workshop 2 - [Introduction to Satelite Remote Senisng I](https://github.com/SERVIR-WA/GALUP/tree/master/training/2_rs)
