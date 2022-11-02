@@ -24,7 +24,7 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 ## Modules
 
-1. [Module 0 - Pre-Workshop Exercise](module0.md)
+1. [Module 0 - Pre-Workshop](module0.md)
 2. [Module 1 - Time Series Analysis](module1.md)
 3. [Module 2 - Change Detection](module2.md)
 
