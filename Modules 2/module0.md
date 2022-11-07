@@ -91,4 +91,4 @@ Module 1 - [Time Series Analysis](module1.md)
 
 ## 7. Other Resources
 
-Kindly refer to Workshop 2 - [Introduction to Satelite Remote Senisng I](https://github.com/SERVIR-WA/GALUP/tree/master/training/2_rs)
+Kindly refer to Workshop 2 - [Introduction to Satelite Remote Senisng I](https://servir-wa.github.io/GALUP/html/Training2ReadMe.html)
