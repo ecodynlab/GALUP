@@ -81,7 +81,7 @@ The video and Figure below show general interface functions for GEE. Further des
 
 ## 5. Exercises and Post-training Survey
 
-- Please complete the [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise0.md)
+- Please complete the [Exercise 0](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise0.md)
 
 - Please submit your exercises [here]
 
