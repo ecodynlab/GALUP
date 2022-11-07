@@ -10,10 +10,11 @@ In this exercise, you would select two images in different time ranges, study ea
 - Interpret the chnages from different Images from different years
 
 ## Instructions
-In this exercise, we will be using the [
-- Create a geometry in an area of interest 
+In this exercise, we will be using this code [Exercise 0](https://github.com/ecodynlab/GALUP/wiki/Scripts#08_exercise_0). Open in Google Earth Engine and follow the instructions below;
 
-- Two start and end dates will be defined for this exercise: one in the range of 2000-2001, and the other in the range of 2020-2021. 
+1. Create a geometry in an area of interest (Hint: A developing or changing area where changes have occured over time)
+
+2. Two start and end dates will be defined for this exercise: one in the range of **2004-2005**, and the other in the range of 2020-2021. (Hint: Choose dates ranging from November-March for higher chances of getting for low cloud images.
 
 - Image collections of Landsat 5, 7, 8 are defined 
 
@@ -21,6 +22,9 @@ In this exercise, we will be using the [
 
 - Visual parameters are defined for the image collections, and the available median images are shown on the map 
 
-The code must be run twice, with screenshots taken of each image output. In each run, the only variable changed will be the time range. 
+3. The code should be run twice for the different time periods, with screenshots taken of each image output. In each run, the only variable changed will be the date range.
+
+4.  Discuss changes as seen from the two images (before and after) and suggest reasons for these changes.
+
 ## Result
 Upon completion of the exercise, submit your document [here] 
