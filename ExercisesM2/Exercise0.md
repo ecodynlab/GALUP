@@ -27,4 +27,4 @@ In this exercise, we will be using this code [Exercise_0_Script](https://github.
 4.  Discuss changes as seen from the two images (before and after) and suggest reasons for these changes.
 
 ## Result
-Upon completion of the exercise, submit your document [[here]](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M0&template=Exercise0Template.md&title=Workshop+4+exercise+0+%5Breplace+with+your+name%5D) 
+Upon completion of the exercise, submit your document [[here]](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M0&template=w4m0-exercise-submission.md&title=Workshop+4+exercise+0+%5Breplace+with+your+name%5D) 
