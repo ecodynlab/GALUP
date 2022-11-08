@@ -9,13 +9,6 @@ In this exercise, you would select two images in different time ranges, study ea
 - Learn about commonly used RS indices and environmental variables
 - Interpret the chnages from different Images from different years
 
-## Video Tutorial for Exercise
-<p align="center">
-  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/fdf9ea02f3f247969e0a56bd8a1909411d" target="_blank">
-    <img src="https://user-images.githubusercontent.com/85199074/200466106-3a918af2-601f-4d38-867e-6cdf50bd79f7.png" alt= "GEE Tutorial" width="800">
-  </a>
-</p>
-
 ## Instructions
 In this exercise, we will be using this code [Exercise 0](https://github.com/ecodynlab/GALUP/wiki/Scripts#08_exercise_0). Open in Google Earth Engine and follow the instructions below;
 
