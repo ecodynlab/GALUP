@@ -138,7 +138,7 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 - Please complete the [[Exercise 0]](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise0.md)
 
-- Please submit your exercise [[here]](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M0&template=Exercise0Template.md&title=Workshop+4+exercise+0+%5Breplace+with+your+name%5D)
+- Please submit your exercise [[here]](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M0&template=w4m0-exercise-submission.md&title=Workshop+4+exercise+0+%5Breplace+with+your+name%5D)
 
 ## 8. What's Next?
 
