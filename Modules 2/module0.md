@@ -39,13 +39,7 @@ Please request an account with Google Earth Engine (GEE) as follows:
 
 ## 3. Exploring GEE Interface
 
-The video and Figure below show general interface functions for GEE. Further description of the components of the Figure can be found [here](https://github.com/SERVIR-WA/GALUP/wiki/GEE-Interface). 
-
-<p align="center">
-  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/55447fcbfc2f487ebaae8d1258e829ca1d" target="_blank">
-    <img src="https://user-images.githubusercontent.com/84922404/135470199-719878b5-7cb6-4a7a-aacd-e40881cda2e3.JPG" alt= "GEE Tutorial" width="800">
-  </a>
-</p>
+The figure below shows general interface functions for GEE. Further description of the components of the Figure can be found [here](https://github.com/SERVIR-WA/GALUP/wiki/GEE-Interface). 
   
 ![GEEinterface](https://user-images.githubusercontent.com/84922404/132246323-4b2d7dee-6cdc-4828-aa9a-b3ab4193ffa5.png)
 
@@ -77,18 +71,54 @@ The video and Figure below show general interface functions for GEE. Further des
 
 
 :pushpin: A database of remote sensing indices and their respective sensors and areas of application are compiled [here](https://www.indexdatabase.de/). 
-   
 
-## 5. Exercises and Post-training Survey
+## 5. A Recap Video
+<p align="center">
+  <a href="https://mediasite.video.ufl.edu/Mediasite/Play/fdf9ea02f3f247969e0a56bd8a1909411d" target="_blank">
+    <img src="https://user-images.githubusercontent.com/85199074/200466106-3a918af2-601f-4d38-867e-6cdf50bd79f7.png" alt= "GEE Tutorial" width="800">
+  </a>
+</p>
 
-- Please complete the [Exercise 0](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise0.md)
+**Recap ‘search_and_display’ and ‘image_indices_environmental_data’**
 
-- Please submit your exercises [here]
+- Define a **geometry of interest**
 
-## 6. What's Next?
+- **ST_DATE and EN_DATE** give time range 
+
+- **IMG_L#** give image collection 
+
+- **filterBounds** filters by area of interest 
+
+- **filterDate** filters by time range 
+
+- **filterMetadata(‘CLOUD_COVER’)** filters cloudy images out 
+
+- **visParams** provides visualization parameters to determine the color display of the output image 
+
+- **Map.centerObject** centers the focus of the map on the area of interest 
+
+- **Map.addLayer** adds an image or image collection to the map 
+
+Functions of getLSAT, cloudMask, getNDVI are defined with input and filters 
+
+- **getLSAT** has inputs of a Landsat image collection, geometry, start date, and end date. It retrieves the Landsat image collection and filters it by geometry, time range and cloud cover. The cloud cover is filtered through a cloud mask. Band names of the images in the collection are selected and renamed to be clearer, and Landsat 8 images have a different order of band names since its bands differ slightly from 5 and 7. 
+
+- **cloudMask** has an input of an image and is used in get LSAT and extracts quality bits and ensures that cloudy data is removed from the image collection 
+
+- **getNDVI** has an input of an image and selects NIR and Red bands from the image given. It then calculates the normalized difference of these values and returns an image with NDVI 
+
+In the main part of the code, and **Landsat image (IMG_LT)** is created and the **median image extracted (MED_LT)**. Then an index (e.g., NDVI) is selected from the **image collection (IMG_IND)**, and the **median image of the index collection is extracted (MED_IND)**. These images are mapped, and a chart is created to show the index over time. This process can be conducted on NDVI, elevation, or land surface temperature 
+
+## 6. Exercises and Post-training Survey
+
+- Please complete the [[Exercise 0]](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise0.md)
+
+- Please submit your exercises [[here]](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M0&template=Exercise0Template.md&title=Workshop+4+exercise+0+%5Breplace+with+your+name%5D)
+
+## 7. What's Next?
 
 Module 1 - [Time Series Analysis](module1.md)
 
-## 7. Other Resources
+## 8. Other Resources
 
 Kindly refer to Workshop 2 - [Introduction to Satelite Remote Senisng I](https://servir-wa.github.io/GALUP/html/Training2ReadMe.html)
