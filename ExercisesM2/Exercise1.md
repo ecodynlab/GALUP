@@ -12,4 +12,4 @@ In this exercise, we will use GEE to run a time series analysis with an export o
 
 
 ## Result
-Upon completion of the exercise, submit your screenshot [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M1&template=Exercise1Template.md&title=Workshop+4+exercise+1+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit your screenshot [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M1&template=w4m1-exercise1-submission.md&title=Workshop+4+exercise+1+%5Breplace+with+your+name%5D)
