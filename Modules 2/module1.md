@@ -108,8 +108,6 @@ GEE has a variety of functions useful for time series analysis:
 - Please complete the [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2)
 
 - Please take this [post-module survey]
-  
-- Please submit your exercises [here]
 
 ## 6. What's Next?
 
