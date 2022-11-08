@@ -1,17 +1,17 @@
 # Workshop 4: Introduction to Remote Sensing - II
 
 > **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
-> **Date**:<br>
-> **Co-authors**: 
+> **Co-authors**: Silas Achidago (<ins>s.achidago@<i></i>ufl.edu</ins>), Julie Peeling (<ins>juliepeeling<i></i>ufl.edu</ins>)
 ## Goal
 The fourth GALUP workshop aims at applying skills learned in the second workshop -Introduction to Remote Sensing using Google Earth Engine (GEE) for further analysis. The participants will learn basics in Time Series Analysis and Change Detection and apply this to land use studies and analysis. This workshop is the second phase toward understanding how RS data can be used for land-use assessments.
 
 ## Objectives
 - Time Series Analysis <br>
-- Land cover change detection <br>
-- Advanced spatial analysis <br>
+- Change detection <br>
 
-# A recap of Introduction to Satellite Remote Sensing I
+
+# A recap of Introduction to Satellite Remote Sensing I 
+**[Introduction to Satellite Remote Senisng I](https://servir-wa.github.io/GALUP/html/Training2ReadMe.html)**
 ## 1. What did we learn
 ### What is Remote Sensing
 **Remote sensing** is the science and art of obtaining information about an object, area, or phenomenon through the analysis of data acquired by a device that is not in contact with the object, area, or phenomenon under investigation<sup>1</sup>. Modern day remote sensing started with the advent of radar, sonar, and thermal infrared detection systems during World War II. Since then, detectors have been expanded to obtain information from most of the bands in the EM spectrum, with a variety of applications spanning from military use to agriculture. <br> 
@@ -146,6 +146,5 @@ Module 1 - [Time Series Analysis](module1.md) <br>
 Module 2 - [Change Detection](module2.md)
 
 ## 9. Other Resources
-
-Kindly refer to Workshop 2 - [Introduction to Satelite Remote Senisng I](https://servir-wa.github.io/GALUP/html/Training2ReadMe.html)
-
+ 1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
+ 2. [NASA ARSET: Time Series Analysis](https://www.youtube.com/watch?v=RqVselZ5hKM&t=3695s)<br>
