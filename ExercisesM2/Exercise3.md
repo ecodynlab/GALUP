@@ -17,4 +17,4 @@ In this exercise, we will conduct a change detection using GEE with the followin
   b. Interpret the results <br>
 
 ## Result
-Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=Exercise3Template.md&title=Workshop+4+exercise+1+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Module+2+exercise+%5Breplace+with+your+name%5D)
