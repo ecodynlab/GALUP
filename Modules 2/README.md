@@ -142,7 +142,7 @@ The participants will have to sign into their GitHub accounts to submit assignme
 
 ## 8. What's Next?
 
-Module 1 - [Time Series Analysis](module1.md)
+Module 1 - [Time Series Analysis](module1.md) <br>
 Module 2 - [Change Detection](module2.md)
 
 ## 9. Other Resources
