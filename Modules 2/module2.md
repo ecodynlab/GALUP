@@ -57,13 +57,12 @@ Changes in the landscape are detected as changes in the spectral values of pixel
 
 ## 5. Exercises and Post-training Survey
 
-- Please complete the [Exercise 1]
-- Please complete the [Exercise 2]
+- Please complete the [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
 
-- Please take this [post-module survey]
 - Please take this [post-training survey]
   
-- Please submit your exercises [here]
+- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4+exercise+2+%5Breplace+with+your+name%5D)
 
 ## 6. Other Useful Resources
-
+ 1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
+ 2. [NASA ARSET: Time Series Analysis](https://www.youtube.com/watch?v=RqVselZ5hKM&t=3695s)<br>
