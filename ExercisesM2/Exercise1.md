@@ -10,6 +10,7 @@ In this exercise, we will use GEE to generate a time series image collection and
 
 ## Instructions
 - Copy the script Time Series Analysis Example and paste into GEE editor,
+- Draw a small box in an area of your interest anywhere in the world, this object is automatically imported as a geometry at the start of the script.
 - variables **ST_DATE** and **EN_DATE** specify the start and end dates,
 - variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product,
 - variable **imgNDV** filters all MODIS Data to get NDVI images and clip them to the region of interest.
