@@ -92,7 +92,7 @@ We will follow the following steps:
 
 **4.1 Conducting Linear Time Series Analysis**<br>
 - In the following example, we will use GEE to run a linear time series model  print a chart to show results for a selected area in Ghana.
-- If needed use [this]([https://github.com](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) script to refresh your skills in finding, filtering, and clipping images, 
+- If needed use [this script](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) to refresh your skills in finding, filtering, and clipping images, 
 - Copy the script [Time Series Analysis Example](https://github.com/ecodynlab/GALUP/wiki/Scripts#03_time_series_analysis_example) and paste into GEE editor,
 - variables **ST_DATE** and **EN_DATE** specify the start abd end dates,
 - variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product
@@ -103,7 +103,7 @@ We will follow the following steps:
 - Download the chart as an CSV sheet by clicking on the button in the upper right corner.
 - Open this CSV in Microsoft Excel and fit a trendline to it.
 <br>
-- Copy the script [Time Series Analysis (Linear Fit)](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_linear_fit) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
+- Copy the script [Time Series Fitting](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_linear_fit) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
 - The script includes:<br>
   a. Defining variables for dates of interest: **ST_DATE** and **EN_DATE** <br>
   b. Defining the region of interest using 4 coordinates: **Longitude_min**, **Latitude_min**, **Longitude_max**, **Latitude_max** or draw using drawing tools <br>
