@@ -70,13 +70,10 @@ Several approaches can followed depending on the application context:
 - **Linear Time Series Analysis** - <br>
 Linear time series analysis techniques are predicated on the assumption that the underlying process changes at a constant rate. For example, assessing the annual rate of change in land surface temperature across a city. In general, this involves fitting a straight line through time series of the observations of interest and evaluating the magnitude and direction of the slope of the fit.
 - **Non-Linear Time Series Analysis** - 
-When a time series cannot be adequately described by a straight line, nonlinear time series models might be required. For example, indicators of vegetation greenness usually have a strong seasonal component. Fitting a straight line through the data ignores intra-annual variations that might be important.
+Nonlinear time series models are employed when the time series cannot be adequately described by a straight line. For example, indicators of vegetation greenness usually have a strong seasonal component. Fitting a straight line through the data ignores intra-annual variations that might be important.
 **Harmonic Time Series Analysis** Harmonic analysis, also termed spectral analysis or Fourier analysis, allow the decomposition of the periodic signal into a series of sinusoidal functions, each defined by unique amplitude and phase values (https://www.isprs.org/proceedings/xxxiii/congress/part4/384_xxxiii-part4.pdf) <br>
+**Breakpoint models** Allow the automatic detection of breaks in time series data, and potentially the fitting of different linear and nonlinear models on either side of the break. 
 
-https://www.influxdata.com/what-is-time-series-data/ <br>
-
-- **Non-Linear Time Series Analysis** - 
-  
 ## 4. Time Series Analysis in GEE
 
 GEE has a variety of functions useful for time series analysis:
