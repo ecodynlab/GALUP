@@ -5,15 +5,15 @@ In this exercise, we will use GEE to generate a time series image collection and
 
 ## Skills Developed
 - Practice extracting and analyzing different kinds of time series imagery,
-- Understanding what goes on under the hood of the GEE linear fit reducer,
-- Understanding what slope of the trend may mean in different locations for different datasets,
+- Understanding what goes on 'under-the-hood' of the GEE linear fit reducer,
+- Understanding what the slope may mean in different locations for different datasets.
 
 ## Instructions
 - Copy the script Time Series Analysis Example and paste into GEE editor,
-- variables ST_DATE and EN_DATE specify the start and end dates,
-- variable MOD13Q1 is the MODIS 16-day 500m Global NDVI/EVI product,
-- variable imgNDV filters all MODIS Data to get NDVI images and clip them to the region of interest.
-- variable imgPET similarly filters all MOD16A2 Data to get PET images and clip them to the region of interest.
+- variables **ST_DATE** and **EN_DATE** specify the start and end dates,
+- variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product,
+- variable **imgNDV** filters all MODIS Data to get NDVI images and clip them to the region of interest.
+- variable **imgPET** similarly filters all MOD16A2 Data to get PET images and clip them to the region of interest.
 - the print statements let you inspect the contents of these image collecetions in the console.
 - On the charts generated in the console, click on the upper right corner to open the chart in a new window.
 - Download the chart as an CSV sheet by clicking on the button in the upper right corner.
