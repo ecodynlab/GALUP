@@ -93,9 +93,9 @@ We will follow the following steps:
 ## 5. Excercises<br>
 **5.1 Extracting and exploring time series**<br>
 - In the following example, we will use GEE to run a linear time series model  print a chart to show results for a selected area in Ghana.
-- If needed use [this script](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) to refresh your skills in finding, filtering, and clipping images, 
+- If needed, use [this script](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) to refresh your skills in finding, filtering, and clipping images, 
 - Copy the script [Time Series Analysis Example](https://github.com/ecodynlab/GALUP/wiki/Scripts#03_time_series_analysis_example) and paste into GEE editor,
-- variables **ST_DATE** and **EN_DATE** specify the start abd end dates,
+- variables **ST_DATE** and **EN_DATE** specify the start and end dates,
 - variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product
 - variable **imgNDV** filters all MODIS Data to get NDVI images and clip them to the region of interest.
 - variable **imgPET** similarly filters all MOD16A2 Data to get PET images and clip them to the region of interest.
@@ -103,29 +103,25 @@ We will follow the following steps:
 - On the charts generated in the console, click on the upper right corner to open the chart in a new window.
 - Download the chart as an CSV sheet by clicking on the button in the upper right corner.
 - Open this CSV in Microsoft Excel and fit a trendline to it.
-- Please complete the [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
+- Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
 
 **5.2 Conducting linear time series analyses across large regions**<br>
-- Copy the script [Time Series Fitting](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_linear_fit) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
-- The script includes:<br>
-  a. Defining variables for dates of interest: **ST_DATE** and **EN_DATE** <br>
-  b. Defining the region of interest using 4 coordinates: **Longitude_min**, **Latitude_min**, **Longitude_max**, **Latitude_max** or draw using drawing tools <br>
-  c. Filtering the data product by the **region** and **dates of interest**. <br>
-  d. Creating a function to add an **NDVI** band to an image collection. <br>
-  e. Display the result. <br>
-  f. Define the **chart** and **print**. <br>
-   
+- Copy the script [Linear Time Series Fitting](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_linear_fit) and paste into GEE editor,
+- variables **ST_DATE** and **EN_DATE** specify the start and end dates,
+- function **createTimeBand** adds a 'time band' to any image. Think of this as adding the date column to your excel sheet. This will form the X-axis.
+- variables **ERA5_temp** and **ERA5_rain** collect ERA5 reanalysis climatological data, filter dates set above, clip them to the region of interest, and add the time band.
+- variable **linearFitTemp** fits the linear fitting 'reducer' to the stack of images. A 'reducer' is a function that takes information from all bands and computes a certain metric from it. Common reducers include mean, median, min, and max. The **linearFit** reducer fits a linear regression model for every stack of pixels against the time band, and outputs the scale (slope), and the offset (intercept) of the fitting line.
+- Inspect the respective histograms to find the best visualization parameters for the map displayed.
+- Please complete [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2.md)
 
-## 5. Exercises and Post-training Survey
-
-- Please complete the [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2.md)
+## 6. Post-training Survey
 
 - Please take this [post-module survey]
 
-## 6. What's Next?
+## 7. What's Next?
 
 Module 2 - [Change Detection](module2.md)
 
-## 7. Other Useful Resources
+## 6. Other Useful Resources
  1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
  2. [NASA ARSET: Time Series Analysis](https://www.youtube.com/watch?v=RqVselZ5hKM&t=3695s)<br>
