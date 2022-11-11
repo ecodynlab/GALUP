@@ -55,8 +55,8 @@ At the simplest, the relative change in the proportion of land cover types acros
 
 ([Source](https://www.mdpi.com/2073-445X/9/9/300/htm#))<br>
 
-- **Seasonal Trends:**
-It is driven by annual temperature and/or precipitation to assess variation between seasons. It can measure change within a year timeframe and is useful in comparison of seasonal variation between years.
+- **Seasonal/Annual Trends:**
+Whereas land cover change can be considered a 'discrete' change in the state of a pixel or parcel of land, many processes vary continuously across both time and space. Temperature is a good example. Time series of temperature measurements and be analyzed for both seasonal variation (i.e. minimum/maximum annual temperature) or when strung together across many years, as annual trends (i.e. climate change).
 
 <p align="center">
 <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs12665-022-10481-y/MediaObjects/12665_2022_10481_Fig9_HTML.png?as=webp">
