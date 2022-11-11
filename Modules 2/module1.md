@@ -9,13 +9,13 @@
 - Techniques for Time Series Analysis in GEE
 
 ## 1. Introduction to Time Series Analysis
-**Time series analysis** looks at landscape change as a dynamic process over several months, years, etc. Mapping the environment at various timescales can provide information about land monitoring parameters like land cover change trends and patterns in vegetation growth. Time series of satellite observations are used to derive environmental parameters to evaluate environmental conditions. <br>
+**Time series analysis** techniques help monitor changes across landscapes across time. Mapping changes in the environment at various timescales can provide information about processes such as land cover change, vegetation phenology, and trends in environmental parameters such as rainfall and temperature. <br>
 
 **Common Applications of Time Series Analysis:**
-- Identifying urban expansion
-- Land cover changes
-- Mapping deforestation
-- Monitoring post-fire conditions
+- Identifying urban expansion,
+- Mapping deforestation,
+- Monitoring flood or fire-related damage,
+- Indentifying regions experiencing changes in temperature or precipitation.
 
 <p align="center">
 <img src="https://www.mdpi.com/urbansci/urbansci-03-00026/article_deploy/html/images/urbansci-03-00026-g006.png">
