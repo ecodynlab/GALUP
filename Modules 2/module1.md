@@ -92,11 +92,17 @@ We will follow the following steps:
 
 **4.1 Conducting Linear Time Series Analysis**<br>
 - In the following example, we will use GEE to run a linear time series model  print a chart to show results for a selected area in Ghana.
-- If needed use [this](https://github.com) script to refresh your skills in finding, filtering, and clipping images, 
-- Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
-- Visualization of data, generate charts
-
-
+- If needed use [this]([https://github.com](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) script to refresh your skills in finding, filtering, and clipping images, 
+- Copy the script [Time Series Analysis Example](https://github.com/ecodynlab/GALUP/wiki/Scripts#03_time_series_analysis_example) and paste into GEE editor,
+- variables **ST_DATE** and **EN_DATE** specify the start abd end dates,
+- variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product
+- variable **imgNDV** filters all MODIS Data to get NDVI images and clip them to the region of interest.
+- variable **imgPET** similarly filters all MOD16A2 Data to get PET images and clip them to the region of interest.
+- the print statements let you inspect the contents of these image collecetions in the console.
+- On the charts generated in the console, click on the upper right corner to open the chart in a new window.
+- Download the chart as an CSV sheet by clicking on the button in the upper right corner.
+- Open this CSV in Microsoft Excel and fit a trendline to it.
+<br>
 - Copy the script [Time Series Analysis (Linear Fit)](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_linear_fit) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
 - The script includes:<br>
   a. Defining variables for dates of interest: **ST_DATE** and **EN_DATE** <br>
