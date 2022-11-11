@@ -9,7 +9,7 @@
 - Techniques for Time Series Analysis in GEE
 
 ## 1. Introduction to Time Series Analysis
-Geospatial **Time series analysis** techniques help monitor and quantify landscapes change across  across time and space. Mapping changes in the environment at various timescales can provide information on the rates, causes, and consequences or dynamic processes such as land cover change, vegetation phenology, and trends in environmental parameters such as rainfall and temperature. <br>
+Geospatial **Time series analysis** techniques help monitor and quantify landscapes change across  across time and space. Mapping temporal changes can provide information on the rates, causes, and consequences or dynamic processes such as urbanization, land degradation, phenology, and trends in environmental parameters such as rainfall and temperature. <br>
 
 **Common Applications of Time Series Analysis:**
 - Identifying urban expansion,
