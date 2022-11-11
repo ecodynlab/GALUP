@@ -79,10 +79,10 @@ Nonlinear time series models are employed when the time series cannot be adequat
 GEE has the functionality to derived both linear and harmonic trends from satellite imagery and environmental data. The techniques can be mixed and matched to model both simple trends, and to decompose complex trends into seasonal and annual components, and to detect and fit breakpoint models.
 For the purposes of this training, we will focus on developing estimates of simple linear trends across regions. The user is directed to documentation on [**CCDC**](https://gee-ccdc-tools.readthedocs.io/en/latest/) for a more complex treatment of harmonic time series components for land cover mapping, and to [**LandTrendr**](https://emapr.github.io/LT-GEE/) for utilizing breakpoints for detection landcover change.
 We will follow the following steps:
-a) Identify and collect a time series of interest,
-b) Find a location of interest, extract a time series and plot a chart,
-c) Export the chart in excel, and fit a linear trend to it,
-d) Fit linear trends to all pixels in the area of interest to assess rates of change.
+- Identify and collect a time series of interest,
+- Find a location of interest, extract a time series and plot a chart,
+- Export the chart in excel, and fit a linear trend to it,
+- Fit linear trends to all pixels in the area of interest to assess rates of change.
 To do this, follow the instructions on:
 - Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
 - Visualization of data, generate charts
