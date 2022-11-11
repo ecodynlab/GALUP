@@ -1,7 +1,7 @@
 # Workshop 4: Introduction to Remote Sensing - II
 
 > **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
-> **Co-authors**: Silas Achidago (<ins>s.achidago@<i></i>ufl.edu</ins>) and Julie Peeling (<ins>juliepeeling<i></i>ufl.edu</ins>)
+> **Co-authors**: Silas Achidago (<ins>s.achidago@<i></i>ufl.edu</ins>) and Julie Peeling (<ins>juliepeeling@<i></i>ufl.edu</ins>)
 ## Goal
 The fourth GALUP workshop aims at applying skills learned in the second workshop -Introduction to Remote Sensing using Google Earth Engine (GEE) for further analysis. The participants will learn basics in Time Series Analysis and Change Detection and apply this to land use studies and analysis. This workshop is the second phase toward understanding how RS data can be used for land-use assessments.
 
