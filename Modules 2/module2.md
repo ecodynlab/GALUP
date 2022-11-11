@@ -1,4 +1,8 @@
 # Module 2 - Change Detection
+
+> **Instructor**: [Dr. Aditya Singh](https://abe.ufl.edu/people/faculty/aditya-singh/) (<ins>aditya01@<i></i>ufl.edu</ins>) <br>
+> **Co-authors**: Silas Achidago (<ins>s.achidago@<i></i>ufl.edu</ins>) and Julie Peeling (<ins>juliepeeling@<i></i>ufl.edu</ins>)
+
 **What will you learn from this module?**
 - Introduction to Change Detection
 - Change Detection using Remote Sensing
