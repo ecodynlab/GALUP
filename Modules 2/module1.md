@@ -83,9 +83,6 @@ We will follow the following steps:
 - Find a location of interest, extract a time series and plot a chart,
 - Export the chart in excel, and fit a linear trend to it,
 - Fit linear trends to all pixels in the area of interest to assess rates of change.
-To do this, follow the instructions on:
-- Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
-- Visualization of data, generate charts
 <p align="center">
 <img src="https://developers.google.com/static/earth-engine/images/Charts_image_collection_05.svg">
 </p>
@@ -93,10 +90,11 @@ To do this, follow the instructions on:
 
 ([Source](https://developers.google.com/earth-engine/guides/charts_image_collection))<br>
 
-**4.1 Video tutorial for the section 3.1** <br>
+**4.1 Conducting Linear Time Series Analysis**<br>
+- In the following example, we will use GEE to run a linear time series model  print a chart to show results for a selected area in Ghana.
+- Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
+- Visualization of data, generate charts
 
-**4.2 Running Time Series Analysis**<br>
-- In the following example, we will use GEE to run a Time Series Analysis and print a chart to show results for a selected area in Ghana. Please use the video tutorial in **Section 4.1** to follow along.
 
 - Copy the script [Time Series Analysis (Linear Fit)](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_linear_fit) and paste into the GEE code editor. This is the same script that will be used in Exercise with slight alterations necessary to complete the Exercise.
 - The script includes:<br>
