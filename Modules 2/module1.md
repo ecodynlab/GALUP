@@ -92,7 +92,7 @@ We will follow the following steps:
 
 ## 5. Excercises<br>
 **5.1 Extracting and exploring time series**<br>
-- In the following example, we will use GEE to run a linear time series model  print a chart to show results for a selected area in Ghana.
+- In this example, we will use GEE to extract a single time series from an ImageCollection and will open it in Microsoft Excel (or software of your choice).  We will manually fit a linear trendline to this time series and extract the slope. 
 - If needed, use [this script](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) to refresh your skills in finding, filtering, and clipping images, 
 - Copy the script [Time Series Analysis Example](https://github.com/ecodynlab/GALUP/wiki/Scripts#03_time_series_analysis_example) and paste into GEE editor,
 - variables **ST_DATE** and **EN_DATE** specify the start and end dates,
@@ -106,6 +106,7 @@ We will follow the following steps:
 - Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
 
 **5.2 Conducting linear time series analyses across large regions**<br>
+- In this example, we will fit linear trends to all pixels across a large region and will assess how trends vary geographically for different parameters.
 - Copy the script [Linear Time Series Fitting](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_linear_fit) and paste into GEE editor,
 - variables **ST_DATE** and **EN_DATE** specify the start and end dates,
 - function **createTimeBand** adds a 'time band' to any image. Think of this as adding the date column to your excel sheet. This will form the X-axis.
