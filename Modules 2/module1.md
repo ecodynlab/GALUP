@@ -45,7 +45,7 @@ MODIS NDVI and EVI
 - Some trends may need to be decomposed into their underlying components for generating insights into the dynamics. For example, temperature usually has a strong seasonal component in addition to potentially annual components in some regions.
 
 **Types of Time Series Analysis**
-- **Land cover change:**
+- **Land cover trends:**
 At the simplest, the relative change in the proportion of land cover types across time. When land cover maps are available, the user can calculate the proportions of landcover, and potentially aggregate them over administrative regions to generate a picture of differing trends in urbanization, agricultural expansion, or deforestation etc. Estimates of trends of land cover change are generally important for administrative and management applications.
 
 <p align="center">
