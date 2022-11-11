@@ -26,9 +26,9 @@ Geospatial **Time series analysis** techniques help monitor and quantify landsca
 
 
 ## 2. Basics of Time Series Analysis
-- **Spatial/geospatial data** is information about locations and shapes of objects in a geographic coordinate system and is represented as shapes in the form of points, paths and surfaces. <br>
-- **Temporal data** is data that represents a state in time. <br>
-- **Spatio-temporal** databases host data collected across both space and time that describe a phenomenon in a particular location and period of time. 
+- **Spatial/geospatial data** is information on the location, shape, and extent of objects in a geographic space represented as points, paths, areas, or surfaces. <br>
+- **Temporal data** are data that represent the state of a particular object at a given point of time. Temporal data collected over several intervals create time-series data.<br>
+- **Spatio-temporal data** are data that describe the state of objects or processes across both space and time. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/87503837/151854688-12a69e04-c870-4273-88e6-4c30e7b9d7d5.png">
