@@ -92,6 +92,7 @@ We will follow the following steps:
 
 **4.1 Conducting Linear Time Series Analysis**<br>
 - In the following example, we will use GEE to run a linear time series model  print a chart to show results for a selected area in Ghana.
+- If needed use [this](https://github.com) script to refresh your skills in finding, filtering, and clipping images, 
 - Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
 - Visualization of data, generate charts
 
