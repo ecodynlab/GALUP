@@ -40,8 +40,9 @@ MODIS NDVI and EVI
 **Using Remote Sensing to Conduct Time Series Analyses:**
 - In the context of remote sensing, time series analyses allow us to measure and quantify changes in spatio-temporal processes from space,
 - For effective monitoring to occur, data need to: 1) have suitable spatial and spectral resolution to detect the phenomena, and 2) have a frequent-enough repeat interval to detect change.
-- Assuming the object is detectable using a specific sensor, the timing of acquisition needs to be tuned to the rate of the process being studied. For example, discrete event detections (such as floods or fires) can be conducted using images collected strategically pre- and post that event occurring.  Images need to be spaced close in time for assessing rapidly changing phenomena, such as vegetation greenup after rain. For monitoring long-term changes, data can be aggregated over the time domain of interest, and then assessed on annual or monthly bases (urban expansion, temperature rise).
-- Some trends may need to be decomposed into their components for generating insights. For example, temperature usually has a strong seasonal component in addition to a potential annual component in some regions.
+- Assuming the object is detectable using a specific sensor, the timing of acquisition needs to be tuned to the rate of the process being studied. For example, discrete event detections (such as floods or fires) can be conducted by collecting images before and after that event has occurred. Images need to be spaced close in time for assessing rapidly changing phenomena, such as vegetation greenup after rain. For monitoring long-term changes, data can be aggregated over the time domain of interest, and then assessed on annual or monthly bases (urban expansion, temperature rise). 
+- The availability of satellite data over different spatio-temporal resolutions therefore limits the kinds of proceses that cna be studied.
+- Some trends may need to be decomposed into their underlying components for generating insights into the dynamics. For example, temperature usually has a strong seasonal component in addition to potentially annual components in some regions.
 
 **Types of Time Series Analysis**
 - **Annual Trends:**
