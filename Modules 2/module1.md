@@ -76,7 +76,8 @@ Nonlinear time series models are employed when the time series cannot be adequat
 
 ## 4. Time Series Analysis in GEE
 
-GEE has a variety of functions useful for time series analysis:
+GEE has the functionality to derived both linear and harmonic trends from satellite imagery and environmental data. The techniques can be mixed and matched to model both simple trends, and to decompose complex trends into seasonal and annual components, and to detect and fit breakpoint models.
+For the purposes of this training, we will focus on developing estimates of simple linear trends across regions. The user is directed to documentation on [**CCDC**](https://gee-ccdc-tools.readthedocs.io/en/latest/) for a more complex treatment of harmonic time series components for land cover mapping, and to [**LandTrendr**](https://emapr.github.io/LT-GEE/) for utilizing breakpoints for detection landcover change.
 - Filtering and compilation of data across large datasets over time. Refer to ([GALUP Training Module 2- Introduction to GEE](https://github.com/SERVIR-WA/GALUP/blob/master/training/2_rs/module2.md))<br>
 - Analysis using map visualizations and user interface generated charts and graphs
 <p align="center">
