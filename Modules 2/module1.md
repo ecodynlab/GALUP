@@ -37,10 +37,11 @@ Geospatial **Time series analysis** techniques help monitor and quantify landsca
 ([Source](https://doi.org/10.1186/s40965-017-0038-z))<br>
 MODIS NDVI and EVI
 
-**Imagery Selection Guide:**
-- Images should be selected at particular times aand seasons depending on the application. For istance phenological differences or Land cover chnages.
-- Seasonal trends result from differences in precipitation and temperature.
-- Be aware of different annual weather conditions – For example, drought years vs. non-drought years.
+**Using Remote Sensing to Conduct Time Series Analyses:**
+- In the context of remote sensing, time series analyses allow us to measure and characterize spatio-temporal processes that are observable from space,
+- For effective monitoring to occur, data need to: 1) have suitable spatial and spectral resolution to detect the phenomena, and 2) have a frequent-enough repeat interval to detect change.
+- Assuming the object is detectable using a specific sensor, the timing of acquisition needs to be tuned to the rate of the process being studied. For example, discrete event detections (such as floods or fires) can be conducted using images collected strategically pre- and post that event occurring.  Images need to be spaced close in time for assessing rapidly changing phenomena, such as vegetation greenup after rain. For monitoring long-term changes, data can be aggregated over the time domain of interest, and then assessed on annual or monthly bases (urban expansion, temperature rise).
+- Some trends may need to be decomposed into their components for generating insights. For example, temperature usually has a strong seasonal component in addition to a potential annual component in some regions.
 
 **Types of Time Series Analysis**
 - **Annual Trends:**
