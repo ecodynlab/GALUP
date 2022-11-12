@@ -26,7 +26,7 @@
 
 - Directional change: e.g, Conversion of agriculture to urban: Needs high spatial resolution imagery, generally involving at least one band that can track vegetation (e.g. NIR)
 - Cyclic change: e.g., Crop or grassland phenology: Needs high temporal resolution imagery so changes around critical growth stages can be captured, typically also using a vegetation tracking band (NIR),
-- Multidirectional change: e.g., Deforestation folowed by forest regeneration: Needs moderate spatial and temporal resolution depending upon the magnitude of change. Having calendar-date imagery is useful when change needs to be traked across multiple years.
+- Multidirectional change: e.g., Deforestation folowed by forest regeneration: Needs moderate spatial and temporal resolution depending upon the magnitude of change. Having calendar-date imagery is useful when change needs to be tracked across multiple years.
 - Between class changes: e.g., Forest to agriculture conversion: Typically needs high spatial and temporal resolution to be able to tell different growth stages apart,
 - Within-class changes: e.g., Seasonal change in dominant grass species: Typically needs high spectral resolution to be able to tell different vegetation types apart
 
