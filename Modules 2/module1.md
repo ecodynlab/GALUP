@@ -95,11 +95,11 @@ We will follow the following steps:
 - In this example, we will use GEE to extract a single time series from an ImageCollection and will open it in Microsoft Excel (or software of your choice).  We will manually fit a linear trendline to this time series and extract the slope. 
 - If needed, use [this script](https://github.com/ecodynlab/GALUP/wiki/Scripts#02_image_indices_environmental_data) to refresh your skills in finding, filtering, and clipping images, 
 - Copy the script [Time Series Analysis Example](https://github.com/ecodynlab/GALUP/wiki/Scripts#03_time_series_analysis_example) and paste into GEE editor,
-- variables **ST_DATE** and **EN_DATE** specify the start and end dates,
-- variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product
-- variable **imgNDV** filters all MODIS Data to get NDVI images and clip them to the region of interest.
-- variable **imgPET** similarly filters all MOD16A2 Data to get PET images and clip them to the region of interest.
-- the print statements let you inspect the contents of these image collecetions in the console.
+- Variables **ST_DATE** and **EN_DATE** specify the start and end dates,
+- Variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product
+- Variable **imgNDV** filters all MODIS Data to get NDVI images and clip them to the region of interest.
+- Variable **imgPET** similarly filters all MOD16A2 Data to get PET images and clip them to the region of interest.
+- The print statements let you inspect the contents of these image collecetions in the console.
 - On the charts generated in the console, click on the upper right corner to open the chart in a new window.
 - Download the chart as an CSV sheet by clicking on the button in the upper right corner.
 - Open this CSV in Microsoft Excel and fit a trendline to it.
@@ -108,10 +108,10 @@ We will follow the following steps:
 **5.2 Conducting linear time series analyses across large regions**<br>
 - In this example, we will fit linear trends to all pixels across a large region and will assess how trends vary geographically for different parameters.
 - Copy the script [Linear Time Series Fitting](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_linear_fit) and paste into GEE editor,
-- variables **ST_DATE** and **EN_DATE** specify the start and end dates,
-- function **createTimeBand** adds a 'time band' to any image. Think of this as adding the date column to your excel sheet. This will form the X-axis.
-- variables **ERA5_temp** and **ERA5_rain** collect ERA5 reanalysis climatological data, filter dates set above, clip them to the region of interest, and add the time band.
-- variable **linearFitTemp** fits the linear fitting 'reducer' to the stack of images. A 'reducer' is a function that takes information from all bands and computes a certain metric from it. Common reducers include mean, median, min, and max. The **linearFit** reducer fits a linear regression model for every stack of pixels against the time band, and outputs the scale (slope), and the offset (intercept) of the fitting line.
+- Variables **ST_DATE** and **EN_DATE** specify the start and end dates,
+- Function **createTimeBand** adds a 'time band' to any image. Think of this as adding the date column to your excel sheet. This will form the X-axis.
+- Variables **ERA5_temp** and **ERA5_rain** collect ERA5 reanalysis climatological data, filter dates set above, clip them to the region of interest, and add the time band.
+- Variable **linearFitTemp** fits the linear fitting 'reducer' to the stack of images. A 'reducer' is a function that takes information from all bands and computes a certain metric from it. Common reducers include mean, median, min, and max. The **linearFit** reducer fits a linear regression model for every stack of pixels against the time band, and outputs the scale (slope), and the offset (intercept) of the fitting line.
 - Inspect the respective histograms to find the best visualization parameters for the map displayed.
 - Please complete [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2.md)
 
