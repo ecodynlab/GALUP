@@ -20,7 +20,7 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/40871781/201491844-a3dd8fa8-2b9f-4ce4-b315-cd339e1d9c45.gif">
 </p>
-<sub> Continental-scale vegetation phenology tracked by MODIS.</sub> 
+<sub align="center"> Continental-scale vegetation phenology tracked by MODIS.</sub> 
 
 ([Source](https://developers.google.com/earth-engine/tutorials/community/modis-ndvi-time-series-animation))<br>
 
