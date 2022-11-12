@@ -115,14 +115,9 @@ We will follow the following steps:
 - Inspect the respective histograms to find the best visualization parameters for the map displayed.
 - Please complete [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2.md)
 
-## 6. Post-training Survey
-
-- Please take this [post-module survey]
-
-## 7. What's Next?
-
+## 6. What's Next?
 Module 2 - [Change Detection](module2.md)
 
-## 6. Other Useful Resources
+## 7. Other Useful Resources
  1. [Cloud-Based Remote Sensing with Google Earth Engine](https://www.eefabook.org/go-to-the-book.html)<br>
  2. [NASA ARSET: Time Series Analysis](https://www.youtube.com/watch?v=RqVselZ5hKM&t=3695s)<br>
