@@ -16,6 +16,11 @@
 - Landscape scarring due to forest fires etc.
 
 **Forms of Change** Landscapes can change in different ways; a detailed understanding of the kind of change to be monitored determines the sensor to be used to extract the best performance out of remote sensing techniques.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/40871781/201491844-a3dd8fa8-2b9f-4ce4-b315-cd339e1d9c45.gif">
+</p>
+<sub> Continental-scale vegetation phenology tracked by MODIS. Source: [Google Earth Engine](https://developers.google.com/earth-engine/tutorials/community/modis-ndvi-time-series-animation)</sub>
+
 - Directional change. E.g Urban development/growth direction: Needs high spatial resolution imagery, generally involving at least one band that can track vegetation (e.g. NIR)
 - Cyclic change, for example crop or grassland phenology: Needs high temporal resolution imagery so changes around critical growth stages can be captured, typically also using a vegetation tracking band (NIR),
 - Multidirectional change. E.g. Deforestation and forest regeneration: Needs moderate spatial and temporal resolution depending upon the magnitude of change. Having calendar-date imagery is useful when change needs to be traked across multiple years.
