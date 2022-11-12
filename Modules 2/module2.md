@@ -38,7 +38,7 @@ At the most basic, remote sensing techniques rely on tracking changes in spectra
 <p align="left">
 <img src="https://user-images.githubusercontent.com/85199074/194796915-95e941ba-75d1-4c58-aa52-2462e10d18ba.jpg">
 </p>
-<sub> Healthy vegetation has a large peak in the near infrared, while soil or burned areas are much lower. Healthy vegetation also has low reflectance in the shortwave infrared, while burned areas have high reflectance.</sub>
+<sub> Healthy vegetation has a large peak in the near infrared region, while soil or burned areas are much lower. Healthy vegetation also has low reflectance in the red and shortwave infrared regions in contrast with burned areas.</sub>
 
 ([Source](https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications))<br>
 
