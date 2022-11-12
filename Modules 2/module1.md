@@ -4,12 +4,12 @@
 
 
 **What will you learn from this module?**
-- Time Series Analysis Concept and fundamentals
+- Time Series Analysis Concept and Fundamentals
 - Time Series Analysis Methods
 - Techniques for Time Series Analysis in GEE
 
 ## 1. Introduction to Time Series Analysis
-Geospatial **Time series analysis** techniques help monitor and quantify landscapes change across  across time and space. Mapping temporal changes can provide information on the rates, causes, and consequences or dynamic processes such as urbanization, land degradation, phenology, and trends in environmental parameters such as rainfall and temperature. <br>
+Geospatial **Time Series Analysis** techniques help monitor and quantify landscapes change across time and space. Mapping temporal changes can provide information on the rates, causes, and consequences or dynamic processes such as urbanization, land degradation, phenology, and trends in environmental parameters such as rainfall and temperature. <br>
 
 **Common Applications of Time Series Analysis:**
 - Identifying urban expansion,
