@@ -9,7 +9,7 @@
 - Conducting change detection in GEE using a few common examples.
 
 ## 1. Introduction to Change Detection
-**Change Detection** Is the generic term for utilizing remote sensing sensor(s) to detect, delineate, and potentially, measure the conversion of a landscape from one dominant feature type to another. Changes could be observed in the shape, size, or texture of patches of land depending on the magnitude of the change, and the characteristics of the sensor utilized. Examples include;
+**Change Detection** Is the generic term for utilizing remote sensing sensor(s) to detect, delineate, and measure the conversion of a landscape from one dominant type to another. Changes could be observed in the shape, size, or texture of patches of land depending on the magnitude of the change, and the characteristics of the sensor utilized. Examples include;
 - Land degradation as a result of deforestation or overuse,
 - Urban expansion,
 - Flooding,
