@@ -4,33 +4,31 @@
 > **Co-authors**: Silas Achidago (<ins>s.achidago@<i></i>ufl.edu</ins>) and Julie Peeling (<ins>juliepeeling@<i></i>ufl.edu</ins>)
 
 **What will you learn from this module?**
-- Introduction to Change Detection
-- Change Detection using Remote Sensing
-- Change Detection in GEE
+- Introduction to change detection using remote sensing,
+- Different ways change can be detected, choosing the best sensor combinations,
+- Conducting change detection in GEE using a few common examples.
 
 ## 1. Introduction to Change Detection
-**Change Detection** Is the conversion of a landscape from one dominant feature type to another. Changes could be observed in the shape or size of patches of land cover, timing of the seasonal processes or the pace of conversion to other cover types. Examples include;
-- Land degradation as a result of grazing
-- Changes in tree cover due to wildfire or deforestation
-- Urbanization
+**Change Detection** Is the generic term used when utilizing remote sensing sensor(s) to detect, delineate, and potentially, measure the conversion of a landscape from one dominant feature type to another. Changes could be observed in the shape, size, or texture of patches of land depending on the magnitude of the change, and the characteristics of the sensor utilized. Examples include;
+- Land degradation as a result of deforestation or overuse,
+- Urban expansion,
+- Flooding,
+- Landscape scarring due to forest fires etc.
 
-
+**Forms of Change** Landscapes can change in different ways; a detailed understanding of the kind of change determines the sensor to be used to extract the best performance out of remote sensing techniques.
+- Directional change. E.g Urban development/growth direction: Needs high spatial resolution imagery, generally involving at least one band that can track vegetation (e.g. NIR)
+- Cyclic change, for example crop or grassland phenology: Needs high temporal resolution imagery so changes around critical growth stages can be captured, typically also using a vegetation tracking band (NIR),
+- Multidirectional change. E.g. Deforestation and forest regeneration: Needs moderate spatial and temporal resolution depending upon the magnitude of change. Having calendar-date imagery is useful when change needs to be traked across multiple years.
+- Between class changes. E.g. forest to agriculture conversion: Typically needs high spatial and temporal resolution to be able to tell different growth stages apart,
+- Within-class changes. E.g. change in vegetation index values: Typically needs high spectral resolution to be able to tell different vegetation types apart
 
 **Change Detection answers the questions;**
 - How much and what kind of change has occurred?
 - Where and when has change taken place?
 - What are the trends in the change?
 
-**Forms of Change;**
-- Directional change. E.g Urban development/growth direction
-- Cyclic change. E.g Seasonal phenology
-- Multidirectional change. E.g. Deforestation and forest regeneration
-- Between class changes. E.g. forest to agriculture conversion
-- Within-class changes. E.g. change in vegetation index values
-
-
 ## 2. Change Detection Using Remote Sensing
-Changes in the landscape are detected as changes in the spectral values of pixels. We can use spectral signatures to differentiate between cover types and calculate environmental indices. For example, healthy vegetation has high reflectance in the green and near-infrared but low in the short-wave infrared while burned areas have low reflectance in the green and near-infrared but high in the S short-wave infrared. Note, Change detetcion is only possible if time series data is available  to compare changes to cover types and features.
+At the most basic, remote sensing techniques rely on tracking changes in spectral reflectance profiles of individual pixels. Differences in spectral characteristics of different cover types can often be exploited to differentiate between cover types. As an example, healthy vegetation has high reflectance in the near-infrared spectrum but low reflectance in the red spectrum. Moisture in vegetation also strongly absorbs shortwave radiation making these bands very useful for tracking water status in plants. Further, differences in spectral characteristics can be explited by combining different spectral bands into standardized indicies, with the bands determining which phenomenon can be best tracked. Note that change detection almost always requires imagery to be available at at least two different time periods.
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/85199074/194796915-95e941ba-75d1-4c58-aa52-2462e10d18ba.jpg">
