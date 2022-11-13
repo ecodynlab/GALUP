@@ -68,14 +68,17 @@ For the purposes of this exercise, we will focus on 1) image differencing to det
 Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_basic_deforestation_assessment) and paste into GEE.
 This exercise involves 6 distinct steps:
 1. Selecting an area of interest
-   - Draw a rectangle on the map GUI where you suspect change to have occurred. For the pruposes of this exercise we utilized the region spanning SW Kumasi to Ntobroso in the West and Akuntam in the South. This area seems to have undergone some amount of mining operations in the past few decades.
+   - Draw a rectangle on the map GUI where you suspect change to have occurred. For the purpose of this exercise we utilized the region spanning SW Kumasi to Ntobroso in the West and Akuntam in the South. This area seems to have undergone some amount of mining operations in the past few decades. See variable **REG_GH**.
 2. Selecting the appropriate sensor,
-   - For the purposes of this exercise, we will utilize Landsat 7 and Landsat 8 to detect changes between 2000 and 2020. We reuse snippets of previous code to select, download, and pre-process Landsat imagery. 
+   - For the purposes of this exercise, we will utilize Landsat 7 and Landsat 8 to detect changes between 2000 and 2020. We reuse snippets of code from previous training sessions to select, download, and pre-process Landsat imagery. See dates specified for variables **PRE_ST_DATE** and so forth for formatting to specify dates, and variables **IMG_L7** and **IMG_L8** to select image collections.
 3. Selecting the appropriate image indices to monitor,
-   - We test two indices: NDVI - to test changes in vegetation vigor, and the Normalized Burn Ratio (NBR), a comparison of NIR and SWIR bands that has been found to be uuseful in tracking surface moisture.
-4. Processing the imagery to calculate image differences,
+   - We test two indices: NDVI - to test changes in vegetation vigor, and the Normalized Burn Ratio (NBR), a comparison of NIR and SWIR bands that has been found to be uuseful in tracking surface moisture. 
+4. Processing the imagery to calculate image differences
+   - See functions **getNBR** and **getNDV** to extract image indices from Landsat imagery. See variable **DNBR** and **DNDV** for a very simple way for calculating image differences.
 5. Assessing the difference image, and determining the threshold of change,
+   - See code for generating histograms to allow the inspection of the number of pixels across various values of differences in indices. Use this histogram to assess which level to threshold the difference image to generate a mask of change. Note variable **connections** to obtain an ancillary dataset for estimating 8-connected pixels for cleaning the threshold image.
 6. Assessing the magnitude of change observed via an alternative data source.
+   - The last part masks MODIS landcover across the thresholded difference map, and generates a histogram to inspect which land cover changed the most.
 
 - Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
