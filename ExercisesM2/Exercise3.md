@@ -14,9 +14,9 @@ In this exercise, we will conduct a deforestation assessment.
 3. Note that enough images should be available across the region and time period of interest for the chage detection to be effective.
 4. Run the rest of the script, use the generated histogram to generate a satisficatory mask, and inspect landcover change histogram.
   When done.<br>
-  a. Describe the cause of change in your area of interest <br>
-  b. Which time window and image index did you use? <br>
-  c. Write a couple of sentences on what you observe. <br>
+- Describe the cause of change in your area of interest.
+- Which time window and image index did you use?
+- Write a couple of sentences on what you observe.
 
 ## Result
 Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Module+2+exercise+%5Breplace+with+your+name%5D)
