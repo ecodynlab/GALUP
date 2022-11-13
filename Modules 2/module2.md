@@ -100,7 +100,8 @@ This exercise involves 4 distinct steps:
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
 
 ### 4.2 Land cover change across regions and time
-Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#07_multiyear_landcover_change) and paste into GEE. The GEE script has been adapted from Spatial Thoughts Platform [link](https://spatialthoughts.com/2020/06/19/calculating-area-gee/) by Ujaval Gandhi. This exercise involves XXX distinct steps:
+If land cover maps are avaibale for multiple years, an important activity for management agencies involves assessing proportional changes in land cover across multiple years, and across potentially disparate adminstrative boundaries. Generally handled via 'zonal statistics' functions in GIS platforms, this is a time-and labor-intensive task. This exercise leverages the functionality of GEE to automate the tas using landcover data that is increasingly being made available on the GEE data catalog. The GEE script has been adapted from Spatial Thoughts Platform [link](https://spatialthoughts.com/2020/06/19/calculating-area-gee/) by Ujaval Gandhi.<br>
+Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#07_multiyear_landcover_change) and paste into GEE.  This exercise involves XXX distinct steps:
 
 1. Selecting an area of interest:
    - Draw a rectangle on the map GUI where a flooding event occurred in the past. For the purpose of this exercise we looked up floods in Ghana in the news and selected an area around Tamale, extending to Nabengu [Source](https://citinewsroom.com/2021/08/parts-of-tamale-sagnerigu-flooded-after-3-hour-downpour/). The flood occurred in July-August 2021. See variable REG_GH.
