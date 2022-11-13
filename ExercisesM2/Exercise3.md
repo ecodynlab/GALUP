@@ -13,7 +13,7 @@ In this exercise, we will conduct a deforestation assessment.
 2. Select an area that you know underwent change over the past few decades. We use Landsat data for convenience. Draw a polygon over the area, and change start and end dates of expected period that change occurred. 
 3. Note that enough images should be available across the region and time period of interest for the chage detection to be effective.
 4. Run the rest of the script, use the generated histogram to generate a satisficatory mask, and inspect landcover change histogram.
-  When done.<br>
+  When done:<br>
 - Describe the cause of change in your area of interest.
 - Which time window and image index did you use?
 - Write a couple of sentences on what you observe.
