@@ -65,16 +65,16 @@ For the purposes of this exercise, we will focus on 1) image differencing to det
 **3** Detecting land cover change using classified imagery<br>
 
 ### 4.1 Detecting deforestation
-Copy the script [here]() and paste into GEE.
-- Please complete [Exercise 4.1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
+Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_basic_deforestation_assessment) and paste into GEE.
+- Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
 ### 4.2 Flood damage assessment
-Copy the script [here]() and paste into GEE.
-- Please complete [Exercise 4.1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
+Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_flood_damage_assessment) and paste into GEE.
+- Please complete [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
 ### 4.3 Extracting land cover change trajectories
-Copy the script [here]() and paste into GEE.
-- Please complete [Exercise 4.1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
+Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#07_multiyear_landcover_change) and paste into GEE.
+- Please complete [Exercise 3](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
 
 ## 5. Post-training Survey
