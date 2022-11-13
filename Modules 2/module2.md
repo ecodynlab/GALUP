@@ -105,7 +105,7 @@ Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#07_multiy
 
 1. This exercise utilizes MOD12Q1 MODIS landcover data as an example. Data are extracted for all years of interest and tabulated across the administrative areas of interest. 
 2. The administrative areas of interest are extracted from the FAO/GAUL dataset. For the purposes of this exercise, we use boundaries from the Ashanti region of Ghana.
-3. In general, the approach is straightforward: For each landcover class in the MODIS product, a mask is generated and areas calculated using the **pixelArea()** function. This intermediate product is then passed to each 'feature' (polygon) of the administrative dataset and the area calculated. Finally, the entire process is looped for each year, for each land cover type, and each polygon.
+3. The approach is straightforward: each landcover class is isolated and extracted as a mask from an annual MODIS landcover image. The **pixelArea()** function method assigns pixel areas to each pixel and this intermediate product is passed on to each 'feature' (polygon) of the administrative dataset and the area aggregated within the boundary. The process is repeated for each year, for each land cover type, and each polygon.
 4. While the approach is conceptually straightforward, the nature of data storage structures in GEE entails a number of data curation and formatting steps. The first 100 lines in the code demonstrate the mechanics of this approach. The next section of the code runs this loop, and exports the assessed areas as a Comma Separated Value (CSV) file to a user-selected folder in GoogleDrive.
    
 - Please complete [Exercise 5](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise5.md)
