@@ -55,9 +55,9 @@ At the most basic, remote sensing techniques track landscape change by tracking 
 
 **c**.  **Image Sequences** - When subtle changes are expected, a large number of chronologically ordered inages are stacked, and trajectories of individual pixels are extracted. Once pixel-scale trajectories are available, users can fit a variety of statistical models to understand the process of change. For example for environmental data, fitting a linear trend to precipitation data stacked over long time periods can provide evidence of secular warming or cooling trends. Periodic data such as vegetation phenology can be studied using harmonic models to understand vegetation seasonality.
 
+**d**.  **Change vectors** - When complex changes are expected, sets of spectral bands or vegetation indices can be studied for change simultaneously by considering each combination of index or bands as a N-dimensional vector. Changes in the direction of this vector computed via standard vector algebraic models can provide indicators of change in more than a single variable. 
  
 ## 4. Change Detection in GEE
-
 
 
 **4.1 Video tutorial for the section 3.1** <br>
