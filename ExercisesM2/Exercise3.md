@@ -1,7 +1,7 @@
 # Module4 - Change Detection Exercise 3
 
 ## Description
-In this exercise, we will conduct a deforestation assessment.
+In this exercise, we will conduct a deforestation assessment using the script [05_basic_deforestation_assessment](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_basic_deforestation_assessment).
 
 ## Skills Developed
 - Selecting the appropriate time window, relevant sensor, and best image index for detecting change.
