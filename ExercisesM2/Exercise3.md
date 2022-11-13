@@ -1,12 +1,12 @@
-# Module4 - Change Detection Exercise 1
+# Module4 - Change Detection Exercise 2
 
 ## Description
-In this exercise, we will conduct a simple deforestation assessment using GEE.
+In this exercise, we will conduct flood damage assessment.
 
 ## Skills Developed
-- Selecting the appropriate sensor, time period, and image index for detecting change,
+- Assessing the difference when using different polarization combinations and ascending or descending passes,
 - Assessing change thresholds by inspecting image histograms,
-- Generating a change mask, and utilizing an ancillary dataset to assess the nature of change.
+- Generating a change mask, and utilizing an ancillary dataset to assess the extent of damage.
 
 ## Instructions
 1. In the GEE code editor, copy and paste the script for this exercise.
