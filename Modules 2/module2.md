@@ -46,13 +46,14 @@ At the most basic, remote sensing techniques track landscape change by tracking 
 ([Source](https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications))<br>
 
 ## 3. Change Detection Methods
-**a**.  **Visual Analysis** - It is the identification of change through visual comparison, digitization, and/or band combinations. It is suitable for large changes such as patch shape or size but not for subtle changes such as land degradation.. It does not neccesarily utilise spectral reactivity.
+**a**.  **Visual Analysis** - The first step in any change detection process - change can be detected through simple visual comparison using different combinations of bands followed by on-screen. While this technique is considered the most accurate becuase of direct human involvement, it is unsuitable for large areas as multiple digitizers can inject human bias into the process. Also, visual analysis cannot be relied upon when changes are subtle. 
 
-**b**.  **Image Differencing** - is computed on a pixel-by-pixel basis and is executed across the full extent of both images.The pixel-based nature of image differencing allows for more precise identification of change. This method is particularly useful for assessing change over continuous indices (such as those used to measure vegetation and soil). 
+**b**.  **Image Differencing** - When abrupt changes are expected, a simple differncing of bands, or selected image indices can often reveal areas of change. Image differencing is generally computed on a pixel-by-pixel basis and is executed across the full extent of two images. The pixel-based nature of image differencing allows for more precise identification of change. The difference image can then be scaled to ground observations using standard statistical techniques such as linear or logistic regression. This method is particularly useful for assessing change over continuous indices (such as those used to measure vegetation and soil). 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/85199074/194987983-817db71d-207d-4624-a9bc-fcaf350750c9.png">
 </p>
 
+**c**.  **Image Sequences** - When subtle changes are expected, a large number of chronologically ordered inages are stacked, and trajectories of individual pixels are extracted. Once pixel-scale trajectories are available, users can fit a variety of statistical models to understand the process of change. For example for environmental data, fitting a linear trend to precipitation data stacked over long time periods can provide evidence of secular warming or cooling trends. Periodic data such as vegetation phenology can be studied using harmonic models to understand vegetation seasonality.
 
  
 ## 4. Change Detection in GEE
