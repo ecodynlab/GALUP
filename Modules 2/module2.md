@@ -15,7 +15,7 @@
 - Flooding,
 - Landscape scarring due to forest fires etc.
 
-**Forms of Change** Landscapes can change in different ways; a detailed understanding of the kind of change to be monitored determines the sensor to be used to extract the best performance out of remote sensing techniques.
+**Forms of Change** Landscape change can occur in many different ways, therefore, a detailed understanding of mechanism of change is required to determine the correct combination of techniques and sensors.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/40871781/201491844-a3dd8fa8-2b9f-4ce4-b315-cd339e1d9c45.gif">
@@ -36,7 +36,7 @@
 - What are the trends in the change?
 
 ## 2. Change Detection Using Remote Sensing
-At the most basic, remote sensing techniques rely on tracking changes in spectral reflectance profiles of individual pixels. Differences in spectral characteristics can often be exploited to differentiate between cover types. As an example, healthy vegetation has high reflectance in the near-infrared spectrum but low reflectance in the red spectrum. Moisture in vegetation also strongly absorbs shortwave radiation making these bands very useful for tracking water status in plants. Further, differences in spectral characteristics can be explited by combining different spectral bands into standardized indicies, with the bands determining which phenomenon can be best tracked. Note that change detection almost always requires imagery to be available at at least two different time periods.
+At the most basic, remote sensing techniques track landscape change by tracking changes in spectral reflectance profiles of individual pixels. Differences in spectral characteristics inherent to different surfaces are exploited to differentiate between cover types. As an example, healthy vegetation has high reflectance in the near-infrared spectrum but low reflectance in the red spectrum. The widely used normalized difference vegetation index (NDVI = [NIR-Red]/[NIR+Red]) exploits these differences to track vegetation vigor. Moisture in vegetation also strongly absorbs shortwave radiation making these bands very useful for tracking water status in plants. Much like NDVI, differences in spectral characteristics can be exploited by combining different spectral bands into standardized indicies, with the bands determining which phenomenon can be best tracked. Note that change detection almost always requires imagery to be available at at least two different time periods.
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/85199074/194796915-95e941ba-75d1-4c58-aa52-2462e10d18ba.jpg">
