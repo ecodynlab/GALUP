@@ -9,13 +9,13 @@
 - Conducting change detection in GEE using a few common examples.
 
 ## 1. Introduction to Change Detection
-**Change Detection** Is the generic term for utilizing remote sensing sensor(s) to detect, delineate, and measure the conversion of a landscape from one dominant type to another. Changes could be observed in the shape, size, or texture of patches of land depending on the magnitude of the change, and the characteristics of the sensor utilized. Examples include;
+**Change Detection** is the generic term for utilizing remote sensing sensor(s) to detect, delineate, and measure the conversion of a landscape from one dominant type to another. Changes could be observed in the shape, size, or texture of patches of land depending on the magnitude of the change, and the characteristics of the sensor utilized. Examples include;
 - Land degradation as a result of deforestation or overuse,
 - Urban expansion,
 - Flooding,
 - Landscape scarring due to forest fires etc.
 
-**Forms of Change** Landscape change can occur in many different ways, therefore, a detailed understanding of mechanism of change is required to determine the correct combination of techniques and sensors.
+**Forms of Change** Landscape change can occur in many different ways, therefore, a detailed understanding of the mechanism of change is required to determine the correct combination of techniques and sensors.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/40871781/201491844-a3dd8fa8-2b9f-4ce4-b315-cd339e1d9c45.gif">
@@ -26,7 +26,7 @@
 
 - Directional change: e.g, Conversion of agriculture to urban: Needs high spatial resolution imagery, generally involving at least one band that can track vegetation (e.g. NIR)
 - Cyclic change: e.g., Crop or grassland phenology: Needs high temporal resolution imagery so changes around critical growth stages can be captured, typically also using a vegetation tracking band (NIR),
-- Multidirectional change: e.g., Deforestation folowed by forest regeneration: Needs moderate spatial and temporal resolution depending upon the magnitude of change. Having calendar-date imagery is useful when change needs to be tracked across multiple years.
+- Multidirectional change: e.g., Deforestation followed by forest regeneration: Needs moderate spatial and temporal resolution depending upon the magnitude of change. Having calendar-date imagery is useful when change needs to be tracked across multiple years.
 - Between class changes: e.g., Forest to agriculture conversion: Typically needs high spatial and temporal resolution to be able to tell different growth stages apart,
 - Within-class changes: e.g., Seasonal change in dominant grass species: Typically needs high spectral resolution to be able to tell different vegetation types apart
 
@@ -36,7 +36,7 @@
 - What are the trends in the change?
 
 ## 2. Change Detection Using Remote Sensing
-At the most basic, remote sensing techniques track landscape change by tracking changes in spectral reflectance profiles of individual pixels. Differences in spectral characteristics inherent to different surfaces are exploited to differentiate between cover types. As an example, healthy vegetation has high reflectance in the near-infrared spectrum but low reflectance in the red spectrum. The widely used normalized difference vegetation index (NDVI = [NIR-Red]/[NIR+Red]) exploits these differences to track vegetation vigor. Moisture in vegetation also strongly absorbs shortwave radiation making these bands very useful for tracking water status in plants. Much like NDVI, differences in spectral characteristics can be exploited by combining different spectral bands into standardized indicies, with the bands determining which phenomenon can be best tracked. Note that change detection almost always requires imagery to be available at at least two different time periods.
+At the most basic, remote sensing techniques track landscape change by tracking changes in spectral reflectance profiles of individual pixels. Differences in spectral characteristics inherent to different surfaces are exploited to differentiate between cover types. As an example, healthy vegetation has high reflectance in the near-infrared spectrum but low reflectance in the red spectrum. The widely used normalized difference vegetation index (NDVI = [NIR-Red]/[NIR+Red]) exploits these differences to track vegetation vigor. Moisture in vegetation also strongly absorbs shortwave radiation making these bands very useful for tracking water status in plants. Much like NDVI, differences in spectral characteristics can be exploited by combining different spectral bands into standardized indicies, with the bands determining which phenomenon can be best tracked. Note that change detection almost always requires imagery to be available at, at least two different time periods.
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/85199074/194796915-95e941ba-75d1-4c58-aa52-2462e10d18ba.jpg">
@@ -46,7 +46,7 @@ At the most basic, remote sensing techniques track landscape change by tracking 
 ([Source](https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications))<br>
 
 ## 3. Change Detection Methods
-**a**.  **Visual Analysis** - The first step in any change detection process - change can be detected through simple visual comparison using different combinations of bands followed by on-screen. While this technique is considered the most accurate becuase of direct human involvement, it is unsuitable for large areas as multiple digitizers can inject human bias into the process. Also, visual analysis cannot be relied upon when changes are subtle. 
+**a**.  **Visual Analysis** - The first step in any change detection process - change can be detected through simple visual comparison using different combinations of bands followed by on-screen visualization. While this technique is considered the most accurate because of direct human involvement, it is unsuitable for large areas as multiple digitizers can inject human bias into the process. Also, visual analysis cannot be relied upon when changes are subtle. 
 
 **b**.  **Image Differencing** - When abrupt changes are expected, a simple differncing of bands, or selected image indices can often reveal areas of change. Image differencing is generally computed on a pixel-by-pixel basis and is executed across the full extent of two images. The pixel-based nature of image differencing allows for more precise identification of change. The difference image can then be scaled to ground observations using standard statistical techniques such as linear or logistic regression. This method is particularly useful for assessing change over continuous indices (such as those used to measure vegetation and soil). 
 <p align="center">
