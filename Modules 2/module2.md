@@ -67,9 +67,12 @@ For the purposes of this exercise, we will focus on 1) image differencing to det
 ### 4.1 Detecting deforestation
 Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_basic_deforestation_assessment) and paste into GEE.
 This exercise involves 6 distinct steps:
-1. Selecting an area of interest,
+1. Selecting an area of interest
+   - Draw a rectangle on the map GUI where you suspect change to have occurred. For the pruposes of this exercise we utilized the region spanning SW Kumasi to Ntobroso in the West and Akuntam in the South. This area seems to have undergone some amount of mining operations in the past few decades.
 2. Selecting the appropriate sensor,
+   - For the purposes of this exercise, we will utilize Landsat 7 and Landsat 8 to detect changes between 2000 and 2020. We reuse snippets of previous code to select, download, and pre-process Landsat imagery. 
 3. Selecting the appropriate image indices to monitor,
+   - We test two indices: NDVI - to test changes in vegetation vigor, and the Normalized Burn Ratio (NBR), a comparison of NIR and SWIR bands that has been found to be uuseful in tracking surface moisture.
 4. Processing the imagery to calculate image differences,
 5. Assessing the difference image, and determining the threshold of change,
 6. Assessing the magnitude of change observed via an alternative data source.
