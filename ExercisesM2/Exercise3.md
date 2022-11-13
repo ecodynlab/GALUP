@@ -1,7 +1,7 @@
 # Module4 - Change Detection Exercise 1
 
 ## Description
-In this exercise, we will conduct a simple change detection exercise using GEE.
+In this exercise, we will conduct a simple deforestation assessment using GEE.
 
 ## Skills Developed
 - Selecting the appropriate sensor, time period, and image index for detecting change,
