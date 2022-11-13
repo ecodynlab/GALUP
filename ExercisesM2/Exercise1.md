@@ -22,4 +22,4 @@ In this exercise, we will use GEE to generate a time series image collection and
 - Take a screenshot of this chart, submit it to the page below, with a short explanation on why you think you see this trend.
 
 ## Result
-Upon completion of the exercise, submit your screenshot [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M1&template=w4m1-exercise1-submission.md&title=Workshop+4+Exercise+1+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit your screenshot [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M1&template=w4m1-exercise1-submission.md&title=Module+1+Exercise+1+%5Breplace+with+your+name%5D)
