@@ -59,9 +59,11 @@ At the most basic, remote sensing techniques track landscape change by tracking 
  
 ## 4. Change Detection in GEE
 
+For the purposes of this training, we will focus on 1) image differencing to detect change, and 2) assuming classified maps are available, tracking changes in proportions of pre-classified landcover - an important activity in many land use planning organizations.
 
-**4.1 Video tutorial for the section 3.1** <br>
-   
+**1** Detecting deforestation<br>
+**2** Detecting flooding, and conducting damage assessments<br>
+**3** Detecting land cover change using classified imagery<br>
 
 ## 5. Exercises and Post-training Survey
 
