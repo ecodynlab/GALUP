@@ -109,7 +109,7 @@ Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#07_multiy
 4. While the approach is conceptually straightforward, the nature of data storage structures in GEE entails a number of data curation and formatting steps. The first 100 lines in the code demonstrate the mechanics of this approach. The next section of the code runs this loop, and exports the assessed areas as a Comma Separated Value (CSV) file to a user-selected folder in GoogleDrive.
    
 - Please complete [Exercise 5](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise5.md)
-- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2&template=w4m2-exercise2-submission.md&title=Workshop+Exercise+2+%5Breplace+with+your+name%5D)
+- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2_&template=w4m2-exercise3-submission.md&title=Module+2+Exercise+5+%5Breplace+with+your+name%5D)
 
 ## 5. Post-training Survey
 - Please take this [post-training survey]
