@@ -17,4 +17,4 @@ In this exercise, we will create a time series of landcover estimates across adm
 6. Report the landcover type that is changing the most rapidly in your region of interest. Also submit excel sheet.
 
 ## Result
-Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Module+2+exercise+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2_&template=w4m2-exercise3-submission.md&title=Module+2+Exercise+5+%5Breplace+with+your+name%5D)
