@@ -60,9 +60,9 @@ At the most basic, remote sensing techniques track landscape change by tracking 
 ## 4. Change Detection in GEE
 
 For the purposes of this exercise, we will focus on 1) image differencing to detect change, and 2) assuming classified maps are available, tracking changes in proportions of pre-classified landcover - an important activity in many land use planning organizations. To do this, we will use three case studies:
-**1** Detecting deforestation<br>
-**2** Detecting flooding, and conducting damage assessments<br>
-**3** Detecting land cover change using classified imagery<br>
+1. Detecting deforestation.
+2. Detecting flooding, and conducting damage assessments.
+3. Detecting land cover change across administrative boundaries using classified imagery.
 
 ### 4.1 Detecting deforestation
 Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_basic_deforestation_assessment) and paste into GEE.
