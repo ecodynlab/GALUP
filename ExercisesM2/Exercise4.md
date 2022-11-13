@@ -21,4 +21,4 @@ In this exercise, we will conduct a flood damage assessment using the script [06
 - Write a couple of sentences on the damage assessment results.<br>
 
 ## Result
-Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2&template=w4m2-exercise2-submission.md&title=Workshop+4+Exercise+4+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2&template=w4m2-exercise2-submission.md&title=Module+2+Exercise+4+%5Breplace+with+your+name%5D)
