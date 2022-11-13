@@ -4,8 +4,8 @@
 In this exercise, we will conduct a flood damage assessment.
 
 ## Skills Developed
-- Assessing the difference when using different polarization combinations and ascending or descending passes,
-- Assessing change thresholds by inspecting image histograms,
+- Assessing the difference when using different polarization combinations and utilizing radar data from ascending or descending passes.
+- Assessing change thresholds by inspecting image histograms.
 - Generating a change mask, and utilizing an ancillary dataset to assess the extent of damage.
 
 ## Instructions
