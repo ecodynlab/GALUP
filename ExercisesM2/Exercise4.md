@@ -1,7 +1,7 @@
 # Module4 - Change Detection Exercise 4
 
 ## Description
-In this exercise, we will conduct flood damage assessment.
+In this exercise, we will conduct a flood damage assessment.
 
 ## Skills Developed
 - Assessing the difference when using different polarization combinations and ascending or descending passes,
@@ -10,10 +10,14 @@ In this exercise, we will conduct flood damage assessment.
 
 ## Instructions
 1. In the GEE code editor, copy and paste the script for this exercise.
-4. Run the rest of the script, use the generated histogram to generate a satisficatory mask, and inspect landcover change histogram.
+2. Select a region of interest based on news or personal information. Change the dates to encompass at least a month of data before, and after the event occurred. 
+3. Select the polarization you want to test we utilize VV polarization, but some events may be detected better by HH or VH polarizations. 
+4. Select the Ascending or Descending passes. Running this section should tell you if sufficient data are available.
+5. Run the rest of the script, use the generated histogram to generate a satisficatory mask, and inspect the map generated.
   When done.<br>
-  a. Describe the cause of change in your area of interest <br>
-  b. Write a couple of sentences on what you observe. <br>
+  a. Describe the event you investigated.<br>
+  b. Describe the parameters you used to conduct the damage assessment.<br>
+  b. Write a couple of sentences on the damage assessment results.<br>
 
 ## Result
 Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Module+2+exercise+%5Breplace+with+your+name%5D)
