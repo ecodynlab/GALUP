@@ -9,7 +9,7 @@ In this exercise, we will use GEE to generate a time series image collection and
 - Understanding what the slope may mean in different locations for different datasets.
 
 ## Instructions
-- Copy the script Time Series Analysis Example and paste into GEE editor,
+- Copy the script [Time Series Analysis Example](https://github.com/ecodynlab/GALUP/wiki/Scripts#03_time_series_analysis_example) and paste into GEE editor,
 - Draw a small box in an area of your interest anywhere in the world, this object is automatically imported as a geometry at the start of the script.
 - Variables **ST_DATE** and **EN_DATE** specify the start and end dates,
 - Variable **MOD13Q1** is the MODIS 16-day 500m Global NDVI/EVI product,
