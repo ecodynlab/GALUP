@@ -97,7 +97,7 @@ This exercise involves 4 distinct steps:
    - The rest of the script utilizes a number of ancillary datasets to overlay the flood mask with population counts and land cover maps to generate reports of expected damage and population affected. While this section is not covered in detail in this training, 
 
 - Please complete [Exercise 4](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise4.md)
-- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2&template=w4m2-exercise2-submission.md&title=Workshop+4+Exercise+4+%5Breplace+with+your+name%5D)
+- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise_W4M2&template=w4m2-exercise2-submission.md&title=Module+2+Exercise+4+%5Breplace+with+your+name%5D)
 
 ### 4.3 Land cover change across regions and time
 In the situation where land cover maps are available for multiple years, an important activity for management agencies involves assessing proportional changes in land cover across multiple years and across potentially disparate adminstrative boundaries. This task is time and labor intensive and is generally handled via 'zonal statistics' functions in GIS platforms. This exercise leverages the functionality of GEE to automate the task using landcover data that is increasingly being made available on the GEE data catalog. The GEE script has been adapted from Spatial Thoughts Platform [link](https://spatialthoughts.com/2020/06/19/calculating-area-gee/) by Ujaval Gandhi.<br>
