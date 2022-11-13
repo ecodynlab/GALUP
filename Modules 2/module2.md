@@ -59,18 +59,25 @@ At the most basic, remote sensing techniques track landscape change by tracking 
  
 ## 4. Change Detection in GEE
 
-For the purposes of this training, we will focus on 1) image differencing to detect change, and 2) assuming classified maps are available, tracking changes in proportions of pre-classified landcover - an important activity in many land use planning organizations. To do this, we will use three case studies:
-
+For the purposes of this exercise, we will focus on 1) image differencing to detect change, and 2) assuming classified maps are available, tracking changes in proportions of pre-classified landcover - an important activity in many land use planning organizations. To do this, we will use three case studies:
 **1** Detecting deforestation<br>
 **2** Detecting flooding, and conducting damage assessments<br>
 **3** Detecting land cover change using classified imagery<br>
 
-## 5. Exercises and Post-training Survey
-
-- Please complete the [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
-  
+### 4.1 Detecting deforestation
+Copy the script [here]() and paste into GEE.
+- Please complete [Exercise 4.1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
+- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
+### 4.2 Flood damage assessment
+Copy the script [here]() and paste into GEE.
+- Please complete [Exercise 4.1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
+- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
+### 4.3 Extracting land cover change trajectories
+Copy the script [here]() and paste into GEE.
+- Please complete [Exercise 4.1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
 
+## 5. Post-training Survey
 - Please take this [post-training survey]
 
 ## 6. Other Useful Resources
