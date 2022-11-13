@@ -1,20 +1,20 @@
-# Module4 - Change Detection Exercise 2
+# Module4 - Change Detection Exercise 5
 
 ## Description
-In this exercise, we will conduct a change detection using GEE with the following "code". Selct an area (region) of interest amd run the analysis.
+In this exercise, we will create a time series of landcover estimates across administrative boundaries.
 
 ## Skills Developed
-- Introduction to Change Detection
-- Change Detection using Remote Sensing
-- Change Detection in GEE
+- Understand how pixelArea() and reduceRegion() methods allow the calculation of areas.
+- Understand differences between list and dictionary data structures.
+- How to use map() as a method to iterate over items.
 
 ## Instructions
-1. In the GEE code editor, copy and paste the script for this exercise, "Change_Detection"
-2. Adjust the variables "ST_DATE", and "END_DATE" to indicate a time period of interest
-3. Choose a region of interest by either drawing a polygon to automatically import a geometry or by manually specifying the Longitue_Min, Latitude_Min, LongitudeMax, and LatitudeMax as coordinates of a rectangle.
-4. Run the script over the chosen region and time period: <br>
-  a. Describe the process you used for the change detection <br>
-  b. Interpret the results <br>
+1. In the GEE code editor, copy and paste the script for this exercise, "07_Multiyear_Landcover_Change".
+2. Change variable **filtered** to specify dates for which results are required. Note MOD12Q1 is avaibale from 2001 to currently 2018.
+3. Choose a region of interest from the FAO/GAUL dataset ([link](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level2)). Replace Ashanti with your area of interest in variable **Block**.
+4. Inspect the results of the operations in the console till line 105. Then run the entire script.
+5. Download the results and convert to an excel sheet.
+6. Report the landcover type that's changing the most rapidly in your region of interest. Also submit excel sheet.
 
 ## Result
 Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Module+2+exercise+%5Breplace+with+your+name%5D)
