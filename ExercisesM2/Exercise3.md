@@ -19,4 +19,4 @@ In this exercise, we will conduct a deforestation assessment using the script [0
 - Write a couple of sentences on what you observe.
 
 ## Result
-Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Module+2+exercise+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit your document [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise1-submission.md&title=Module+2+Exercise+3+%5Breplace+with+your+name%5D)
