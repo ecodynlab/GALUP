@@ -1,7 +1,7 @@
 # Module4 - Time Series Exercise 2
 
 ## Description
-In this example, we will fit pixel-wise linear trends to an environmental parameter, and will assess how trends vary spatially across large regions.
+In this example, we will fit pixel-wise linear trends to an environmental parameter, and will assess how trends vary spatially across large regions using the script [04_time_series_linear_fit](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_linear_fit).
 
 ## Skills Developed
 - Time Series Analysis Concept and Fundamentals,
