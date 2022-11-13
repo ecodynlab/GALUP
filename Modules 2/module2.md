@@ -81,7 +81,7 @@ This exercise involves 6 distinct steps:
    - The last part masks MODIS landcover across the thresholded difference map, and generates a histogram to inspect which land cover changed the most.
 
 - Please complete [Exercise 3](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
-- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
+- Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise+W4M2&template=w4m2-exercise1-submission.md&title=Module+2+Exercise+3+%5Breplace+with+your+name%5D)
 
 ### 4.2 Flood damage assessment
 This exercise utilizes Sentinel-1 SAR data to detect inundated areas using image differences pre- and post a flooding event. The main part of the exercise is a simple study in image differencing, but also has a number of helper functions that let the user extend the flood mask to generate detailed reports using ancillary data. The GEE script has been adapted from the UN-SPIDER portal [here](https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-google-earth-engine-flood-mapping/step-by-step). Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_flood_damage_assessment) and paste into GEE. 
