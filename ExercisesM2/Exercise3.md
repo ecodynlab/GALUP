@@ -1,4 +1,4 @@
-# Module4 - Change Detection Exercise 1
+# Module 2 - Change Detection Exercise 1
 
 ## Description
 In this exercise, we will conduct a change detection using GEE with the following "code". Selct an area (region) of interest amd run the analysis.
