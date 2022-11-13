@@ -18,4 +18,4 @@ In this example, we will fit pixel-wise linear trends to an environmental parame
 - Inspect the respective histograms to find the best visualization parameters for the map displayed.
 
 ## Result
-Upon completion of the exercise, submit a screenshot of your document and a two-three sentence explanation of what you see [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise_W4M1&template=w4m1-exercise2-submission.md&title=Module+1+exercise+2+%5Breplace+with+your+name%5D)
+Upon completion of the exercise, submit a screenshot of your document and a two-three sentence explanation of what you see [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=&labels=Exercise_W4M1&template=w4m1-exercise2-submission.md&title=Module+1+Exercise+2+%5Breplace+with+your+name%5D)
