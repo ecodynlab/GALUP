@@ -1,4 +1,4 @@
-# Module4 - Change Detection Exercise 2
+# Module4 - Change Detection Exercise 3
 
 ## Description
 In this exercise, we will conduct flood damage assessment.
