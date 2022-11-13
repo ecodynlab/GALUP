@@ -10,7 +10,7 @@ In this exercise, you would select two images in different time ranges, study ea
 - Interpret the chnages from different Images from different years
 
 ## Instructions
-In this exercise, we will be using this code [Exercise_0_Script](https://github.com/ecodynlab/GALUP/wiki/Scripts#08_exercise_0). Open in Google Earth Engine and follow the instructions below;
+In this exercise, we will be using this code [Exercise_0_Script](https://github.com/ecodynlab/GALUP/wiki/Scripts#08_Study_and_Compare). Open in Google Earth Engine and follow the instructions below;
 
 1. Create a geometry in an area of interest (Hint: A developing or changing area where changes have occured over time)
 
