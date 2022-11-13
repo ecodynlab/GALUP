@@ -1,7 +1,7 @@
 # Module4 - Change Detection Exercise 4
 
 ## Description
-In this exercise, we will conduct a flood damage assessment.
+In this exercise, we will conduct a flood damage assessment using the script [06_flood_damage_assessment](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_flood_damage_assessment).
 
 ## Skills Developed
 - Assessing the difference when using different polarization combinations and utilizing radar data from ascending or descending passes.
