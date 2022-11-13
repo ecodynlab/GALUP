@@ -80,11 +80,12 @@ This exercise involves 6 distinct steps:
 6. Assessing the magnitude of change observed via an alternative data source:
    - The last part masks MODIS landcover across the thresholded difference map, and generates a histogram to inspect which land cover changed the most.
 
-- Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
+- Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise2.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
+
 ### 4.2 Flood damage assessment
 Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#06_flood_damage_assessment) and paste into GEE. The GEE script has been adapted from the UN-SPIDER portal [here](https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-google-earth-engine-flood-mapping/step-by-step).
-Copy the script here and paste into GEE. This exercise involves XXX distinct steps:
+Copy the script here and paste into GEE. This exercise involves 4 distinct steps:
 
 1. Selecting an area of interest:
    - Draw a rectangle on the map GUI where a flooding event occurred in the past. For the purpose of this exercise we looked up floods in Ghana in the news and selected an area around Tamale, extending to Nabengu [Source](https://citinewsroom.com/2021/08/parts-of-tamale-sagnerigu-flooded-after-3-hour-downpour/). The flood occurred in July-August 2021. See variable REG_GH.
@@ -93,12 +94,9 @@ Copy the script here and paste into GEE. This exercise involves XXX distinct ste
 3. Finding flooded areas:
    - Flooded areas can be detected by thresholding difference images at an appropriate scale. The scale (see variable **difference_threshold**) should be determined by combining the difference histogram, inspecting the difference image, and selecting an appropriate threshold based on ground observations.
 4. Assessing damage:
-   - The rest of the script utilizes a number of ancillary datasets to overlay the flood mask with population counts and land cover maps to generate reports of expected damage and population affected.
+   - The rest of the script utilizes a number of ancillary datasets to overlay the flood mask with population counts and land cover maps to generate reports of expected damage and population affected. While this section is not covered in detail in this training, 
 
-Please complete Exercise 2
-Please submit your exercises here### 4.3 Extracting land cover change trajectories
-Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#07_multiyear_landcover_change) and paste into GEE.
-- Please complete [Exercise 3](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
+- Please complete [Exercise 2](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise3.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
 
 ## 5. Post-training Survey
