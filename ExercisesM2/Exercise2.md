@@ -9,7 +9,7 @@ In this example, we will fit pixel-wise linear trends to an environmental parame
 - Interpretation spatial variations in trends across multiple parameters.
 
 ## Instructions
-- Copy the script [Linear Time Series Fitting](https://github.com/ecodynlab/GALUP/wiki/Scripts#04_time_series_linear_fit) and paste into GEE editor,
+- Copy the script and paste into GEE editor,
 - Create a box across a large region of your interest, maybe an entire country.
 - Variables **ST_DATE** and **EN_DATE** specify the start and end dates,
 - Function **createTimeBand** adds a 'time band' to any image. Think of this as adding the date column to your excel sheet. This will form the X-axis.
