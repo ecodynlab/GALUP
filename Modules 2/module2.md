@@ -67,12 +67,12 @@ For the purposes of this exercise, we will focus on 1) image differencing to det
 ### 4.1 Detecting deforestation
 Copy the script [here](https://github.com/ecodynlab/GALUP/wiki/Scripts#05_basic_deforestation_assessment) and paste into GEE.
 This exercise involves 6 distinct steps:
--1. Selecting an area of interest,
--2. Selecting the appropriate sensor,
--3. Selecting the appropriate image indices to monitor,
--4. Processing the imagery to calculate image differences,
--5. Assessing the difference image, and determining the threshold of change,
--6. Assessing the magnitude of change observed via an alternative data source.
+1. Selecting an area of interest,
+2. Selecting the appropriate sensor,
+3. Selecting the appropriate image indices to monitor,
+4. Processing the imagery to calculate image differences,
+5. Assessing the difference image, and determining the threshold of change,
+6. Assessing the magnitude of change observed via an alternative data source.
 
 - Please complete [Exercise 1](https://github.com/ecodynlab/GALUP/blob/main/ExercisesM2/Exercise1.md)
 - Please submit your exercises [here](https://github.com/SERVIR-WA/GALUP/issues/new?assignees=Achidago&labels=Exercise+W4M2&template=w4m2-exercise-submission.md&title=Workshop+4xercise+2+%5Breplace+with+your+name%5D)
